@@ -1,0 +1,196 @@
+[
+    {
+        "title": "序号",
+        "dataIndex": "index",
+        "key": "index",
+        "type": "index",
+        "align": "center",
+        "ellipsis": true,
+        "visible": true,
+        "width": 71,
+        "sorter": false
+    },
+    {
+        "title": "集团名称",
+        "dataIndex": "group_name",
+        "key": "group_name",
+        "type": "",
+        "align": "center",
+        "ellipsis": true,
+        "visible": true,
+        "width": 91.140625,
+        "sorter": false
+    },
+    {
+        "title": "区域名称",
+        "dataIndex": "area_name",
+        "key": "area_name",
+        "type": "",
+        "align": "center",
+        "ellipsis": true,
+        "visible": true,
+        "width": 117.140625,
+        "sorter": false
+    },
+    {
+        "title": "集控名称",
+        "dataIndex": "control_center_name",
+        "key": "control_center_name",
+        "type": "",
+        "align": "center",
+        "ellipsis": true,
+        "visible": true,
+        "width": 100.453125,
+        "sorter": false
+    },
+    {
+        "title": "电场名称",
+        "dataIndex": "farm_name",
+        "key": "farm_name",
+        "type": "",
+        "align": "center",
+        "ellipsis": true,
+        "visible": true,
+        "width": 129,
+        "sorter": false
+    },
+    {
+        "title": "馈线名称",
+        "dataIndex": "line_name",
+        "key": "line_name",
+        "type": "",
+        "align": "center",
+        "ellipsis": true,
+        "visible": true,
+        "width": 137,
+        "sorter": false
+    },
+    {
+        "title": "子阵名称",
+        "dataIndex": "subarray_name",
+        "key": "subarray_name",
+        "type": "",
+        "align": "center",
+        "ellipsis": true,
+        "visible": true,
+        "width": "150",
+        "sorter": false
+    },
+    {
+        "title": "箱变名称",
+        "dataIndex": "box_name",
+        "key": "box_name",
+        "type": "",
+        "align": "center",
+        "ellipsis": true,
+        "visible": true,
+        "width": 252,
+        "sorter": false
+    },
+    {
+        "title": "设备名称",
+        "dataIndex": "device_name",
+        "key": "device_name",
+        "type": "",
+        "align": "center",
+        "ellipsis": true,
+        "visible": true,
+        "width": "150",
+        "sorter": false
+    },
+    {
+        "title": "型号名称",
+        "dataIndex": "model_name",
+        "key": "model_name",
+        "type": "",
+        "align": "center",
+        "ellipsis": true,
+        "visible": true,
+        "width": "150",
+        "sorter": false
+    },
+    {
+        "title": "发电量一致性系数（%)",
+        "dataIndex": "kvalue",
+        "key": "kvalue",
+        "type": "text",
+        "align": "left",
+        "ellipsis": true,
+        "visible": true,
+        "width": 239.84375,
+        "sorter": "asc"
+    },
+    {
+        "title": "时间可利用率（%）",
+        "dataIndex": "tba",
+        "key": "tba",
+        "type": "number",
+        "align": "right",
+        "ellipsis": true,
+        "visible": true,
+        "width": "150",
+        "sorter": "asc"
+    },
+    {
+        "title": "故障数量（条）",
+        "dataIndex": "faultCount",
+        "key": "faultCount",
+        "type": "number",
+        "align": "right",
+        "ellipsis": true,
+        "visible": true,
+        "width": "150",
+        "sorter": "asc"
+    },
+    {
+        "title": "故障停机累计时长(h)",
+        "dataIndex": "faultStopHours",
+        "key": "faultStopHours",
+        "type": "number",
+        "align": "right",
+        "ellipsis": true,
+        "visible": true,
+        "width": "150",
+        "sorter": "asc"
+    },
+    {
+        "title": "等效利用小时数(h)",
+        "dataIndex": "equUtilizaHours",
+        "key": "equUtilizaHours",
+        "type": "number",
+        "align": "right",
+        "ellipsis": true,
+        "visible": true,
+        "width": "150",
+        "sorter": "asc"
+    },
+    {
+        "title": "异常告警数量（条）",
+        "dataIndex": "warnCount",
+        "key": "warnCount",
+        "type": "number",
+        "align": "right",
+        "ellipsis": true,
+        "visible": true,
+        "width": "150",
+        "sorter": "asc"
+    },
+    {
+        "title": "等级",
+        "dataIndex": "rating",
+        "key": "rating",
+        "type": "number",
+        "align": "right",
+        "ellipsis": true,
+        "visible": true,
+        "width": "150",
+        "sorter": "asc"
+    },
+    {
+        "title": "操作",
+        "dataIndex": "operation",
+        "key": "operation",
+        "fixed": "right",
+        "width": 70
+    }
+]

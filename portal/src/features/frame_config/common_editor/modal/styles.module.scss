@@ -1,0 +1,19 @@
+@import '~@style/variable/component.scss';
+
+.view {
+  .form {
+    .upload {
+      height: 30px;
+      width: 30px;
+    }
+  }
+
+  .random {
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #1a9fb3;
+  }
+}

@@ -1,0 +1,17 @@
+/*
+ * @Author: sds 
+ * @Date: 2022-01-02 13:51:40 
+ * @Last Modified by: mikey.zhaopeng
+ * @Last Modified time: 2022-08-17 13:44:04
+ */
+.handleBotton {
+    color: #00f3ff;
+    cursor: pointer;
+    border-bottom: 1px #00f3ff solid
+}
+
+.handleBottonDisabled {
+    pointer-events: none;
+    color: #bcb6b6;
+    border-bottom: 1px #bcb6b6 solid;
+}

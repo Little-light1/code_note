@@ -1,0 +1,242 @@
+{
+  "code": "200",
+  "data": [
+    {
+      "id": "1374523982048567297",
+      "code": "SPHM",
+      "secret": "EjvtfalhCSqUKRZqBZcB/Q==",
+      "name": "健康管理",
+      "version": "v1.0.200.0",
+      "gwFlag": {"value": 0, "enum": "GOLDWIND", "desc": ""},
+      "menuTreelVOS": [],
+      "piRouter": "",
+      "piUrl": ""
+    },
+    {
+      "id": "1403221614576676866",
+      "code": "BI",
+      "secret": "2ZMo7zC3x9qzuCVFbeNQOA==",
+      "name": "业务智能",
+      "version": "v1",
+      "gwFlag": {"value": 0, "enum": "GOLDWIND", "desc": ""},
+      "menuTreelVOS": [
+        {
+          "menuId": 101,
+          "menuCode": "bi_custom_big_screen",
+          "menuName": "定制大屏",
+          "menuParentid": 0,
+          "menuSort": 101,
+          "menuEnable": 1,
+          "menuRoutingPath": "/bi_custom_big_screen",
+          "menuIconToken": "ZjliMGVjMjgxYmM3MDExZTAzMTNkOWUyY2Q3NmY5YzI=",
+          "applicationCode": "BI",
+          "menuIsdel": 0
+        },
+        {
+          "menuId": 102,
+          "menuCode": "bi_run_evaluation",
+          "menuName": "运行评估",
+          "menuParentid": 0,
+          "menuSort": 102,
+          "menuEnable": 1,
+          "menuRoutingPath": "/bi_run_evaluation",
+          "menuIconToken": "ZjliMGVjMjgxYmM3MDExZTAzMTNkOWUyY2Q3NmY5YzI=",
+          "applicationCode": "BI",
+          "menuIsdel": 0,
+          "children": [
+            {
+              "menuId": 501,
+              "menuCode": "bi_efficiency_evaluate",
+              "menuName": "能效评估",
+              "menuParentid": 102,
+              "menuSort": 501,
+              "menuEnable": 1,
+              "menuRoutingPath": "/bi_efficiency_evaluate",
+              "menuIconToken": "ZjliMGVjMjgxYmM3MDExZTAzMTNkOWUyY2Q3NmY5YzI=",
+              "applicationCode": "BI",
+              "menuIsdel": 0,
+              "children": [
+                {
+                  "menuId": 1001,
+                  "menuCode": "bi_energy_utilization_evaluate",
+                  "menuName": "能量利用评估",
+                  "menuParentid": 501,
+                  "menuSort": 1001,
+                  "menuEnable": 1,
+                  "menuRoutingPath": "/bi_energy_utilization_evaluate",
+                  "menuIconToken": "ZjliMGVjMjgxYmM3MDExZTAzMTNkOWUyY2Q3NmY5YzI=",
+                  "applicationCode": "BI",
+                  "menuIsdel": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "menuId": 104,
+          "menuCode": "bi_self_service analysis",
+          "menuName": "自助分析",
+          "menuParentid": 0,
+          "menuSort": 104,
+          "menuEnable": 1,
+          "menuRoutingPath": "/bi_self_service analysis",
+          "menuIconToken": "ZjliMGVjMjgxYmM3MDExZTAzMTNkOWUyY2Q3NmY5YzI=",
+          "applicationCode": "BI",
+          "menuIsdel": 0,
+          "children": [
+            {
+              "menuId": 502,
+              "menuCode": "bi_visual_analysis",
+              "menuName": "可视化分析",
+              "menuParentid": 104,
+              "menuSort": 502,
+              "menuEnable": 1,
+              "menuRoutingPath": "/bi_visual_analysis",
+              "menuIconToken": "ZjliMGVjMjgxYmM3MDExZTAzMTNkOWUyY2Q3NmY5YzI=",
+              "applicationCode": "BI",
+              "menuIsdel": 0
+            },
+            {
+              "menuId": 503,
+              "menuCode": "bi_discover",
+              "menuName": "发现",
+              "menuParentid": 104,
+              "menuSort": 503,
+              "menuEnable": 1,
+              "menuRoutingPath": "/bi_discover",
+              "menuIconToken": "ZjliMGVjMjgxYmM3MDExZTAzMTNkOWUyY2Q3NmY5YzI=",
+              "applicationCode": "BI",
+              "menuIsdel": 0
+            }
+          ]
+        },
+        {
+          "menuId": 151,
+          "menuCode": "bigdataplat_run_overview",
+          "menuName": "运行总览",
+          "menuParentid": 0,
+          "menuSort": 151,
+          "menuEnable": 1,
+          "menuRoutingPath": "/bigdataplat_run_overview",
+          "menuIconToken": "ZjliMGVjMjgxYmM3MDExZTAzMTNkOWUyY2Q3NmY5YzI=",
+          "applicationCode": "BI",
+          "menuIsdel": 0
+        },
+        {
+          "menuId": 152,
+          "menuCode": "bigdataplat_platform_management",
+          "menuName": "平台管理",
+          "menuParentid": 0,
+          "menuSort": 152,
+          "menuEnable": 1,
+          "menuRoutingPath": "/bigdataplat_platform_management",
+          "menuIconToken": "ZjliMGVjMjgxYmM3MDExZTAzMTNkOWUyY2Q3NmY5YzI=",
+          "applicationCode": "BI",
+          "menuIsdel": 0,
+          "children": [
+            {
+              "menuId": 504,
+              "menuCode": "bigdataplat_business_management",
+              "menuName": "企业管理",
+              "menuParentid": 152,
+              "menuSort": 504,
+              "menuEnable": 1,
+              "menuRoutingPath": "/bigdataplat_business_management",
+              "menuIconToken": "ZjliMGVjMjgxYmM3MDExZTAzMTNkOWUyY2Q3NmY5YzI=",
+              "applicationCode": "BI",
+              "menuIsdel": 0,
+              "children": [
+                {
+                  "menuId": 1002,
+                  "menuCode": "bigdataplat_business_account",
+                  "menuName": "企业账户",
+                  "menuParentid": 504,
+                  "menuSort": 1002,
+                  "menuEnable": 1,
+                  "menuRoutingPath": "/bigdataplat_business_account",
+                  "menuIconToken": "ZjliMGVjMjgxYmM3MDExZTAzMTNkOWUyY2Q3NmY5YzI=",
+                  "applicationCode": "BI",
+                  "menuIsdel": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "menuId": 1011,
+          "menuCode": "string",
+          "menuName": "BITEST",
+          "menuParentid": 0,
+          "menuSort": 0,
+          "menuEnable": 0,
+          "menuRoutingPath": "string",
+          "menuIconToken": "string",
+          "applicationCode": "BI",
+          "menuCreatetime": "2021-12-13T20:02:52",
+          "menuUpdateBy": "string",
+          "menuUpdatetime": "2021-12-13T11:57:27",
+          "menuIsdel": 0,
+          "menuRemark": "string",
+          "menuType": "string",
+          "menuIconEnable": 0
+        }
+      ],
+      "piRouter": "",
+      "piUrl": ""
+    },
+    {
+      "id": "1405343748040138753",
+      "code": "AM",
+      "secret": "aTSi0LnTqTDfdWIvLL1qpw==",
+      "name": "资产管理",
+      "version": "string",
+      "company": "",
+      "gwFlag": {"value": 0, "enum": "GOLDWIND", "desc": ""},
+      "menuTreelVOS": [],
+      "piRouter": "",
+      "piUrl": ""
+    },
+    {
+      "id": "1469320237838049281",
+      "code": "OC",
+      "secret": "P3hfOqDdI1jPzr7XghcKpg==",
+      "name": "运营中心",
+      "version": "v6.1.100.0",
+      "gwFlag": {"value": 0, "enum": "GOLDWIND", "desc": ""},
+      "menuTreelVOS": [
+        {
+          "menuId": 1047,
+          "menuCode": "bUZrVKam",
+          "menuName": "数据字典_1",
+          "menuParentid": 0,
+          "menuSort": 10,
+          "menuEnable": 1,
+          "menuRoutingPath": "/dataDictConfig",
+          "menuIconToken": "OGU1ZjllNzA1ZDA3OTg0ZTYxZWZhNGYzMmFlMWE2ZjA=",
+          "applicationCode": "OC",
+          "menuCreateBy": "1",
+          "menuCreatetime": "2021-12-14T23:21:03",
+          "menuUpdateBy": "1",
+          "menuUpdatetime": "2021-12-14T23:36:38",
+          "menuIsdel": 0,
+          "menuRemark": "",
+          "menuIconEnable": 0
+        }
+      ],
+      "piRouter": "",
+      "piUrl": ""
+    },
+    {
+      "id": "3",
+      "code": "dataplat",
+      "secret": "6kM0gfBfOyKYfM+iyxA5+g==",
+      "name": "数据平台",
+      "version": "6.0.200.0",
+      "company": "金风慧能",
+      "menuTreelVOS": [],
+      "gwFlag": {"value": 0, "enum": "GOLDWIND", "desc": ""},
+      "piRouter": "",
+      "piUrl": ""
+    }
+  ]
+}

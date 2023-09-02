@@ -1,0 +1,31 @@
+@import '~@style/variable/component.scss';
+
+.view {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 5px;
+
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+  }
+
+  .username {
+    font-size: 16px;
+    margin: 0 15px 0 11px;
+    width: 110px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+.userMenu {
+  text-align: center;
+}

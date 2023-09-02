@@ -1,0 +1,80 @@
+/*
+ * @Author: sds 
+ * @Date: 2022-02-23 17:26:51 
+ * @Last Modified by: sun.t
+ * @Last Modified time: 2022-04-12 15:02:19
+ */
+@import "../colors.scss";
+
+.ease-app {
+  .portal-antd-menu {
+    background: transparent;
+    color: $font;
+
+    .portal-antd-menu-light .portal-antd-menu-item:hover {
+      background-color: $dropdown-select-background;
+      color: $dropdown-select;
+    }
+
+    .portal-antd-menu-item a {
+      color: #ffffff;
+    }
+
+    .portal-antd-menu-item a:hover {
+      color: #43ccd3;
+    }
+
+    .portal-antd-menu-submenu-selected,
+    .portal-antd-menu-submenu-active {
+      background: transparent;
+      color: #00f3ff;
+    }
+
+    .portal-antd-menu-submenu-expand-icon,
+    .portal-antd-menu-submenu-arrow {
+      color: #ffffff;
+    }
+
+    .portal-antd-menu-sub.portal-antd-menu-inline {
+      background: transparent;
+    }
+
+    .portal-antd-menu-vertical .portal-antd-menu-item::after,
+    .portal-antd-menu-vertical-left .portal-antd-menu-item::after,
+    .portal-antd-menu-vertical-right .portal-antd-menu-item::after,
+    .portal-antd-menu-inline .portal-antd-menu-item::after {
+      border: none;
+    }
+
+    .portal-antd-menu-inline .portal-antd-menu-selected::after,
+    .portal-antd-menu-inline .portal-antd-menu-item-selected::after {
+      transform: scaleY(0);
+    }
+  }
+}
+
+// 下方内容会直接挂到document下，不可以放到porta-app下
+.portal-antd-menu-light .portal-antd-menu-item:hover,
+.portal-antd-menu-light .portal-antd-menu-item-active,
+.portal-antd-menu-light .portal-antd-menu:not(.portal-antd-menu-inline) .portal-antd-menu-submenu-open,
+.portal-antd-menu-light .portal-antd-menu-submenu-active,
+.portal-antd-menu-light .portal-antd-menu-submenu-title:hover {
+  color: #00E4FF !important;
+}
+
+.portal-antd-menu-item-selected {
+  background-color: rgba(104, 189, 253, 0.3) !important;
+  border-radius: 4px;
+  color: #00E4FF !important;
+}
+
+.portal-antd-menu-item:active,
+.portal-antd-menu-submenu-title:active {
+  background: transparent !important;
+}
+
+.portal-antd-menu-inline,
+.portal-antd-menu-vertical,
+.portal-antd-menu-vertical-left {
+  border-right: none !important;
+}

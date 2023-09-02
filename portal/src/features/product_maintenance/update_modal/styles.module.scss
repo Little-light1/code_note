@@ -1,0 +1,48 @@
+@import '~@style/variable/component.scss';
+
+.view {
+    .form {
+        .bgcPanel {
+            padding: 24px;
+            box-shadow: 0px 0px 10px 0px #0b2227;
+
+            .row {
+                margin-bottom: 23px;
+            }
+        }
+
+        .inputLength {
+            width: 200px;
+            border: 1px solid $search-input-border;
+        }
+        .selectLength {
+            width: 200px;
+        }
+
+        .inputFrame {
+            width: 578px;
+            border: 1px solid $table-expand-icon;
+        }
+
+        .upload {
+            height: 38px;
+            width: 38px;
+        }
+
+        // 控制label对齐方式
+        :global {
+            .portal-antd-form-item-label {
+                text-align: right;
+                width: 140px;
+            }
+
+            // .portal-antd-input-textarea-show-count {
+            //     border: 0;
+            // }
+
+            // .portal-antd-input-textarea-show-count::after {
+            //     color: rgb(255, 255, 255);
+            // }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+/*
+ * @Author: antd-Slider 滑动输入条
+ * @Date: 2022-03-17 16:44:43 
+ * @Last Modified by: mikey.zhaopeng.zhaopeng
+ * @Last Modified time: 2023-04-Tu 01:50:49
+ */
+
+
+.portal-antd-slider {
+  padding: 14px 0 !important;
+}
+
+.portal-antd-slider-step {
+  background: #0cb7d5; // #88f7fc
+}
+
+.portal-antd-slider-disabled .portal-antd-slider-handle,
+.portal-antd-slider-disabled .portal-antd-slider-dot {
+  background-color: #fff;
+  border-color: #0cb7d5;
+}

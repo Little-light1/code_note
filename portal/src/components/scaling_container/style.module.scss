@@ -1,0 +1,26 @@
+@keyframes fade {
+    /*设置内容由显示变为隐藏*/
+
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
+
+.fadeIn {
+    animation: fade 3s reverse;
+    opacity: 1;
+}
+
+.fadeOut {
+    animation: fade 3s;
+    opacity: 0;
+}

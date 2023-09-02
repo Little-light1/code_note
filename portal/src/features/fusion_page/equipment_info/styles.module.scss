@@ -1,0 +1,135 @@
+.equipmentInfo {
+    display: flex;
+    flex-direction: column;
+    height: 410px;
+
+    // 头部
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 20px;
+        background-color: rgba(28, 104, 134, 0.3);
+        height: 42px;
+
+        // 标题
+        .title {
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+
+            .titleIcon {
+                width: 4px;
+                height: 16px;
+                margin-right: 10px;
+                background-color: #03E6F5;
+                border-radius: 2px;
+            }
+        }
+    }
+  
+    // 详情数据
+    .detail {
+        flex: 1;
+        padding: 20px;
+
+        .row {
+            height: 100%;
+        }
+    }
+}
+
+// 单个详情单元
+.listItem {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    height: 100%;
+
+    // 头部
+    .itemHeader {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        // 标题
+        .headerTitle {
+            color: #009DB3;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        // 本周、本月、近12月数据详情
+        .headerInfo {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            border: 1px solid #009DB3;
+            border-radius: 4px;
+            margin: 0 15px;
+            height: 30px;
+            font-size: 14px;
+
+            .infoValue {
+                color: #00E4FF;
+                font-size: 16px;
+            }
+
+            // % 单位
+            .infoUnit {
+                color: rgba(255, 255, 255, 0.4000);
+            }
+        }
+    }
+
+    // 列表标题
+    .topListTitle {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+    // 排序列表
+    .topList {
+        margin-top: 10px;
+        overflow-y: auto;
+        height: 205px;
+
+        // 列表单元格
+        .topListItem {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color: #FFFFFF;
+            height: 40px;
+
+            // 单元格标题
+            .itemTitle {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                font-size: 14px;
+                color: rgba(255, 255, 255, 0.6000);
+                width: 80px;
+                white-space: nowrap;
+                cursor: pointer;
+            }
+
+            // 单元格进度条
+            .itemProgress {
+                flex: 1;
+                margin: 0 15px;
+            }
+
+            // 单元格值
+            .itemValue {
+                font-size: 18px;
+                width: 70px;
+                color: #00E4FF;
+            }
+        }
+    }
+}

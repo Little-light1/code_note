@@ -1,0 +1,23 @@
+@import '~@style/variable/component.scss';
+
+// 选择
+.choice {
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+// .smallIcon {
+//   transform: rotate(180deg);
+// }
+
+.img {
+    box-shadow: 1px 2px 12px 0px rgba(0, 0, 0, 0.4);
+    width: 299px;
+    height: 27px;
+}
+
+.smallIcon {
+    font-size: 14px;
+    opacity: 0.5;
+    padding: 0 10px;
+}

@@ -1,0 +1,93 @@
+@import '~@style/variable/component.scss';
+
+.userSelectItem {
+    width: 1150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    :global {
+        .portal-antd-input {
+            background: transparent;
+            border: none;
+        }
+        .portal-antd-form-item-control-input-content .portal-antd-input {
+            border: none;
+        }
+    }
+
+    .left {
+        height: 600px;
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        margin-right: 20px;
+
+        .up {
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .down {
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        > div {
+            width: 100%;
+        }
+    }
+
+    .space {
+        flex: auto;
+        text-align: center;
+
+        .buttonStyle {
+            border: none;
+            border-radius: 2px;
+            margin-bottom: 10px;
+            width: 24px;
+            opacity: 1;
+            background-color: $button-primary;
+        }
+
+        .disabledBtn {
+            cursor: not-allowed;
+            border: none;
+            border-radius: 2px;
+            margin-bottom: 10px;
+            width: 24px;
+            opacity: 0.7;
+            background-color: #1d5158;
+        }
+
+        .spaceLine {
+            width: 2px;
+            height: 265px;
+            background: #438dde;
+            opacity: 0.2;
+            margin-left: 10px;
+        }
+    }
+
+    .right {
+        height: 600px;
+        width: 48%;
+        border-radius: 5px;
+        overflow-y: auto;
+        max-height: 100%;
+        margin-left: 20px;
+
+        .selected {
+            height: 25px;
+            font-size: 14px;
+            font-family: Microsoft YaHei;
+            font-weight: 400;
+            color: $font;
+        }
+
+        .table {
+            height: calc(100% - 25px);
+        }
+    }
+}

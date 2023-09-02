@@ -1,0 +1,122 @@
+/*
+ * @Author: sds 
+ * @Date: 2022-02-23 17:26:51 
+ * @Last Modified by: sun.t
+ * @Last Modified time: 2022-07-01 17:12:54
+ */
+@import '~@style/variable/color.scss';
+
+.portal-app {
+  .portal-antd-menu {
+    background: transparent;
+    color: $font;
+
+    .portal-antd-menu-light .portal-antd-menu-item:hover {
+      background-color: $dropdown-select-background;
+      color: $dropdown-select;
+    }
+
+    .portal-antd-menu-item a {
+      color: #ffffff;
+    }
+
+    .portal-antd-menu-item a:hover {
+      color: #43ccd3;
+    }
+
+    .portal-antd-menu-submenu-selected,
+    .portal-antd-menu-submenu-active {
+      background: transparent;
+      color: #00f3ff;
+    }
+
+    .portal-antd-menu-item-selected a,
+    .portal-antd-menu-item-selected a:hover {
+      color: #00f3ff;
+    }
+
+    .portal-antd-menu-submenu-expand-icon,
+    .portal-antd-menu-submenu-arrow {
+      color: #ffffff;
+    }
+
+    .portal-antd-menu-sub.portal-antd-menu-inline {
+      background: transparent;
+    }
+
+    .portal-antd-menu-inline .portal-antd-menu-selected::after,
+    .portal-antd-menu-inline .portal-antd-menu-item-selected::after {
+      transform: scaleY(0);
+    }
+  }
+
+  .portal-antd-menu-vertical .portal-antd-menu-item::after,
+  .portal-antd-menu-vertical-left .portal-antd-menu-item::after,
+  .portal-antd-menu-vertical-right .portal-antd-menu-item::after,
+  .portal-antd-menu-inline .portal-antd-menu-item::after {
+    border: none;
+  }
+
+  .portal-antd-menu-submenu-popup>.portal-antd-menu {
+    background-color: #0f2a3b;
+  }
+
+  .portal-antd-menu-item-disabled,
+  .portal-antd-menu-submenu-disabled {
+    color: rgba(255, 255, 255, 0.3) !important;
+  }
+  // 用于table右键样式
+  .react-contextmenu {
+    background: rgb(15, 42, 59, 1);
+  }
+  
+  // 调整表格表头的列设置样式
+  .react-contextmenu.react-contextmenu--visible {
+    background: rgb(15, 42, 59, 1);
+  }
+  
+  .react-contextmenu-item {
+    color: #00e4ff !important;
+    font-size: 13px !important;
+    padding-right: 25px;
+  }
+  
+  .react-contextmenu-item.react-contextmenu-item--active,
+  .react-contextmenu-item.react-contextmenu-item--selected {
+    background: #356078 !important;
+    color: #00e4ff !important;
+    font-size: 13px !important;
+  }
+  
+  .react-contextmenu-item.react-contextmenu-item--disabled {
+    cursor: not-allowed;
+    color: rgba(0, 228, 255, 0.5) !important;
+  }
+}
+
+// 下方内容会直接挂到document下，不可以放到porta-app下
+// TODO: 挂载到document还是body下？
+.portal-antd-menu-light .portal-antd-menu-item:hover,
+.portal-antd-menu-light .portal-antd-menu-item-active,
+.portal-antd-menu-light .portal-antd-menu:not(.portal-antd-menu-inline) .portal-antd-menu-submenu-open,
+.portal-antd-menu-light .portal-antd-menu-submenu-active,
+.portal-antd-menu-light .portal-antd-menu-submenu-title:hover {
+  color: #00e4ff !important;
+}
+
+.portal-antd-menu-item-selected {
+  background-color: rgba(104, 189, 253, 0.3) !important;
+  border-radius: 4px;
+  color: #00e4ff !important;
+}
+
+.portal-antd-menu-item:active,
+.portal-antd-menu-submenu-title:active {
+  background: transparent !important;
+}
+
+.portal-antd-menu-inline,
+.portal-antd-menu-vertical,
+.portal-antd-menu-vertical-left {
+  border-right: none !important;
+}

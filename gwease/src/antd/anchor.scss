@@ -1,0 +1,11 @@
+@import './colors.scss';
+
+.ease-app {
+  .portal-antd-anchor-link-title {
+    color: $font !important;
+
+    &:hover {
+      color: $font-layout-toggle !important;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@import '~@style/variable/component.scss';
+
+.view {
+    height: 460px;
+
+    .content {
+        height: 410px;
+    }
+
+    .recover {
+        display: flex;
+        align-items: center;
+    }
+    .tabTitle{
+        font-size: 13px;
+        }
+}
+
+.loading {
+    height: 100%;
+
+    :global {
+        .portal-antd-spin-container {
+            height: 100%;
+        }
+    }
+}

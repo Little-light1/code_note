@@ -1,0 +1,10 @@
+@import '~@style/variable/component.scss';
+
+.view {
+    .resourceTable {
+        padding: 10px 0;
+        min-height: 200px;
+        display: flex;
+        width: 818px;
+    }
+}

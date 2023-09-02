@@ -1,0 +1,21 @@
+@import '~@style/variable/component.scss';
+
+.upload {
+  // border: dotted 1px var(--table-expand-icon, #00e4ff);
+  height: 150px;
+
+  :global {
+    .portal-antd-upload.portal-antd-upload-select-picture-card {
+      background: transparent;
+      color: var(--table-expand-icon, #00e4ff);
+    }
+
+    .portal-antd-upload {
+      color: var(--table-expand-icon, #00e4ff);
+    }
+  }
+}
+
+.desc {
+  margin: 0 0 10px 10px;
+}

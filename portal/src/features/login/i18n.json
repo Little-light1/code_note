@@ -1,0 +1,26 @@
+{
+    "zh": {
+        "userRequired": "请输入用户名",
+        "passwordRequired": "请输入密码",
+        "codeRequired": "请输入验证码",
+        "languageRequired": "请选择语言",
+        "login": "登录",
+        "forget": "忘记密码?"
+    },
+    "en": {
+        "userRequired": "Please enter a user name",
+        "passwordRequired": "Please enter a password",
+        "codeRequired": "Please enter the verification code",
+        "languageRequired": "Please select a language",
+        "login": "Login",
+        "forget": "Forget password ?"
+    },
+    "es": {
+        "userRequired": "Por favor, ingrese un nombre de usuario",
+        "passwordRequired": "porfavor ingrese una contraseña",
+        "codeRequired": "porfavor ingrese el codigo de verificacion",
+        "languageRequired": "Por favor, seleccione un idioma",
+        "login": "Acceso",
+        "forget": "Contraseña olvidada ?"
+    }
+}

@@ -1,0 +1,1 @@
+export const SUBMITTING_MODAL_ID = 'role_permission_assignment';

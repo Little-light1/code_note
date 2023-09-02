@@ -1,0 +1,70 @@
+@import '~@style/variable/component.scss';
+
+.view {
+  .title {
+    padding: 5px 0;
+  }
+
+  .content {
+    padding: 5px;
+
+    .desc {
+      padding-bottom: 10px;
+
+      .descTitle {}
+
+      .descContent {
+        color: rgba(255, 255, 255, 0.4);
+      }
+
+    }
+
+    .switch {
+      margin-left: 10px;
+    }
+  }
+
+  .browserTitle {
+    height: 100%;
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 26px;
+
+    .title {
+      padding: 10px 0;
+    }
+  }
+
+  .upload {
+    height: 30px;
+    width: 30px;
+
+    :global {
+
+      .portal-antd-upload-list-picture .portal-antd-upload-list-item,
+      .portal-antd-upload-list-picture-card .portal-antd-upload-list-item {
+        border: none;
+      }
+
+      .portal-antd-upload-list-item-info:hover {
+        background-color: transparent;
+      }
+    }
+  }
+
+  .operation {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100%;
+
+    &>button {
+      margin-left: 15px;
+    }
+  }
+
+  .required {
+    color: red;
+  }
+}

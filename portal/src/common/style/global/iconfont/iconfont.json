@@ -1,0 +1,226 @@
+{
+  "id": "3030026",
+  "name": "AAPP-Portal",
+  "font_family": "portal-iconfont",
+  "css_prefix_text": "icon-portal-",
+  "description": "aapp 门户",
+  "glyphs": [
+    {
+      "icon_id": "30989187",
+      "name": "成功",
+      "font_class": "success",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "30985519",
+      "name": "失败",
+      "font_class": "fail",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "28847631",
+      "name": "error",
+      "font_class": "error-copy",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "9928519",
+      "name": "error",
+      "font_class": "error",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "28526753",
+      "name": "icon_JobLog",
+      "font_class": "JobLog",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "28525233",
+      "name": "icon_Log",
+      "font_class": "Log",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "28525189",
+      "name": "icon_HelpDoc",
+      "font_class": "icon_HelpDoc",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "28525153",
+      "name": "帮助",
+      "font_class": "help2",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "27001340",
+      "name": "启用",
+      "font_class": "enable",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "27001260",
+      "name": "添加1",
+      "font_class": "add",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "27001261",
+      "name": "用户",
+      "font_class": "user2",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "27001262",
+      "name": "禁用",
+      "font_class": "disable",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "27001264",
+      "name": "锁定",
+      "font_class": "lock",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "27001265",
+      "name": "保存",
+      "font_class": "save",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "27001266",
+      "name": "添加2",
+      "font_class": "add2",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "27001267",
+      "name": "删除",
+      "font_class": "delete",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "27001234",
+      "name": "编辑",
+      "font_class": "edit",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "26934838",
+      "name": "标志",
+      "font_class": "orgMark",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "26934837",
+      "name": "组织",
+      "font_class": "org",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "26635689",
+      "name": "收起",
+      "font_class": "fold",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "26618025",
+      "name": "验证码",
+      "font_class": "verificationCode",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "26618026",
+      "name": "用户名",
+      "font_class": "user",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "26618027",
+      "name": "密码",
+      "font_class": "password",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "26618028",
+      "name": "语言切换",
+      "font_class": "language",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "26617679",
+      "name": "警告",
+      "font_class": "warn",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "26617659",
+      "name": "消息",
+      "font_class": "message",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "26617627",
+      "name": "帮助",
+      "font_class": "help",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "26617611",
+      "name": "Tab菜单",
+      "font_class": "grid",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "26617598",
+      "name": "右箭头",
+      "font_class": "right",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "26617580",
+      "name": "左箭头",
+      "font_class": "left",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "26616179",
+      "name": "顶部折叠",
+      "font_class": "expand",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}

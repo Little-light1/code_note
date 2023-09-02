@@ -1,0 +1,42 @@
+.systemInfoModel {
+    width: 100%;
+    .systemIntroduce {
+        .systemIntroduceContent {
+            display: flex;
+            justify-content: justify-between;
+            align-items: center;
+            width: 387px;
+            .systemName {
+                font-size: 16px;
+                line-height: 25px;
+                color: rgba(255, 255, 255, 1);
+                p {
+                    margin: 20px 19px 0px 0px;
+                }
+            }
+            .systemVersion {
+                font-size: 14px;
+                line-height: 25px;
+                margin-left: 30px;
+                color: rgba(255, 255, 255, 1);
+                p {
+                    margin: 20px 0px 0px 0px;
+                }
+            }
+            .middleLine {
+                padding-top: 10px;
+                div {
+                    width: 1px;
+                    height: 40px;
+                    background: rgba(255, 255, 255, 0.6);
+                }
+            }
+        }
+    }
+
+    .systemExplain {
+        margin-top: 16px;
+        width: 387px;
+        font-size: 12px;
+    }
+}

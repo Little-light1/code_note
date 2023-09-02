@@ -1,0 +1,117 @@
+ .ease-virtual-table .ease-virtual-table-view {
+     td {
+         padding: 11px 7px;
+         overflow: hidden;
+         white-space: nowrap;
+         text-overflow: ellipsis;
+         word-break: keep-all;
+     }
+     .ease-virtual-table-cell-editable {
+         &:hover {
+             height: 100%;
+             border: 1px solid rgba(0, 228, 255, 1) !important;
+             background: rgba(148, 192, 197, 0.1);
+             padding:7px;
+             box-sizing: border-box;
+         }
+     }
+
+     .ease-virtual-table-cell-editing {
+         width: 100%;
+         height: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         background: rgba(4, 17, 40, 0.8);
+         border: 1px solid rgba(0, 228, 255, 1) !important;
+     }
+
+     .ease-virtual-table-cell-edited {
+         opacity: 1;
+         height: 100%;
+         background: rgba(104, 189, 253, 0.3);
+     }
+
+     .ease-virtual-table-cell-error {
+         height: 100%;
+         background: rgba(249, 76, 76, 0.3);
+         border: 1px solid #F94C4C;
+     }
+
+     .ease-virtual-table-cell-edited-icon {
+         border-style: solid;
+         border-width: 0px 0px 10px 10px;
+         border-color: transparent transparent #F94C4C transparent;
+         width: 0px;
+         height: 0px;
+         transform: rotate(-90deg);
+         position: absolute;
+         right: 2px;
+         top: 2px;
+     }
+
+
+ }
+
+ .ease-virtual-table-cell-tooltip {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     color: rgba(0, 0, 0, 0.85);
+     font-size: 14px;
+     font-variant: tabular-nums;
+     line-height: 1.5715;
+     list-style: none;
+     font-feature-settings: 'tnum';
+     position: absolute;
+     z-index: 1070;
+     display: block;
+     width: -webkit-max-content;
+     width: -moz-max-content;
+     width: max-content;
+     width: intrinsic;
+     max-width: 250px;
+     visibility: visible;
+ }
+
+ .ease-virtual-table-cell-tooltip-placement-bottom,
+ .ease-virtual-table-cell-tooltip-placement-bottomLeft,
+ .ease-virtual-table-cell-tooltip-placement-bottomRight {
+     // padding-top: 10px;
+ }
+
+ .ease-virtual-table-cell-tooltip-arrow {
+     display: none;
+ }
+
+ .ease-virtual-table-cell-tooltip-placement-bottom .ease-table-cell-tooltip-arrow {
+     left: 50%;
+     transform: translateX(-50%);
+ }
+
+ .ease-virtual-table-cell-tooltip-inner {
+     min-width: 30px;
+     min-height: 32px;
+     padding: 6px 8px;
+     color: #fff;
+     text-align: left;
+     text-decoration: none;
+     word-wrap: break-word;
+     // background-color: rgba(0, 0, 0, 0.75);
+     // border-radius: 2px;
+     // box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+
+     background: rgba(1, 9, 13, 0.8);
+     border: 1px solid #2E3C44;
+     box-shadow: 0px 0px 8px 0px #0D2035;
+     border-radius: 4px;
+     font-size: 14px;
+ }
+
+ .ease-virtual-table-cell-tooltip-hidden {
+     display: none;
+ }
+
+ .ease-virtual-table-cell-tooltip-error-info {
+     color: #F94C4C;
+ }

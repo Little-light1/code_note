@@ -1,0 +1,167 @@
+[
+  {
+    "orgId": "1532785054763241473",
+    "deviceThingId": "195183931233362334",
+    "deviceName": "3-A逆变器",
+    "deviceModel": "JZNBQ",
+    "farmName": "天利恩泽雅满苏光伏一电站14",
+    "deviceId": "654416771",
+    "deviceType": "逆变器",
+    "createBy": "1",
+    "createTime": "2022-06-05T10:06:46"
+  },
+  {
+    "orgId": "1532785054763241473",
+    "deviceThingId": "195183931233362335",
+    "deviceName": "3-B逆变器",
+    "deviceModel": "JZNBQ",
+    "farmName": "天利恩泽雅满苏光伏一电站14",
+    "deviceId": "654416772",
+    "deviceType": "逆变器",
+    "createBy": "1",
+    "createTime": "2022-06-05T10:06:46"
+  },
+  {
+    "orgId": "1532785054763241473",
+    "deviceThingId": "195183931233362336",
+    "deviceName": "4-A逆变器",
+    "deviceModel": "JZNBQ",
+    "farmName": "天利恩泽雅满苏光伏一电站14",
+    "deviceId": "654416773",
+    "deviceType": "逆变器",
+    "createBy": "1",
+    "createTime": "2022-06-05T10:06:46"
+  },
+  {
+    "orgId": "1532785054763241473",
+    "deviceThingId": "195183931233362337",
+    "deviceName": "4-B逆变器",
+    "deviceModel": "JZNBQ",
+    "farmName": "天利恩泽雅满苏光伏一电站14",
+    "deviceId": "654416774",
+    "deviceType": "逆变器",
+    "createBy": "1",
+    "createTime": "2022-06-05T10:06:46"
+  },
+  {
+    "orgId": "1532785054763241473",
+    "deviceThingId": "195183931233362338",
+    "deviceName": "5-A逆变器",
+    "deviceModel": "JZNBQ",
+    "farmName": "天利恩泽雅满苏光伏一电站14",
+    "deviceId": "654416775",
+    "deviceType": "逆变器",
+    "createBy": "1",
+    "createTime": "2022-06-05T10:06:46"
+  },
+  {
+    "orgId": "1532785054763241473",
+    "deviceThingId": "195183931233362339",
+    "deviceName": "5-B逆变器",
+    "deviceModel": "JZNBQ",
+    "farmName": "天利恩泽雅满苏光伏一电站14",
+    "deviceId": "654416776",
+    "deviceType": "逆变器",
+    "createBy": "1",
+    "createTime": "2022-06-05T10:06:46"
+  },
+  {
+    "orgId": "1532785054763241473",
+    "deviceThingId": "195183931233362340",
+    "deviceName": "6-A逆变器",
+    "deviceModel": "JZNBQ",
+    "farmName": "天利恩泽雅满苏光伏一电站14",
+    "deviceId": "654416777",
+    "deviceType": "逆变器",
+    "createBy": "1",
+    "createTime": "2022-06-05T10:06:46"
+  },
+  {
+    "orgId": "1532785054763241473",
+    "deviceThingId": "195183931233362341",
+    "deviceName": "6-B逆变器",
+    "deviceModel": "JZNBQ",
+    "farmName": "天利恩泽雅满苏光伏一电站14",
+    "deviceId": "654416778",
+    "deviceType": "逆变器",
+    "createBy": "1",
+    "createTime": "2022-06-05T10:06:46"
+  },
+  {
+    "orgId": "1532785054763241473",
+    "deviceThingId": "195183931233362342",
+    "deviceName": "7-A逆变器",
+    "deviceModel": "JZNBQ",
+    "farmName": "天利恩泽雅满苏光伏一电站14",
+    "deviceId": "654416779",
+    "deviceType": "逆变器",
+    "createBy": "1",
+    "createTime": "2022-06-05T10:06:46"
+  },
+  {
+    "orgId": "1532785054763241473",
+    "deviceThingId": "195183931233362343",
+    "deviceName": "7-B逆变器",
+    "deviceModel": "JZNBQ",
+    "farmName": "天利恩泽雅满苏光伏一电站14",
+    "deviceId": "654416780",
+    "deviceType": "逆变器",
+    "createBy": "1",
+    "createTime": "2022-06-05T10:06:46"
+  },
+  {
+    "orgId": "1532785054763241473",
+    "deviceThingId": "195183931233362344",
+    "deviceName": "8-A逆变器",
+    "deviceModel": "JZNBQ",
+    "farmName": "天利恩泽雅满苏光伏一电站14",
+    "deviceId": "654416781",
+    "deviceType": "逆变器",
+    "createBy": "1",
+    "createTime": "2022-06-05T10:06:46"
+  },
+  {
+    "orgId": "1532785054763241473",
+    "deviceThingId": "195183931233362345",
+    "deviceName": "8-B逆变器",
+    "deviceModel": "JZNBQ",
+    "farmName": "天利恩泽雅满苏光伏一电站14",
+    "deviceId": "654416782",
+    "deviceType": "逆变器",
+    "createBy": "1",
+    "createTime": "2022-06-05T10:06:46"
+  },
+  {
+    "orgId": "1532785054763241473",
+    "deviceThingId": "195183931233362346",
+    "deviceName": "9-A逆变器",
+    "deviceModel": "JZNBQ",
+    "farmName": "天利恩泽雅满苏光伏一电站14",
+    "deviceId": "654416783",
+    "deviceType": "逆变器",
+    "createBy": "1",
+    "createTime": "2022-06-05T10:06:46"
+  },
+  {
+    "orgId": "1532785054763241473",
+    "deviceThingId": "195183931233362347",
+    "deviceName": "9-B逆变器",
+    "deviceModel": "JZNBQ",
+    "farmName": "天利恩泽雅满苏光伏一电站14",
+    "deviceId": "654416784",
+    "deviceType": "逆变器",
+    "createBy": "1",
+    "createTime": "2022-06-05T10:06:46"
+  },
+  {
+    "orgId": "1532785054763241473",
+    "deviceThingId": "195183931233362348",
+    "deviceName": "10-A逆变器",
+    "deviceModel": "JZNBQ",
+    "farmName": "天利恩泽雅满苏光伏一电站14",
+    "deviceId": "654416785",
+    "deviceType": "逆变器",
+    "createBy": "1",
+    "createTime": "2022-06-05T10:06:46"
+  }
+]

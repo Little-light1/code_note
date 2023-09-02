@@ -1,0 +1,72 @@
+/*
+ * @Author: sds 
+ * @Date: 2022-02-23 17:26:51 
+ * @Last Modified by: sun.t
+ * @Last Modified time: 2022-04-12 11:22:09
+ */
+@import '~@style/variable/color.scss';
+
+
+.portal-app {
+  .portal-antd-form {
+    color: $font;
+
+    .portal-antd-form-item {
+      color: $font;
+    }
+
+    .portal-antd-form-item-has-error :not(.portal-antd-input-disabled):not(.portal-antd-input-borderless).portal-antd-input,
+    .portal-antd-form-item-has-error :not(.portal-antd-input-disabled):not(.portal-antd-input-borderless).portal-antd-input:hover {
+      background: none;
+    }
+
+    .portal-antd-form-item-has-error :not(.portal-antd-input-affix-wrapper-disabled):not(.portal-antd-input-affix-wrapper-borderless).portal-antd-input-affix-wrapper,
+    .portal-antd-form-item-has-error :not(.portal-antd-input-number-affix-wrapper-disabled):not(.portal-antd-input-number-affix-wrapper-borderless).portal-antd-input-number-affix-wrapper,
+    .portal-antd-form-item-has-error :not(.portal-antd-input-affix-wrapper-disabled):not(.portal-antd-input-affix-wrapper-borderless).portal-antd-input-affix-wrapper:hover,
+    .portal-antd-form-item-has-error :not(.portal-antd-input-number-affix-wrapper-disabled):not(.portal-antd-input-number-affix-wrapper-borderless).portal-antd-input-number-affix-wrapper:hover {
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .portal-antd-form-item-label>label {
+      color: #ffffff;
+      min-height: 32px;
+      height: auto;
+    }
+
+    .portal-antd-form-item-has-error .portal-antd-input-number,
+    .portal-antd-form-item-has-error .portal-antd-picker {
+      background: transparent;
+    }
+
+    .portal-antd-form-item-has-error .portal-antd-input-number:not([disabled]):hover {
+      background: transparent;
+    }
+  }
+
+  .ant-legacy-form {
+    .has-error {
+      color: red !important;
+    }
+  }
+
+  .ant-legacy-form-item-required::before {
+    display: inline-block;
+    margin-right: 4px;
+    color: #ff4d4f;
+    font-size: 14px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+    content: '*';
+  }
+
+  .portal-antd-form-item-has-error .portal-antd-select:not(.portal-antd-select-disabled):not(.portal-antd-select-customize-input) .portal-antd-select-selector {
+    // background-color: $select-background;
+    background-color: transparent;
+  }
+
+  // 增加英文场景下换行展示
+  .portal-antd-form-inline .portal-antd-form-item>.portal-antd-form-item-label {
+    white-space: normal;
+    word-break: break-word;
+  }
+}

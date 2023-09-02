@@ -1,0 +1,102 @@
+// 两票统计
+.dataQuality {
+    display: flex;
+    flex-direction: column;
+    height: 510px;
+
+    // 头部
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 20px;
+        background-color: rgba(28, 104, 134, 0.3);
+        height: 42px;
+        
+        // 标题
+        .title {
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+
+            .titleIcon {
+                width: 4px;
+                height: 16px;
+                margin-right: 10px;
+                background-color: #03E6F5;
+                border-radius: 2px;
+            }
+        }
+    }
+
+    .infoItems {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 20px;
+
+        .infoItem {
+            text-align: center;
+
+            .infoValue {
+                font-size: 28px;
+                color: #00E4FF;
+            }
+
+            span {
+                margin-left: 10px;
+                font-size: 20px;
+                color: #00E4FF;
+            }
+        }
+    }
+
+    .infoSeparator {
+        background-color: rgba(255, 255, 255, 0.2);
+        margin: 24px 20px 0 20px;
+        height: 1px;
+    }
+
+    .detail {
+        flex: 1;
+        margin: 24px;
+        display: flex;
+        flex-direction: row;
+        
+        .echarts {
+            width: 400px;
+            height: 400px;
+        }
+
+        .dataInfo {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.6);
+            flex: 1;
+
+            .dataTitle {
+                text-align: center;
+                width: 100%;
+                font-size: 16px;
+                color: #FFFFFF;
+                margin-bottom: 24px;
+            }
+
+            .dataValue {
+                font-size: 21px;
+                color: #00E4FF;
+            }
+
+            .dataValueSeparator {
+                margin: 0 5px;
+                color: rgba(255, 255, 255, 0.6);
+            }
+
+            .divider {
+                background-color: #FFFFFF33;
+                height: 1px;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+/*
+ * @Author: Tomato.Bei 
+ * @Date: 2022-08-05 15:34:28 
+ * @Last Modified by:   Tomato.Bei 
+ * @Last Modified time: 2022-08-05 15:34:28 
+ */
+.view {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    .head {
+        background-color: rgba(49, 85, 119, 0.2);
+        margin-bottom: 13px;
+    }
+    .content {
+        height: 87%;
+    }
+}

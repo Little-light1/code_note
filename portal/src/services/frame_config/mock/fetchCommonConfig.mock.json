@@ -1,0 +1,16 @@
+{
+  "code": "200",
+  "msg": "",
+  "data": [
+    {
+      "cconfigId": 1,
+      "cconfigCode": "code",
+      "cconfigName": "name",
+      "cconfigFiletoken": "MDM4OTA5ZmQ0MTkzZjg4OGVkYzU3YjA5NjIwNTNlODE=",
+      "originFileName": "pic1.png",
+      "cconfigUrlpath": "urlpath",
+      "cconfigSort": 1,
+      "cconfigIsenable": 1
+    }
+  ]
+}

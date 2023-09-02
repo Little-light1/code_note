@@ -1,0 +1,11 @@
+@import '../colors.scss';
+
+.ease-app {
+    .portal-antd-layout {
+        background: none;
+    }
+
+    .portal-antd-layout-header {
+        color: $font;
+    }
+}

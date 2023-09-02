@@ -1,0 +1,51 @@
+/*
+ * @Author: sds 
+ * @Date: 2022-02-23 17:26:51 
+ * @Last Modified by: sun.t
+ * @Last Modified time: 2022-04-12 22:57:27
+ */
+@import '~@style/variable/color.scss';
+
+.portal-app {
+    .portal-antd-checkbox {
+        background-color: transparent;
+    }
+
+    .portal-antd-checkbox-wrapper {
+        color: $font;
+    }
+
+    .portal-antd-checkbox-inner {
+        background-color: rgba(1, 26, 43, 1);
+        border: 1px solid #00e4ff;
+    }
+
+    .portal-antd-checkbox-checked .portal-antd-checkbox-inner::after {
+        border-color: #00e4ff !important;
+    }
+
+    .portal-antd-checkbox-wrapper:hover .portal-antd-checkbox-inner,
+    .portal-antd-checkbox:hover .portal-antd-checkbox-inner,
+    .portal-antd-checkbox-input:focus + .portal-antd-checkbox-inner {
+        border-color: #00e4ff;
+    }
+
+    .portal-antd-checkbox-disabled .portal-antd-checkbox-inner {
+        background: rgba(255, 255, 255, 0.3);
+        border: 1px solid #ffffff;
+    }
+
+    .portal-antd-checkbox-disabled + span {
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .portal-antd-checkbox-indeterminate .portal-antd-checkbox-inner {
+        background-color: #011a2b;
+        border: 1px solid #26e8ff;
+    }
+
+    .portal-antd-checkbox-checked .portal-antd-checkbox-inner {
+        background-color: #011a2b;
+        border: 1px solid #26e8ff;
+    }
+}

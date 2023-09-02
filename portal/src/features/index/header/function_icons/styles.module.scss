@@ -1,0 +1,90 @@
+.view {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .icon {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        font-size: 24px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .defaultFunctions {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 3px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .line {
+        border-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .messageArea {
+        position: relative;
+        cursor: pointer;
+    }
+    .alarmIcon {
+        position: relative;
+        cursor: pointer;
+    }
+
+    .messageNum {
+        position: absolute;
+        min-width: 20px;
+        height: 20px;
+        background: #f94c4c;
+        color: #ffffff;
+        border-radius: 50%;
+        text-align: center;
+        top: 5px;
+        right: -8px;
+        line-height: 20px;
+        animation: twinkle 1.2s infinite alternate;
+    }
+    @keyframes twinkle {
+        0% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+}
+.alarmMessage {
+    padding: 10px;
+    .alarmMessageTitle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        :nth-child(1) {
+            margin-right: 50px;
+        }
+    }
+    .hr {
+        width: 100%;
+        height: 1px;
+        background-color: rgb(255, 255, 255, 0.6);
+        margin: 8px 0;
+    }
+
+    .alarmMessageContent {
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+            span {
+                cursor: pointer;
+            }
+            :nth-child(2) {
+                color: aqua;
+                text-decoration: underline;
+            }
+        }
+    }
+}

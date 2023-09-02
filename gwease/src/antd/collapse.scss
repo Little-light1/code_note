@@ -1,0 +1,55 @@
+/*
+ * @Author: antd-collapse 折叠面板 
+ * @Date: 2022-03-17 16:56:01 
+ * @Last Modified by: sun.t
+ * @Last Modified time: 2022-04-12 15:03:13
+ */
+@import './colors.scss';
+
+
+.ease-app {
+  .portal-antd-collapse-content {
+    color: #ffffff;
+  }
+
+  .portal-antd-collapse {
+    background-color: transparent !important;
+    border: none !important;
+    color: #fff !important;
+  }
+
+  .portal-antd-collapse-content {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 0px 0px 4px 4px !important;
+    border: none !important;
+    min-height: 239px !important;
+  }
+
+  .portal-antd-collapse>.portal-antd-collapse-item {
+    border: none !important;
+    margin-bottom: 24px;
+  }
+
+  .portal-antd-collapse>.portal-antd-collapse-item>.portal-antd-collapse-header {
+    color: #fff !important;
+    margin-bottom: 2px;
+  }
+
+  .portal-antd-collapse-icon-position-right>.portal-antd-collapse-item>.portal-antd-collapse-header {
+    position: relative;
+    padding: 11px 12px;
+    background-color: rgba(42, 189, 189, 0.6);
+    border-radius: 4px 4px 0 0;
+    border-bottom: solid 2px #a3ff2b !important;
+  }
+
+  .portal-antd-collapse>.portal-antd-collapse-item>.portal-antd-collapse-header::before {
+    width: 4px;
+    height: 16px;
+    background-color: #03e6f5;
+    border-radius: 2px;
+    left: 0;
+    top: 13px;
+    position: absolute;
+  }
+}

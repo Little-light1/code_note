@@ -1,0 +1,108 @@
+@import '~@style/variable/component.scss';
+
+.userSelectItem {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .left {
+        height: 600px;
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        // margin-right: 20px;
+
+        .up {
+            height: 40%;
+            position: relative;
+            // flex: 1;
+            // margin: 6px 0 0 10px;
+            // overflow-y: auto;
+        }
+
+        .down {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px 10px 0 0;
+        }
+
+        > div {
+            width: 100%;
+        }
+    }
+
+    .space {
+        flex: auto;
+        text-align: center;
+
+        .buttonStyle {
+            background-color: #43aff7;
+            border: none;
+            border-radius: 2px;
+            margin-bottom: 10px;
+            width: 24px;
+        }
+
+        .spaceLine {
+            width: 2px;
+            height: 265px;
+            background: #438dde;
+            opacity: 0.2;
+            margin-left: 10px;
+        }
+    }
+
+    .right {
+        height: 600px;
+        width: 48%;
+        border-radius: 5px;
+        overflow-y: auto;
+        max-height: 100%;
+        margin-left: 20px;
+
+        .Selected {
+            margin: 6px;
+            font-size: 14px;
+        }
+    }
+
+    .searchArea {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .tableArea {
+        width: 100%;
+        // height: auto;
+    }
+
+    .positionInput {
+        :global {
+            .portal-antd-input-group {
+                width: 100%;
+            }
+            .portal-antd-input {
+                border: none;
+            }
+
+            // .portal-antd-input-affix-wrapper {
+            //   width: 390px;
+            // }
+        }
+    }
+    .deviceLoading{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: rgba(255,255,255,0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+    }
+    .deviceLoadingHidden{
+        display: none;
+    }
+}

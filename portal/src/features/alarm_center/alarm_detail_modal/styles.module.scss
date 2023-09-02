@@ -1,0 +1,23 @@
+.alarmBox {
+    width: 420px;
+    padding: 10px;
+    .alarmItem {
+        margin-bottom: 25px;
+        display: flex;
+        :nth-child(1) {
+            text-align: right;
+            width: 120px;
+            margin-right: 15px;
+        }
+
+        :nth-child(2) {
+            width: 250px;
+        }
+    }
+    .alarmButton {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 15px;
+    }
+}

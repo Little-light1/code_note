@@ -1,0 +1,30 @@
+@import '~@style/variable/component.scss';
+
+.form {
+  .upload {
+    height: 38px;
+    width: 38px;
+  }
+
+  // 控制label对齐方式
+  :global {
+    .portal-antd-form-item-label {
+      text-align: right;
+      width: 120px;
+    }
+  }
+
+  .tip {
+    padding-bottom: 10px;
+    min-height: 38px;
+    width: 100%;
+    padding-left: 120px;
+    .span{
+      font-size :13px;
+    }
+    .fillin{
+      color: $font-layout-toggle;
+    }
+  }
+
+}

@@ -1,0 +1,32 @@
+/*
+ * @Author: sds 
+ * @Date: 2021-12-13 21:23:22 
+ * @Last Modified by: sds
+ * @Last Modified time: 2022-01-24 16:26:32
+ */
+.view {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    position: relative;
+    overflow-x: auto;
+    display: flex;
+    justify-content: space-between;
+
+    .organization {
+        width: 16%;
+        height: 100%;
+        padding: 10px;
+        background: linear-gradient(90deg, rgba(10, 70, 93, 0.4), rgba(7, 72, 98, 0.7));
+        overflow: hidden;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 83%;
+        height: 100%;
+        overflow: hidden;
+    }
+}

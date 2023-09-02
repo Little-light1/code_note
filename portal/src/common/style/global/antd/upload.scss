@@ -1,0 +1,36 @@
+@import '~@style/variable/color.scss';
+
+.portal-app {
+    .portal-antd-upload {
+        color: $font;
+        // border: 1px solid rgba(0, 228, 255, 0.8);
+    }
+
+    .portal-antd-upload-list-item-name {
+        color: $font;
+    }
+
+    .portal-antd-upload-text-icon {
+        .anticon {
+            color: $font !important;
+        }
+    }
+
+    .portal-antd-upload-list-item-info:hover {
+        background-color: rgba(7, 28, 42, 0.9) !important;
+    }
+
+    .portal-antd-upload.portal-antd-upload-select-picture-card {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        border: 1px solid #00e4ff;
+    }
+
+    .portal-antd-upload img {
+        height: 100%;
+        width: 100%;
+    }
+}

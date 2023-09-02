@@ -1,0 +1,71 @@
+@import '~@style/variable/component.scss';
+
+.view {
+  .flexWrapper {
+    display: flex;
+    justify-content: center;
+    height: 224px;
+
+    .card {
+      width: 367px;
+      // height: 224px;
+      border-radius: 5px;
+      border: 1px solid rgb(1, 110, 125);
+      margin-right: 10px;
+
+      padding: 8px;
+
+
+      .contentWrapper {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        .header {
+          background-color: rgb(14, 61, 84);
+          color: white;
+          height: 36px;
+          line-height: 36px;
+          text-align: center;
+          border-radius: 4px 4px 0 0;
+          font-size: 14px;
+        }
+  
+  
+        .content {
+          background-color: rgb(6, 33, 50);
+          flex: 1;
+          border-radius: 0 0 4px 4px;
+          padding: 16px;
+
+          display: flex;
+
+          .image {
+            width: 140px;
+            height: 140px;
+            margin-right: 16px;
+          }
+
+          .infoWrapper {
+            .infoItem {
+              margin: 6px 0 12px 0;
+  
+              .infoTitle {
+                font-size: 12px;
+                margin-bottom: 8px;
+              }
+    
+              .infoValue {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .card:last-child {
+      margin-right: 0;
+    }
+  }
+}

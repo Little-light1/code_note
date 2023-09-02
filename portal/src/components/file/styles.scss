@@ -1,0 +1,22 @@
+.fileUploadPreviewStyle .fileBtn{
+  display: block;
+  border: 1px solid #00e4ff;
+  background-color: rgba(0,0,0,0);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.fileUploadPreviewStyle{
+  .anticon{
+    color: #fff !important;
+  }
+  .portal-antd-btn{
+    border: none;
+  }
+}
+.fileUploadPreviewStyle .portal-antd-upload{
+  display: block;
+  width: 100%;
+}

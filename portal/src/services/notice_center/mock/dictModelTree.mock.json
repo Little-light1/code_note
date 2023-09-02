@@ -1,0 +1,49 @@
+{
+  "code": "200",
+  "msg": "",
+  "data": [
+    {
+      "dictModelId": 1,
+      "dictModelName": "数据字典",
+      "dictModelCode": "ROOT",
+      "dictModelMark": "",
+      "dictModelSort": 0,
+      "isEnable": 1,
+      "type": 0,
+      "treeKey": "0_1"
+    },
+    {
+      "dictModelId": 2,
+      "dictModelName": "系统类",
+      "dictModelCode": "SYSTEM",
+      "dictModelMark": "",
+      "dictModelSort": 0,
+      "isEnable": 1,
+      "type": 0,
+      "parentTreeKey": "0_1",
+      "treeKey": "0_2"
+    },
+    {
+      "dictModelId": 3,
+      "dictModelName": "语言类",
+      "dictModelCode": "SYSTEM_LANUAGE",
+      "dictModelMark": "",
+      "dictModelSort": 0,
+      "isEnable": 1,
+      "type": 0,
+      "parentTreeKey": "0_2",
+      "treeKey": "0_3"
+    },
+    {
+      "dictModelId": 1,
+      "dictModelName": "简体中文",
+      "dictModelMark": "",
+      "dictModelCode": "zh_CN",
+      "dictModelSort": 0,
+      "isEnable": 1,
+      "type": 0,
+      "treeKey": "1_1",
+      "parentTreeKey": "0_3"
+    }
+  ]
+}

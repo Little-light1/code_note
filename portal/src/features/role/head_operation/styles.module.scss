@@ -1,0 +1,38 @@
+/*
+ * @Author: sds 
+ * @Date: 2022-01-02 14:00:29 
+ * @Last Modified by: sun.t
+ * @Last Modified time: 2022-12-12 10:37:50
+ */
+
+.view {
+    .content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+        .normalButton {
+            background: #0090a3;
+            border-color: transparent;
+            border-radius: 5px;
+            color: #fff;
+        }
+
+        .right {
+            display: flex;
+            justify-content: space-between;
+            // width: 40%;
+
+            .select {
+                width: 280px;
+                margin-right: 10px;
+            }
+
+            .search {
+                width: 470px;
+                margin-right: 10px;
+            }
+        }
+
+    }
+}

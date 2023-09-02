@@ -1,0 +1,21 @@
+/*
+ * @Author: sds 
+ * @Date: 2022-01-02 13:49:19 
+ * @Last Modified by: sds
+ * @Last Modified time: 2022-01-24 16:26:58
+ */
+.view {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    position: relative;
+    overflow-x: auto;
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+    }
+}

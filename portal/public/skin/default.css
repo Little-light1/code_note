@@ -1,0 +1,61 @@
+:root {
+    /* ----字体---- */
+    /* 全局字体颜色 */
+    --font: #ffffff;
+    --font-layout-toggle: #00f3ff;
+    --font-shadow-layout-toggle: #00a2ff;
+
+    /* ----输入框---- */
+    --input-background: rgba(0, 0, 0, 0.4);
+    --input-autofill-background: rgba(0, 0, 0, 0.7);
+    --input-prefix-icon: #00f3ff;
+
+    /* ----点击下拉单选---- */
+    --select-background: rgba(0, 0, 0, 0.4);
+
+    /* ----按钮---- */
+    --button-primary: #0090a3;
+    --button-danger: #f94c4c;
+    --button-primary-hover: #00bad1;
+    --button-login: rgba(0, 243, 255, 0.5);
+
+    /* ----下拉菜单---- */
+    --dropdown-select-background: rgba(143, 212, 255, 0.1);
+    --dropdown-select: #00f3ff;
+    --dropdown-background: rgba(1, 9, 13, 0.9);
+    --dropdown-border: #2e3c44;
+    --dropdown-box-shadow: #0d2035;
+    --dropdown-disabled-background: rgba(255, 255, 255, 0.4);
+    --dropdown-disabled: rgba(255, 255, 255, 0.7);
+
+    /* ----布局---- */
+    --sider-background: rgba(7, 28, 42, 0.9);
+    --sider-box-shadow: rgba(0, 0, 0, 50%);
+
+    /* ----表格---- */
+    --table-expand-icon: #00e4ff;
+    --table-pagination-dropdown: #01090d;
+    --table-pagination-dropdown-selected-background: rgba(194, 194, 194, 0.5);
+    --table-header-background: rgba(0, 228, 255, 0.4);
+
+    /* ----树---- */
+    --tree-expand-icon: #00e4ff;
+    --tree-switcher-leaf-line: #00e4ff;
+    --tree-node-selected: #00e4ff;
+    --tree-node-selected-background: #356078;
+
+    /* ----树选择---- */
+    --treeSelect-selection-tag-background: #1a9fb3;
+
+    /* ----搜索框---- */
+    --seaech-input-border: #00e4ff;
+    --search-input-background: #21272d;
+
+    /* ----日期选择器---- */
+    --rangePicker-picker-background: #041f34;
+    --rangePicker-picker-border: #19abb3;
+
+    /* Radio */
+    --radio-border: rgba(0, 102, 148, 0.3);
+    --radio-border-checked: rgba(0, 102, 148, 0.6);
+}

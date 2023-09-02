@@ -1,0 +1,12 @@
+@import '~@style/variable/component.scss';
+
+.view {
+
+  // 控制label对齐方式
+  :global {
+    .portal-antd-form-item-label {
+      text-align: right;
+      width: 120px;
+    }
+  }
+}

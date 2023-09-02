@@ -1,0 +1,75 @@
+/*
+ * @Author: sds 
+ * @Date: 2022-02-23 16:12:01 
+ * @Last Modified by: sun.t
+ * @Last Modified time: 2022-04-12 11:29:59
+ */
+@import './colors.scss';
+
+
+.ease-app {
+  .portal-antd-tabs {
+    color: $font;
+  }
+
+  .portal-antd-tabs>.portal-antd-tabs-nav .portal-antd-tabs-tab,
+  .portal-antd-tabs>div>.portal-antd-tabs-nav .portal-antd-tabs-tab {
+    width: 124px;
+    height: 32px;
+    background-color: transparent;
+    color: #00e4ff;
+    justify-content: center;
+    margin-left: -1px;
+    border-radius: 0;
+  }
+
+  .portal-antd-tabs>.portal-antd-tabs-nav .portal-antd-tabs-tab-active,
+  .portal-antd-tabs>div>.portal-antd-tabs-nav .portal-antd-tabs-tab-active {
+    background-color: #0496ab;
+    color: #ffffff;
+  }
+
+  .portal-antd-tabs-top>.portal-antd-tabs-nav::before,
+  .portal-antd-tabs-bottom>.portal-antd-tabs-nav::before,
+  .portal-antd-tabs-top>div>.portal-antd-tabs-nav::before,
+  .portal-antd-tabs-bottom>div>.portal-antd-tabs-nav::before {
+    border-bottom: 1px solid #0496ab;
+  }
+
+  .portal-antd-tabs>.portal-antd-tabs-nav .portal-antd-tabs-tab,
+  .portal-antd-tabs>div>.portal-antd-tabs-nav .portal-antd-tabs-tab {
+    border: 1px solid;
+    border-color: #0496ab;
+    border-radius: 0;
+    border-bottom: none;
+
+    &:first-child {
+      margin-left: 0px !important;
+      border-radius: 4px 0 0 0 !important;
+    }
+
+    &:nth-last-child(2) {
+      border-radius: 0 4px 0 0 !important;
+    }
+  }
+
+  .portal-antd-tabs.portal-antd-tabs-top>.portal-antd-tabs-nav .portal-antd-tabs-tab+.portal-antd-tabs-tab,
+  .portal-antd-tabs.portal-antd-tabs-bottom>.portal-antd-tabs-nav .portal-antd-tabs-tab+.portal-antd-tabs-tab,
+  .portal-antd-tabs.portal-antd-tabs-top>div>.portal-antd-tabs-nav .portal-antd-tabs-tab+.portal-antd-tabs-tab,
+  .portal-antd-tabs.portal-antd-tabs-bottom>div>.portal-antd-tabs-nav .portal-antd-tabs-tab+.portal-antd-tabs-tab {
+    margin-left: -1px;
+  }
+
+  .portal-antd-tabs.portal-antd-tabs-top>.portal-antd-tabs-nav .portal-antd-tabs-tab,
+  .portal-antd-tabs.portal-antd-tabs-top>div>.portal-antd-tabs-nav .portal-antd-tabs-tab {
+    border-radius: 0;
+  }
+
+  .portal-antd-tabs-tab.portal-antd-tabs-tab-active .portal-antd-tabs-tab-btn {
+    color: #ffffff;
+  }
+
+  .portal-antd-tabs-nav-operations {
+    color: #ffffff;
+  }
+}

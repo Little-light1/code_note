@@ -1,0 +1,27 @@
+{
+    "Table": {
+        "index": "Número de serie",
+        "originalData": "Datos sin procesar",
+        "quitEdit": "Haga clic en Esc para salir del estado de edición del formulario",
+        "hide": "Ocultar",
+        "setDisplayCols": "Establecer columnas de visualización",
+        "total": "{total} totales"
+    },
+    "GlobalMask": {
+        "loading": "Cargando..."
+    },
+    "Modal": {
+        "ok": "Por supuesto",
+        "cancel": "Cancelar"
+    },
+    "SearchTreeSelect": {
+        "placeholder": "Por favor elige",
+        "searchPlaceholder": "Por favor ingrese los criterios de consulta"
+    },
+    "Page": {
+        "renderError": "Error de representación de la página",
+        "retry": "Rever",
+        "refresh": "Refrescar",
+        "message": "Mensaje de error"
+    }
+}

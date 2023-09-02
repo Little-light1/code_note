@@ -1,0 +1,9 @@
+@import '~@style/variable/color.scss';
+
+
+.portal-app {
+  .portal-antd-list-item {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 5px 0;
+  }
+}

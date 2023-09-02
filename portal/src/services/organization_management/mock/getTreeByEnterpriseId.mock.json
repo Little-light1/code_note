@@ -1,0 +1,42 @@
+{
+  "code": "string",
+  "data": [
+    {
+      "detailType": "string",
+      "farmId": "string",
+      "farmName": "string",
+      "fields": [
+        {
+          "createBy": "string",
+          "createTime": "2021-11-17T06:08:39.089Z",
+          "dataType": "STRING",
+          "defaultValue": "string",
+          "enterpriseID": "string",
+          "fieldName": "string",
+          "fieldType": "INPUT",
+          "fieldValue": "string",
+          "id": "string",
+          "isDefaultField": "NOT_DEFAULT",
+          "isNull": "NOT_NULL",
+          "organizationID": "string",
+          "remark": "string",
+          "templateFieldID": "string",
+          "templateID": "string",
+          "updateBy": "string",
+          "updateTime": "2021-11-17T06:08:39.089Z"
+        }
+      ],
+      "latitude": 0,
+      "longitude": 0,
+      "orgId": "string",
+      "orgName": "string",
+      "orgType": 0,
+      "parentOrgId": "string",
+      "templateId": "string",
+      "templateName": "string",
+      "thingId": "string",
+      "thingType": "string"
+    }
+  ],
+  "msg": "string"
+}

@@ -1,0 +1,21 @@
+@import '~@style/variable/component.scss';
+
+.password {
+    :global {
+        .portal-antd-input-affix-wrapper {
+            background-color: transparent;
+            border: 1px solid $search-input-border;
+
+            .portal-antd-input {
+                background: transparent;
+                color: #fff;
+                border: none;
+            }
+        }
+
+        .portal-antd-form-item-has-error
+            :not(.portal-antd-input-affix-wrapper-disabled):not(.portal-antd-input-affix-wrapper-borderless).portal-antd-input-affix-wrapper {
+            background-color: transparent;
+        }
+    }
+}

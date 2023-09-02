@@ -1,0 +1,324 @@
+/**
+ * Created by A ciTy on 2017/8/10.
+ */
+@import './color';
+// @import "../../common/style/variable/color.scss";
+
+$maxZindex: 9999999999;
+$maxZindex2: 9999999990;
+
+//antd数据表默认高度
+$defaultTableHeight:calc(100vh - 338px);
+
+@mixin transition($duration:.2s, $timingfn:ease-in-out) {
+    transition: all $duration $timingfn;
+    -moz-transition: all $duration $timingfn;
+    -webkit-transition: all $duration $timingfn;
+    -o-transition: all $duration $timingfn;
+    -ms-transition: all $duration $timingfn;
+}
+
+@mixin button($width:auto,$height:1.33rem,$fontSize:0.625rem) {
+    width: $width;
+    height: $height;
+    line-height: $height;
+    color: #fff;
+    font-size: $fontSize;
+    text-align: center;
+    display: inline-block;
+    background-color: $loginButNormal;
+    border: none;
+    padding: 0 0.58rem;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0.17rem;
+    //text-shadow: 0 0 3px #121212;
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+        background-color: $loginButHover;
+        @include transition();
+    }
+
+    &:active {
+        background-color: $loginButActive;
+        @include transition();
+    }
+
+    &.disabled, &[disabled] {
+        background-color: $colorDisable;
+        cursor: not-allowed;
+        opacity: .5;
+        color: $loginDisFont;
+
+        &:hover, &:active {
+            box-shadow: none;
+            //background-color: $btnBgColor2;
+        }
+    }
+
+}
+
+@mixin textOverflow($line:1) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    @if $line == 1 {
+        white-space: nowrap;
+        max-width: 100%;
+    } @else {
+        display: -webkit-box;
+        -webkit-line-clamp: $line;
+        -webkit-box-orient: vertical;
+    }
+
+}
+
+@mixin flexContainer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+
+@mixin flexItem($value:1) {
+    -webkit-box-flex: $value;
+    -webkit-flex: $value;
+    flex: $value;
+}
+
+@mixin flexJustify($value:center) {
+    -webkit-box-pack: $value;
+    -webkit-justify-content: $value;
+    justify-content: $value;
+}
+
+@mixin flexAlign($value:center) {
+    -webkit-box-align: $value;
+    -webkit-align-items: $value;
+    align-items: $value;
+}
+
+@mixin setOpacity($opacity) {
+    opacity: $opacity;
+}
+
+/* 查询条件中树形选择下拉框 */
+@mixin selectTree($width:auto,$height:32px,$fontSize:14px) {
+    min-width: 200px;
+    cursor: pointer;
+    height: $height;
+    font-size: $fontSize;
+    line-height: 1.5;
+    padding: 4px 0 4px 7px;
+    width: $width;
+    display: inline-block;
+    border: 1px solid #2C5D77;
+    position: relative;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: left;
+}
+
+/* 查询条件中汇总选项下拉框 */
+@mixin selectSummary($width:auto,$height:32px,$fontSize:14px) {
+    min-width: 150px;
+    display: inline-block;
+    height: $height;
+    width: $width;
+    margin-left: 14px;
+    border: solid 1px #2C5D77;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: $fontSize;
+    padding-left: 7px;
+    line-height: 2.1;
+}
+
+/* 查询条件中的普通下拉框 */
+@mixin selectCommon($width:auto,$height:32px) {
+    min-width: 80px;
+    display: inline-block;
+    height: $height;
+    width: $width;
+    margin-left: 14px;
+    border: solid 1px #2C5D77;
+    background-color: rgba(0, 0, 0, 0.8);
+    line-height: 2.5;
+}
+
+/* 查询条件中的测点下拉框 */
+@mixin selectPoint($width:auto,$height:32px,$fontSize:14px) {
+    min-width: 200px;
+    cursor: pointer;
+    line-height: 1.5;
+    padding: 4px 0 4px 7px;
+    width: $width;
+    display: inline-block;
+    border: 1px solid #2C5D77;
+    position: relative;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: left;
+    height: $height;
+    font-size: $fontSize;
+}
+
+/* 查询条件中的selectIcon(向下的箭头) */
+@mixin selectIcon($top:10px,$right:5px,$fontSize:12px) {
+    position: absolute;
+    right: $right;
+    top: $top;
+    font-size: $fontSize;
+    color: $textColor2;
+}
+
+/* 查询条件中的input框 */
+@mixin queryInput($width:auto,$height:32px,$fontSize:14px) {
+    min-width: 70px;
+    margin-left: 14px;
+    height: $height;
+    display: inline-block;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-overflow: ellipsis;
+    word-break: keep-all;
+    width: $width;
+    border-radius: 0;
+    font-size: $fontSize;
+}
+
+/* 查询条件中的格式规范(垂直居中及左右間距) */
+@mixin queryOptions($lineHeight:60px) {
+    margin: 14px 8px 14px 12px;
+    float: left;
+    //margin: 0 8px 0 12px;
+    //line-height: $lineHeight;
+    //display: inline-block;
+    //vertical-align: middle;
+}
+
+/* 查询条件中的文字格式规范 */
+@mixin queryLabel($fontSize:12px,$lineHeight:60px) {
+    font-size: $fontSize;
+    font-weight: lighter;
+    //line-height: $lineHeight;
+    //display: inline-block;
+    //margin: 0 0 0 10px;
+}
+
+
+@mixin title($fontSize:18px,$height:24px) {
+    color: $textColor1;
+    font-size: $fontSize;
+    padding: 0 0 0 15px;
+    height: $height;
+    line-height: $height;
+    width: 100%;
+    position: relative;
+    @include textOverflow();
+
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 4px;
+        height: 100%;
+        background: $borderLeftColor;
+    }
+}
+
+@mixin saveIcon() {
+    color: $datePickerColor1;
+    font-size: 18px;
+    vertical-align: text-bottom;
+}
+
+//tab的字样式
+.tabWord{
+    font-weight: bold;
+}
+.tabnormalWord{
+    font-weight:normal;
+}
+//统一修改了tab的字体样式
+:global{
+    .ant-tabs-nav .ant-tabs-tab{
+        font-weight: bold;
+    }
+}
+
+//控制顶层的Tab，让它底部的线可以延展到最右侧
+.tableContentSwitcher {
+    margin-bottom: 4px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    right: 20px;
+    :global(.ant-tabs-bar) {
+        margin-bottom: 0;
+    }
+}
+//右侧搜索框的高度宽度
+.rightSearch{
+    width: 240px;
+    height: 32px;
+}
+//把表的扩展界面修改成UI想要的
+:global{
+    .ant-table-row-level-1 td{
+        background-color: #FAFBFD;
+    }
+    //tab字体
+    .ant-tabs:not(.ant-modal-root){
+        .ant-tabs-nav .ant-tabs-tab{
+            font-size: 16px;
+        }
+    }
+    .ant-radio-group{
+        font-size: 16px;
+    }
+}
+//表格操作栏按钮样式
+.actionBtnInTb {
+    color: $homeBasicColor;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.actionBtnInTbDisable {
+    margin-right: 20px;
+}
+//表格里状态前的原点样式
+@mixin dot {
+    margin-right: 4px;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+}
+.status {
+    display: flex;
+    align-items: center;
+
+    .bluedot {
+        background-color: #0cb7d5;
+        @include dot
+    }
+
+    .blackdot {
+        background-color: #a0a0a0;
+        @include dot
+    }
+    .greendot {
+        background-color: #33a02f;
+        @include dot
+    }
+    .reddot{
+        background-color: #a02334;
+        @include dot
+    }
+    .yellowdot{
+        background-color: #f3f51d;
+        @include dot
+    }
+}

@@ -1,0 +1,348 @@
+.view {
+    height: 100%;
+
+    & > div {
+        height: 100%;
+    }
+
+    .leftTreeContainer {
+        background: rgba(15, 42, 59, 0.8);
+
+        .leftTree {
+            padding: 10px;
+            height: 100%;
+
+            .treeSubTitle {
+                margin-left: 10px;
+
+                .icon {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    .rightTable {
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+
+        .toolbar {
+            padding-bottom: 10px;
+
+            & > button {
+                margin-right: 20px;
+            }
+        }
+    }
+
+    .orgCardArea {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        .loadingArea {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .loadingAreaHidden{
+            display: none;
+        }
+
+        .cardContent {
+            width: 225px;
+            height: 110px;
+            background-color: rgba(0, 228, 255, 0.2);
+            border-radius: 4px;
+            cursor: pointer;
+            position: relative;
+            padding: 16px 10px 13px 17px;
+            display: flex;
+            flex-direction: row;
+            margin-right: 20px;
+            margin-bottom: 20px;
+
+            &:before {
+                display: block;
+                content: ' ';
+                position: absolute;
+                top: 43px;
+                left: -1px;
+                height: 24px;
+                width: 3px;
+                background: #93dfff;
+            }
+
+            .cardLeft {
+                width: 38px;
+                height: 100%;
+
+                .cardLeftIcon {
+                    width: 100%;
+                    height: 38px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .cardLeftIconSize {
+                        font-size: 28px;
+                        text-align: center;
+                        color: #00e4ff;
+                    }
+                }
+            }
+
+            .cardRight {
+                width: calc(100% - 38px);
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                padding-left: 18px;
+                justify-content: space-between;
+
+                .cardRightTitle {
+                    width: 125px;
+                    font-size: 16px;
+                    color: #ffffff;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+
+                .cardRightNum {
+                    font-size: 14px;
+                    color: #00f6ff;
+                }
+            }
+
+            .cardDelete {
+                position: absolute;
+                right: 13px;
+                top: 11px;
+                display: none;
+                background: transparent;
+            }
+
+            &:hover {
+                .cardDelete {
+                    display: block;
+                }
+            }
+        }
+
+        .addCardArea {
+            width: 235px;
+            height: 110px;
+            background-color: rgba(0, 228, 255, 0.2);
+            border-radius: 4px;
+            display: flex;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            align-items: center;
+            justify-content: center;
+
+            .cardAddBtn {
+                width: 68px;
+                height: 32px;
+                border-radius: 4px;
+                border: solid 1px #00e4ff;
+                color: #00e4ff;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.operations {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    color: #00e4ff;
+
+    & > span {
+        cursor: pointer;
+    }
+}
+
+.orgDevicePart {
+    margin-bottom: 20px;
+    width: 100%;
+    overflow: hidden;
+    .deviceTableTitle {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        .btn :global(.portal-antd-btn) {
+            border-color: transparent;
+            background: transparent;
+            color: #0cb7d5;
+        }
+    }
+
+    .Word {
+        margin-right: 8px;
+        margin-bottom: 10px;
+        color: #bfbfbf;
+        font-size: 14px;
+    }
+}
+
+.deviceTableArea {
+    width: 100%;
+    padding: 10px 10px 0 0;
+}
+
+.actionBtnArea {
+    width: 100%;
+    height: 32px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+
+    .actionBtn {
+        height: 32px;
+        padding: 0 10px;
+        border-radius: 4px;
+        border: solid 1px #00e4ff;
+        color: #00e4ff;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    .disableActionBtn {
+        height: 32px;
+        padding: 0 10px;
+        border-radius: 4px;
+        border: solid 1px #c1c2c3;
+        color: #c1c2c3;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: not-allowed;
+        margin-right: 10px;
+    }
+
+    .actionBtnName {
+        margin-left: 8px;
+    }
+}
+
+.backImg {
+    margin-right: 5px;
+}
+
+.myCollapseArea {
+    .orgInfoArea {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 10px;
+        position: relative;
+        .loadingArea {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .loadingAreaHidden{
+            display: none;
+        }
+        .orgInfoAreaHead {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .orgInfoAreaRow {
+            width: 33.3%;
+            display: flex;
+            margin-bottom: 22px;
+        }
+    }
+
+    .infoTitle {
+        text-align: right;
+        color: #bfbfbf;
+        font-size: 14px;
+    }
+
+    .infoValue {
+        color: #ffffff;
+        font-size: 14px;
+        margin-left: 15px;
+        max-width: 290px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+    }
+
+    :global {
+        .portal-antd-collapse {
+            background-color: transparent;
+            border: none;
+            color: #ffffff;
+        }
+
+        .portal-antd-collapse-content {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 0px 0px 4px 4px;
+            border: none;
+            min-height: 239px;
+        }
+
+        .portal-antd-collapse > .portal-antd-collapse-item {
+            border: none;
+            margin-bottom: 24px;
+        }
+
+        .portal-antd-collapse
+            > .portal-antd-collapse-item
+            > .portal-antd-collapse-header {
+            color: #ffffff;
+            margin-bottom: 2px;
+        }
+
+        .portal-antd-collapse-icon-position-right
+            > .portal-antd-collapse-item
+            > .portal-antd-collapse-header {
+            position: relative;
+            padding: 11px 12px;
+            background-color: rgba(42, 189, 189, 0.6);
+            border-radius: 4px 4px 0 0;
+            border-bottom: solid 2px #a3ff2b;
+        }
+
+        .portal-antd-collapse
+            > .portal-antd-collapse-item
+            > .portal-antd-collapse-header::before {
+            width: 4px;
+            height: 16px;
+            background-color: #03e6f5;
+            border-radius: 2px;
+            left: 0;
+            top: 13px;
+            position: absolute;
+        }
+    }
+}

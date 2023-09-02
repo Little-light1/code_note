@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "ipicId": 1,
+      "ipicName": "xxx",
+      "ipicFiletoken": "NTEzZGFiNjFjMWJhZTI1MTIzZTUwYjJmYjY0YjFmYjY=",
+      "originFileName": "pic1.png",
+      "ipicSort": 1,
+      "ipicIsenable": 1
+    }
+  ],
+  "msg": "",
+  "code": "200"
+}

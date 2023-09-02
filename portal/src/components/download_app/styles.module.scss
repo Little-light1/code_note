@@ -1,0 +1,27 @@
+.qrCode {
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+
+    div {
+        width: 180px;
+        background-color: rgb(10, 40, 52, 0.5);
+        height: 210px;
+        padding: 15px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+
+        div {
+            width: 150px;
+            height: 150px;
+            background-color: #f08300;
+        }
+
+        span {
+            color: white;
+            margin-top: 15px;
+            text-align: center;
+        }
+    }
+}

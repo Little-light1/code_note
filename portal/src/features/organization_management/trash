@@ -1,0 +1,103 @@
+// const dictModelMap = data.reduce((prev, curr) => ({...prev, [curr.treeKey]: curr}), {});
+
+// const preprocessData = preprocessByRule(data, dictModelMap);
+
+// const dictModelTree = flat2Tree({
+//   // antd 4.17.0以后可以通过定义fields属性规避
+//   flatData: preprocessData.map((item) => ({...item, key: item.treeKey, title: item.dictModelName})),
+//   keyPropName: 'treeKey',
+//   parentKeyPropName: 'parentTreeKey',
+//   isRoot: (value) => typeof value === 'undefined',
+// });
+
+// const dictModelTreeOnlyType = flat2Tree({
+//   flatData: flagTreeData(data, dictModelMap).filter((item) => item.type === DICT_TYPES.class.key),
+//   keyPropName: 'treeKey',
+//   parentKeyPropName: 'parentTreeKey',
+//   isRoot: (value) => typeof value === 'undefined',
+// });
+
+
+// ---------------------------------------------------------------------------------------------------
+/**
+ * 根据规则预处理树数据
+ * @param data
+ */
+export function preprocessByRule(data: DictModel[], map: {[key: string]: any}): PreprocessReturnItem[] {
+  // 预处理依赖关系
+  Object.values(map).forEach(({parentTreeKey, treeKey}) => {
+    if (parentTreeKey && map[parentTreeKey]) {
+      if (!map[parentTreeKey].childrenKeys) {
+        map[parentTreeKey].childrenKeys = [];
+      }
+      map[parentTreeKey].childrenKeys.push(treeKey);
+    }
+  });
+
+  const preprocessData = data.map((item) => {
+    const {parentTreeKey, treeKey} = item;
+
+    const subProps: {modifiable?: boolean; addable?: boolean; deletable?: boolean} = {};
+
+    // 1. 根节点不允许修改
+    subProps.modifiable = false;
+    if (typeof parentTreeKey !== 'undefined') {
+      subProps.modifiable = true;
+    }
+
+    // 2. 所有节点都可以添加
+    subProps.addable = true;
+
+    // 3. 已存在子项不可以删除
+    subProps.deletable = true;
+    if (map[treeKey] && map[treeKey].childrenKey) {
+      subProps.deletable = false;
+    }
+
+    // 4. 根节点不允许删除
+    if (typeof parentTreeKey !== 'undefined') {
+      subProps.deletable = false;
+    }
+
+    return {...item, ...subProps};
+  });
+
+  // 当前字典节点下任然存在字典
+  const filterData = preprocessData.filter((item) => {
+    if (item.type === DICT_TYPES.class.key) {
+      return true;
+    }
+    if (item.type === DICT_TYPES.dict.key && map[item.treeKey].childrenKeys) {
+      return true;
+    }
+    return false;
+  });
+
+  return filterData;
+}
+
+export function flagTreeData(data: DictModel[], map: {[key: string]: any}): PreprocessReturnItem[] {
+  Object.values(map).forEach((item) => {
+    item.addable = false;
+    item.modifiable = true;
+    item.deletable = true;
+  });
+
+  data.forEach((item) => {
+    const {parentTreeKey, treeKey, type} = item;
+
+    // 字典项的老子是分类, 这个老子就不能创建分类的, 只能创建字典
+    if (type === DICT_TYPES.dict.key && parentTreeKey && map[parentTreeKey] && map[parentTreeKey].type === DICT_TYPES.class.key) {
+      map[parentTreeKey].addable = [DICT_TYPES.class.key];
+      map[parentTreeKey].deletable = false;
+    }
+
+    // 根节点不能修改
+    if (typeof parentTreeKey === 'undefined') {
+      map[treeKey].modifiable = false;
+      map[treeKey].deletable = false;
+    }
+  });
+
+  return data;
+}

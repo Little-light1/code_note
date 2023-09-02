@@ -1,0 +1,20 @@
+{
+  "code": "200",
+  "msg": "操作成功",
+  "data": {
+    "NTEzZGFiNjFjMWJhZTI1MTIzZTUwYjJmYjY0YjFmYjY=": {
+      "id": 1,
+      "filePath": "2021-11-12/163668196742800003523_pic1.png",
+      "fileToken": "NTEzZGFiNjFjMWJhZTI1MTIzZTUwYjJmYjY0YjFmYjY=",
+      "createTime": [2021, 11, 12, 9, 52, 47],
+      "originFileName": "pic1.png"
+    },
+    "YjY1ZWQ2YjM5NDM4YWI0MTYzZmNkMjQ1ZjkxOTM4YWM=": {
+      "id": 7,
+      "filePath": "2021-11-15/163696020013200041696_pic1.png",
+      "fileToken": "YjY1ZWQ2YjM5NDM4YWI0MTYzZmNkMjQ1ZjkxOTM4YWM=",
+      "createTime": [2021, 11, 15, 15, 10],
+      "originFileName": "pic1.png"
+    }
+  }
+}

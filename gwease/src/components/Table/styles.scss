@@ -1,0 +1,61 @@
+.ease-table-container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  .ease-table-search {
+    padding: 5px 0;
+  }
+
+  .ease-table {
+    flex: 1;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .ease-virtual-table {
+    flex: 1;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .ease-table-view {
+    height: 100%;
+  }
+
+  .ease-virtual-table-view{
+    height: 100%;
+
+  }
+
+  .ease-table-virtual-grid {}
+
+  .ease-table-virtual-cell {
+    padding: 8px 8px;
+    border-bottom: 1px solid #f0f0f0;
+    border-right: 1px solid #f0f0f0;
+    transition: background 0.3s;
+  }
+
+  .ease-table-virtual-cell-odd {}
+
+  .ease-table-virtual-cell-even {}
+
+  .ease-table-virtual-cell-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: keep-all;
+  }
+
+  .ease-table-virtual-cell-last {
+    border-right: none;
+  }
+
+  .ease-table-virtual-selection-column {
+    text-align: center;
+  }
+
+}

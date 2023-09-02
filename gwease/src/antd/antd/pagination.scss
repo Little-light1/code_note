@@ -1,0 +1,155 @@
+/*
+ * @Author: sds 
+ * @Date: 2022-02-23 17:26:51 
+ * @Last Modified by: sun.t
+ * @Last Modified time: 2022-04-12 15:01:56
+ */
+@import "../colors.scss";
+
+.ease-app {
+
+  // 分页
+  .portal-antd-table-pagination {
+
+    .portal-antd-pagination-item {
+      background-color: transparent;
+      border: 1px solid #00b6ce;
+      margin-right: -1px;
+    }
+
+    .portal-antd-pagination-item.portal-antd-pagination-item-active {
+      background-color: rgba(24, 144, 255, 0.5);
+    }
+
+    .portal-antd-pagination-options-size-changer {
+      color: $font;
+
+      .portal-antd-select-arrow {
+        color: $font;
+      }
+
+      .portal-antd-select-dropdown {
+        background: $table-pagination-dropdown;
+        border: 1px solid #2e3c44;
+        box-shadow: 0px 0px 8px 0px #0d2035;
+        opacity: 0.84;
+        border-radius: 4px;
+
+        .portal-antd-select-item {
+          color: $font;
+        }
+
+        .portal-antd-select-item-option-active:not(.portal-antd-select-item-option-disabled),
+        .portal-antd-select-item-option-selected:not(.portal-antd-select-item-option-disabled) {
+          color: $table-expand-icon;
+          background: $table-pagination-dropdown-selected-background;
+        }
+
+        .portal-antd-table-container>.portal-antd-table-body {
+          max-height: 760px !important;
+        }
+      }
+    }
+  }
+
+  .portal-antd-pagination-jump-prev .portal-antd-pagination-item-container .portal-antd-pagination-item-ellipsis,
+  .portal-antd-pagination-jump-next .portal-antd-pagination-item-container .portal-antd-pagination-item-ellipsis {
+    color: $font;
+  }
+
+  .portal-antd-pagination-jump-prev .portal-antd-pagination-item-container .portal-antd-pagination-item-link-icon,
+  .portal-antd-pagination-jump-next .portal-antd-pagination-item-container .portal-antd-pagination-item-link-icon {
+    color: $font;
+  }
+
+  /* Pagination */
+  .portal-antd-pagination {
+    color: #ffffff;
+  }
+
+  .portal-antd-pagination-prev .portal-antd-pagination-item-link,
+  .portal-antd-pagination-next .portal-antd-pagination-item-link {
+    background: transparent;
+    border: 1px solid #00b6ce;
+  }
+
+  .portal-antd-pagination-item a {
+    color: #ffffff;
+  }
+
+  .portal-antd-pagination-item-active {
+    background-color: rgba(24, 144, 255, 0.5);
+    border-color: #00b6ce;
+  }
+
+  .portal-antd-pagination-item-active a {
+    color: #9b8888;
+  }
+
+  .portal-antd-pagination-disabled .portal-antd-pagination-item-link,
+  .portal-antd-pagination-disabled:hover .portal-antd-pagination-item-link,
+  .portal-antd-pagination-disabled:focus-visible .portal-antd-pagination-item-link {
+    color: #ffffff;
+  }
+
+  .portal-antd-pagination-disabled,
+  .portal-antd-pagination-disabled:hover,
+  .portal-antd-pagination-disabled a[disabled] {
+    color: rgba(255, 255, 255, 0.25);
+    cursor: not-allowed;
+  }
+
+  .portal-antd-pagination-prev button,
+  .portal-antd-pagination-next button {
+    color: #ffffff;
+  }
+
+  .portal-antd-pagination-options-quick-jumper input {
+    background-color: transparent;
+    border: 1px solid #00b6ce;
+    color: #ffffff;
+  }
+
+  .portal-antd-pagination-prev,
+  .portal-antd-pagination-jump-prev,
+  .portal-antd-pagination-jump-next {
+    margin-right: -1px;
+  }
+
+  .portal-antd-pagination-prev .portal-antd-pagination-item-link,
+  .portal-antd-pagination-next .portal-antd-pagination-item-link {
+    border-radius: 2px 0 0 2px;
+  }
+
+  // mini
+  .portal-antd-pagination.mini .portal-antd-pagination-prev,
+  .portal-antd-pagination.mini .portal-antd-pagination-next {
+    border: 1px solid #00b6ce;
+    margin-right: -1px;
+  }
+
+  .portal-antd-pagination.mini .portal-antd-pagination-item:not(.portal-antd-pagination-item-active) {
+    border-color: #00b6ce;
+  }
+
+  .portal-antd-pagination.mini .portal-antd-pagination-item {
+    margin-right: -1px;
+  }
+
+  .portal-antd-pagination.mini .portal-antd-pagination-options {
+    margin-left: 20px;
+  }
+
+  .portal-antd-table-small .portal-antd-table-thead>tr>th {
+    background-color: #006576;
+  }
+
+  .portal-antd-pagination.mini .portal-antd-pagination-prev .portal-antd-pagination-item-link,
+  .portal-antd-pagination.mini .portal-antd-pagination-next .portal-antd-pagination-item-link {
+    line-height: 2px;
+  }
+
+  .portal-antd-pagination-options .portal-antd-select {
+    width: 110px;
+  }
+}

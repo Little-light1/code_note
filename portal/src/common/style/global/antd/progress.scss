@@ -1,0 +1,13 @@
+/*
+ * @Author: mikey.zhaopeng 
+ * @Date: 2022-04-18 14:22:37 
+ * @Last Modified by: mikey.zhaopeng
+ * @Last Modified time: 2022-04-18 14:24:11
+ */
+@import '~@style/variable/color.scss';
+
+.portal-app {
+  .portal-antd-progress-text {
+    color: $font;
+  }
+}

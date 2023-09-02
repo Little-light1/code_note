@@ -1,0 +1,64 @@
+/*
+ * @Author: sds 
+ * @Date: 2021-12-02 09:27:30 
+ * @Last Modified by: selwyn.bishanwen
+ * @Last Modified time: 2022-11-03 10:42:59
+ */
+
+@import '~@style/variable/component.scss';
+
+.userManage {
+  :global {
+    .portal-antd-select-multiple .portal-antd-select-selection-item {
+      background: transparent;
+    }
+
+    .portal-antd-select-multiple .portal-antd-select-selection-item-remove {
+      color: #ffffff;
+    }
+
+    .portal-antd-select-multiple .portal-antd-select-selection-item-remove:hover {
+      color: #ffffff;
+    }
+
+    .portal-antd-input {
+      background-color: transparent;
+      border: 1px solid $search-input-border;
+    }
+
+    .portal-antd-input-affix-wrapper.portal-antd-input-password {
+      background-color: transparent;
+      border: 1px solid $search-input-border;
+
+      .portal-antd-input-password-icon {
+        color: gray;
+      }
+    }
+
+    .portal-antd-select-single .portal-antd-select-selector .portal-antd-select-selection-search {
+      left: 2px;
+    }
+
+    .portal-antd-form-item-has-error :not(.portal-antd-input-affix-wrapper-disabled):not(.portal-antd-input-affix-wrapper-borderless).portal-antd-input-affix-wrapper,
+    .portal-antd-form-item-has-error :not(.portal-antd-input-affix-wrapper-disabled):not(.portal-antd-input-affix-wrapper-borderless).portal-antd-input-affix-wrapper:hover {
+      background-color: transparent;
+    }
+    .portal-antd-select-selection-item-content{
+      max-width: 250px;
+    }
+  }
+
+  .random {
+    cursor: pointer;
+    width: 75px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #1a9fb3;
+  }
+
+  .upload {
+    width: 150px;
+    height: 150px;
+  }
+}

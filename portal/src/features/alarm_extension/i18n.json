@@ -1,0 +1,44 @@
+{
+  "zh": {
+    "save": "保存",
+    "serialNumber": "序号",
+    "businessApplication": "业务应用",
+    "alertRedirectUrl": "告警跳转地址",
+    "show": "显示",
+    "noUrlTips": "请先输入告警跳转地址！",
+    "wrongUrl": "请输入相对路径或者绝对路径,绝对路径需包含协议",
+    "alarmConfigTip": "告警扩展配置保存成功！",
+    "relateUrlMsg": "请输入正确的相对路径",
+    "absUrlMsg": "请输入正确的绝对路径",
+    "onlyEnNoAndLineMsg": "请输入数字、字母或斜杠",
+    "saveLogDesc": "修改告警扩展配置:{{name}}"
+  },
+  "en": {
+    "save": "save",
+    "serialNumber": "Serial number",
+    "businessApplication": "Business Applications",
+    "alertRedirectUrl": "Alarm jump address",
+    "show": "show",
+    "noUrlTips": "Please enter the alarm jump address first!",
+    "wrongUrl": "Please enter the relative path or absolute path. The absolute path needs to be included",
+    "alarmConfigTip": "The alarm expansion configuration is successfully saved!",
+    "relateUrlMsg": "Please enter the correct relative path",
+    "absUrlMsg": "Please enter the correct absolute path",
+    "onlyEnNoAndLineMsg": "Please enter numbers, letters, or slashes",
+    "saveLogDesc": "Modify the alarm extension configuration: {{name}}"
+  },
+  "es": {
+    "save": "ahorrar",
+    "serialNumber": "Número de serie",
+    "businessApplication": "Aplicaciones de negocios",
+    "alertRedirectUrl": "Dirección de salto de alarma",
+    "show": "mostrar",
+    "noUrlTips": "¡Ingrese primero la dirección de salto de alarma!",
+    "wrongUrl": "Ingrese la ruta relativa o la ruta absoluta. La ruta absoluta debe incluirse",
+    "alarmConfigTip": "¡La configuración de expansión de alarma se guarda correctamente!",
+    "relateUrlMsg": "Ingrese la ruta relativa correcta",
+    "absUrlMsg": "Ingrese la ruta absoluta correcta",
+    "onlyEnNoAndLineMsg": "Ingrese números, letras o cortes",
+    "saveLogDesc": "Modificar la configuración de la extensión de alarma: {{nombre}}"
+  }
+}

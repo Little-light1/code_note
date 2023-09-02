@@ -1,0 +1,59 @@
+/*
+ * @Author: sds 
+ * @Date: 2021-12-02 09:27:30 
+ * @Last Modified by: mikey.zhaopeng
+ * @Last Modified time: 2022-08-24 10:43:14
+ */
+.view {
+    .content {
+        .groupButton {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-content: space-between;
+            >Button,>span{ 
+                margin-bottom: 10px;
+            }
+
+            .normal {
+                background: #0090a3;
+                border-color: transparent;
+                border-radius: 5px;
+                color: #fff;
+            }
+
+            .delete {
+                background: #cb3d3d;
+                border-color: transparent;
+                border-radius: 5px;
+                color: #fff;
+            }
+
+            .export {
+                background: transparent;
+                border-radius: 5px;
+                color: #40b9c9;
+                border: solid 1px #40b9c9;
+            }
+        }
+
+        .search {
+            width: 315px;
+
+            :global {
+                .portal-antd-input {
+                    background: transparent;
+                    border: 1px solid #40b9c9;
+                    color: #fff;
+                }
+
+                .portal-antd-input-search-button {
+                    border-color: #40b9c9;
+                }
+            }
+        }
+        .marginTop{
+            margin-top: 10px;
+        }
+    }
+}

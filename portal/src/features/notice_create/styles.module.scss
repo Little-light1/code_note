@@ -1,0 +1,93 @@
+/*
+ * @Author: sds 
+ * @Date: 2022-01-02 14:00:29 
+ * @Last Modified by: gongzunbao
+ * @Last Modified time: 2023-07-20 15:22:31
+ */
+@import '~@style/variable/component.scss';
+.view {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    position: relative;
+    overflow-x: auto;
+    .content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+        .searchTitle {
+            margin-right: 10px;
+        }
+
+        .noticeSearch {
+            width: 200px;
+            border: 1px solid $search-input-border;
+        }
+
+        .right {
+            display: flex;
+            justify-content: space-between;
+            // width: 40%;
+        }
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+        cursor: pointer;
+        padding: 10px 10px 10px 20px !important;
+        margin-right: 20px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        background-image: url('./static/tab.png');
+        background-size: cover;
+        .rowItem {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            .msgType {
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .right {
+                display: flex;
+                // width: 40%;
+            }
+        }
+        .msgRow {
+            display: flex;
+            .msgContent {
+                width: 90%;
+                text-overflow: -o-ellipsis-lastline;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                line-clamp: 1;
+                -webkit-box-orient: vertical;
+            }
+            .pushRight {
+                margin-left: auto;
+            }
+        }
+    }
+}
+.operations {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.read {
+    opacity: 0.5;
+}
+:global {
+    .portal-antd-list-pagination {
+        text-align: left !important;
+    }
+}

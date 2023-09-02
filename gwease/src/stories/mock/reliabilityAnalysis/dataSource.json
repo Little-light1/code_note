@@ -1,0 +1,208 @@
+[
+  {
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "AM测试场站A1A1A9",
+    "indexValue": null,
+    "orgId": "tbdg",
+    "farm_id": "tbdg",
+    "farm_name": "AM测试场站A1A1A9",
+    "index": 1,
+    "key": 0
+  },
+  {
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "gll单电站",
+    "indexValue": null,
+    "orgId": "gll4",
+    "farm_id": "gll4",
+    "farm_name": "gll单电站",
+    "index": 2,
+    "key": 1
+  },
+  {
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "gll电场1",
+    "indexValue": null,
+    "orgId": "gll6",
+    "farm_id": "gll6",
+    "farm_name": "gll电场1",
+    "index": 3,
+    "key": 2
+  },
+  {
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "gll电场1",
+    "indexValue": null,
+    "orgId": "gll10",
+    "farm_id": "gll10",
+    "farm_name": "gll电场1",
+    "index": 4,
+    "key": 3
+  },
+  {
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "gll电场2",
+    "indexValue": null,
+    "orgId": "gll8",
+    "farm_id": "gll8",
+    "farm_name": "gll电场2",
+    "index": 5,
+    "key": 4
+  },
+  {
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "syh-2",
+    "indexValue": null,
+    "orgId": "syh",
+    "farm_id": "syh",
+    "farm_name": "syh-2",
+    "index": 6,
+    "key": 5
+  },
+  {
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "多电站1",
+    "indexValue": null,
+    "orgId": "gll1",
+    "farm_id": "gll1",
+    "farm_name": "多电站1",
+    "index": 7,
+    "key": 6
+  },
+  {
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "多电站2",
+    "indexValue": null,
+    "orgId": "gll2",
+    "farm_id": "gll2",
+    "farm_name": "多电站2",
+    "index": 8,
+    "key": 7
+  },
+  {
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "多电站3",
+    "indexValue": null,
+    "orgId": "666",
+    "farm_id": "666",
+    "farm_name": "多电站3",
+    "index": 9,
+    "key": 8
+  },
+  {
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "多电站4",
+    "indexValue": null,
+    "orgId": "55",
+    "farm_id": "55",
+    "farm_name": "多电站4",
+    "index": 10,
+    "key": 9
+  },
+  {
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "本子级无子组织",
+    "indexValue": null,
+    "orgId": "BZJWithout1",
+    "farm_id": "BZJWithout1",
+    "farm_name": "本子级无子组织",
+    "index": 11,
+    "key": 10
+  },
+  {
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "朱林娟test3",
+    "indexValue": null,
+    "orgId": "5555",
+    "farm_id": "5555",
+    "farm_name": "朱林娟test3",
+    "index": 12,
+    "key": 11
+  },
+  {
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "朱林娟test4",
+    "indexValue": null,
+    "orgId": "78899",
+    "farm_id": "78899",
+    "farm_name": "朱林娟test4",
+    "index": 13,
+    "key": 12
+  },
+  {
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "朱林娟test6",
+    "indexValue": null,
+    "orgId": "朱林娟test6",
+    "farm_id": "朱林娟test6",
+    "farm_name": "朱林娟test6",
+    "index": 14,
+    "key": 13
+  },
+  {
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "李艳艳test1",
+    "indexValue": null,
+    "orgId": "LYYtest1",
+    "farm_id": "LYYtest1",
+    "farm_name": "李艳艳test1",
+    "index": 15,
+    "key": 14
+  },
+  {
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "测试一下不映射选设备",
+    "indexValue": null,
+    "orgId": "test001001",
+    "farm_id": "test001001",
+    "farm_name": "测试一下不映射选设备",
+    "index": 16,
+    "key": 15
+  },
+  {
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "绿电华益紫薇锡铁山风电场测试1",
+    "indexValue": null,
+    "orgId": "AM",
+    "farm_id": "AM",
+    "farm_name": "绿电华益紫薇锡铁山风电场测试1",
+    "index": 17,
+    "key": 16
+  },
+  {
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "CR风电场1",
+    "control_center_id": "CRjk1",
+    "control_center_name": "CR集控1",
+    "indexValue": null,
+    "orgId": "CRfdc1",
+    "farm_id": "CRfdc1",
+    "farm_name": "CR风电场1",
+    "index": 18,
+    "key": 17
+  },
+  {
+    "area_name": "sphm测试区域1",
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "test1",
+    "area_id": "sphm_r1",
+    "indexValue": null,
+    "orgId": "13333",
+    "farm_id": "13333",
+    "farm_name": "test1",
+    "index": 19,
+    "key": 18
+  },
+  {
+    "area_name": "sphm测试区域1",
+    "dimTime": "2022-07-01 ~ 2022-07-31",
+    "indexName": "山西右玉牛心堡风电场",
+    "area_id": "sphm_r1",
+    "indexValue": null,
+    "orgId": "sxyynxbfdc",
+    "farm_id": "sxyynxbfdc",
+    "farm_name": "山西右玉牛心堡风电场",
+    "index": 20,
+    "key": 19
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "downlevelIteration": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@common/*": ["src/common/*"],
+      "@constant/*": ["src/common/constant/*"],
+      "@utils/*": ["src/common/utils/*"],
+      "@types/*": ["src/common/types/*"],
+      "@style/*": ["src/common/style/*"],
+      "@components/*": ["src/components/*"],
+      "@services/*": ["src/services/*"],
+      "@features/*": ["src/features/*"]
+    },
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules",
+        "options": {
+          "customMatcher": ".(style|css|scss|less|sass)$"
+        }
+      }
+    ]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build"]
+}

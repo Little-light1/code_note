@@ -1,0 +1,61 @@
+@import '../colors.scss';
+
+.ease-app {
+  .portal-antd-modal-root {
+    color: black;
+  }
+
+  .portal-antd-modal-root {
+    color: black;
+  }
+
+  .portal-antd-modal {
+    .portal-antd-modal-content {
+      padding-bottom: 0;
+      border-radius: 4px;
+      color: #fff;
+      background: rgba(1, 14, 22, 0.8);
+      border: 1px solid rgba(38, 232, 255, 0.3);
+      box-shadow: 0px 0px 10px 0px #0b2227;
+    }
+  }
+
+  .portal-antd-modal-close {
+    color: #fff;
+  }
+
+  .portal-antd-modal-close:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .portal-antd-modal-body {
+    padding: 10px 24px;
+  }
+
+  .portal-antd-modal-content {
+    background: none;
+    color: #ffffff;
+  }
+
+  .portal-antd-modal-header {
+    background: none;
+    color: #ffffff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  }
+
+  .portal-antd-modal-title {
+    color: #ffffff;
+  }
+
+  .portal-antd-modal-footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+  }
+
+  .portal-antd-modal-confirm-body .portal-antd-modal-confirm-title {
+    color: #ffffff;
+  }
+
+  .portal-antd-modal-confirm-content {
+    color: #ffffff !important;
+  }
+}

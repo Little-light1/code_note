@@ -1,0 +1,32 @@
+.ease-search-tree {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  // background: rgba(15, 42, 59, 0.8);
+
+  .ease-search-tree-container {
+    flex: 1;
+    overflow: auto;
+  }
+}
+
+.ease-search-tree-title {
+  display: flex;
+  align-items: center;
+
+  // 样式移动到全局
+  .ease-search-tree-title-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.ease-search-tree-title-searched {
+  color: rgb(96, 196, 222);
+}
+
+.ease-tree-empty {
+  color: #ffffff;
+}

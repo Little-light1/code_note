@@ -1,0 +1,20 @@
+.alarmBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .searchBar {
+        margin-bottom: 20px;
+    }
+    .table {
+        height: 500px;
+    }
+    .tool_icons {
+        cursor: pointer;
+        color: #03e6f5;
+        font-size: 16px;
+    }
+    .tool_icons_disabled {
+        cursor: not-allowed;
+        color: gray;
+    }
+}

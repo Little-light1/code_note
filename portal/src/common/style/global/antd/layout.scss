@@ -1,0 +1,13 @@
+@import '~@style/variable/color.scss';
+
+
+
+.portal-app {
+    .portal-antd-layout {
+        background: none;
+    }
+
+    .portal-antd-layout-header {
+        color: $font;
+    }
+}

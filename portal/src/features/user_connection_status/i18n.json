@@ -1,0 +1,53 @@
+
+{
+  "zh": {
+    "organization": "所属组织机构",
+    "organizationTip": "请选择组织机构",
+    "userAccount": "用户账号",
+    "userName": "用户名称",
+    "connectionStatus": "连接状态",
+    "pleaseSelect": "请选择",
+    "pleaseInput": "请输入",
+    "all": "全部",
+    "offline": "离线",
+    "online": "在线",
+    "userType": "用户类型",
+    "lifeCycle": "使用周期",
+    "serialNumber": "序号",
+    "queryList": "查询用户连接状态监测列表"
+  },
+
+  "en": {
+    "organization": "Organization",
+    "organizationTip": "Please select an organization",
+    "userAccount": "User account",
+    "userName": "User name",
+    "connectionStatus": "Connection Status",
+    "pleaseSelect": "Please select",
+    "pleaseInput": "Please input",
+    "all": "All",
+    "offline": "Offline",
+    "online": "Online",
+    "userType": "User type",
+    "lifeCycle": "Life cycle",
+    "serialNumber": "Serial number",
+    "queryList": "Query user connection status monitoring list"
+  },
+
+  "es": {
+    "organization": "Organización",
+    "organizationTip": "Seleccione una organización",
+    "userAccount": "Cuenta de usuario",
+    "userName": "Nombre de usuario",
+    "connectionStatus": "conexión",
+    "pleaseSelect": "Por favor elige",
+    "pleaseInput": "Por favor ingrese",
+    "all": "Todos",
+    "offline": "Desconectado",
+    "online": "En línea",
+    "userType": "Tipo de usuario",
+    "lifeCycle": "Ciclo vital",
+    "serialNumber": "Número de serie",
+    "queryList": "Consultar la lista de monitoreo del Estado de conexión del usuario"
+  }
+}

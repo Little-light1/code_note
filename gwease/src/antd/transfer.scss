@@ -1,0 +1,32 @@
+@import './colors.scss';
+
+.ease-app {
+  .portal-antd-transfer-list {
+    border: solid 1px $button-primary;
+
+    .portal-antd-transfer-list-header {
+      background-color: $button-primary;
+      color: $font;
+      border-bottom: 1px solid $button-primary;
+    }
+  }
+
+  .portal-antd-transfer-list-content-item {
+    color: $font;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $button-primary-hover;
+      color: $font;
+    }
+  }
+
+  .portal-antd-transfer-list-content-item:not(.portal-antd-transfer-list-content-item-disabled):hover {
+    background-color: $button-primary-hover;
+  }
+
+  .portal-antd-transfer-list-content-item-checked {
+    background: transparent;
+  }
+}

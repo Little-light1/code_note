@@ -1,0 +1,368 @@
+/**
+ * Created by wanghaijiang on 2017/8/9.
+ */
+
+$ctnBgColor1: rgba(12, 35, 58, .85);
+
+$ctnBdColor1: rgba(44, 93, 119, .85);
+$ctnBdColor2: rgba(44, 93, 119, 0.6);
+
+$btnBgColor1: rgba(29, 214, 214, .75);
+$btnBgColor2: #17AEAE;
+$btnBgColor3: #154063;
+$btnBgColor4: #0D1F35;
+$btnBgColor5: #103c5e;
+$btnBgColorRed: #CE5151;
+
+$btnBdColor1: #274E6D;
+$btnBdColor2: #3a7c9c;
+
+$formBgColor1: rgba(0, 0, 0, .5);
+
+$formBgColor2: rgba(44, 93, 119, 0.85);
+
+// ../app_component/side_bar correlated colors
+
+$menuBgColor: rgba(14, 38, 65, 0.85);
+$menuBgColor1: rgba(14, 22, 41, 0.85);
+$menuBgColor2: rgba(27, 138, 192, 0.35);
+$menuBgColor3: rgba(27, 138, 192, 0.12);
+$menuBgColor4: rgba(0, 0, 0, 0);
+$menuBgColor5: rgba(255, 255, 255, 0.35);
+$menuBgColor6: rgba(18, 45, 74, 0.9);
+$menuBgColor7: rgba(19, 64, 97, 0.9);
+
+$menuNavBdColor: #0B4558;
+$menuConBdColor: #204157;
+$addBdColor: #1DD6D6;
+$menuBdColor1: #2C5D77;
+$menuBdColor2: rgb(11, 33, 52);
+$menuBdColor3: rgb(77, 157, 187);
+
+$ctnSdColorMenu: rgba(0, 0, 0, 0.85);
+$addSdColor: rgba(0, 153, 255, 0.2);
+
+$textColor1: #fff;
+$white: #fff;
+$black: #000;
+$textColor2: #66ffff;
+$textColor3: #BFBFBF;
+$textColor4: #ccc;
+$textColor5: #5a5d66;
+$textColor6: #348299;
+$textColor7: #17AEAE;
+$textColor8: #a0a0a0;
+$textColor10: #a2a1a2;
+$textColor11: #FF0000;
+$textColor13: #333;
+$textColor14: #fffeff;
+$textColor15: #26f4ff;
+$textColor17: #2ff4fb;
+$textColor18: #26CCD7;
+$textColor20: #FFFF99;
+$textColor21: #F6A512;
+$textColor22: #fefefe;
+$textColor23: #feffff;
+
+// ../app_component/head correlated colors
+$viewBgColor2: #1B344E;
+$tabBgColor: #102c48;
+$tabBgColor2: #0E2741;
+$tabBgColor3: #102B46;
+$tabBgColor4: #E36868;
+$tabFontColor: #C2C2C2;
+$tabFontColor1: #3A7B9E;
+$tabFontColor2: #1DD6D6;
+$itemBgColor: rgba(31, 30, 40, 0.4);
+
+$viewBdColor2: #204F6B;
+$itemBdColor: #5bbabf;
+$tabBdColor: #73ECEC;
+$tabBdColor1: #67C8E8;
+$tabBdColor2: #474B63;
+$tabBdColor3: #224B66;
+$tabBdColor4: #071836;
+$tabBdColor5: #051836;
+$tabBdColor6: #4EC4C3;
+
+$hstBdColor1: #35465F;
+$warnBgColor1: #FF0000;
+
+$appBgColor1: #071F41;
+
+$panelBdColor1: #656571;
+$pabelBdColor2: #4d9dbb;
+
+$intBgColor1: #0d1529;
+$intBgColor2: rgba(20, 50, 86, .3);
+$submitBgColor1: rgb(23, 111, 126); //#176F7E
+$loginBdColor1: #055c98;
+$loginBgColor1: #ffffff;
+$intBdColor1: rgb(14, 101, 111); //#0e656f
+
+$loginSdColor1: #0aa6ff;
+$submitSdColor1: #121212;
+
+$magBgColor1: #123256;
+$mapBdColor1: #455B74;
+$mapBdColor2: #465D77;
+
+$editBgColor1: #1f2531;
+$editBgColor2: #0e2843;
+$editBdColor1: #2a5973;
+$editBdColor2: #2f5071;
+$editSdColor1: #041a32;
+
+$roleBgColor1: #000;
+$roleBgColor10: rgba(42, 50, 65, .6);
+$roleBgColor14: #091a2a;
+
+$roleBdColor1: #3B888F;
+$roleBdColor2: #676971;
+$roleBdColor3: #202030;
+
+$titleBgColor1: #1C405B;
+$titleBgColor2: #E7F1FA;
+$titleBgColor3: #0c233e;
+
+$titleBdColor1: #222222;
+$titleBdColor2: #102845;
+$titleBdColor3: #C9DFED;
+$titleBdColor4: #536273;
+
+$alertBgColor1: #777;
+
+$cockpitBdColor1: #3e4c67;
+$cockpitBdColor2: #13161d;
+$cockpitBdColor3: #111;
+$cockpitBdColor4: #DDDDDD;
+$cockpitBdColor5: #d9dadb;
+
+$cockpitBgColor1: rgba(44, 61, 71, 0.4);
+$cockpitBgColor2: rgba(44, 61, 71, 0.5);
+$cockpitBgColor3: #112A48;
+
+$treeCheckColor: #525c66;
+
+$trSelectedBgColor: rgb(16, 61, 90);
+$trSelectedBdColor: #145C83;
+
+$alarmRegBorderColor: #324E64;
+$alarmRegBgColor: #0E2843;
+$alarmRegReadBgColor: #091928;
+$alarmRegTryIt: #19acb3;
+
+$tableHeaderBgColor: #0f3854;
+$tableOddBgColor: #0c1d31;
+$tableEvenBgColor: #0d293f;
+$tableHeaderBdColor1: #0B1D30;
+$tableHeaderBdColor2: #25516B;
+$tableNormlBdColor: rgba(255, 255, 255, .04);
+
+$boosterWarnTypeBorderColor: #26536E;
+$boosterWarnTypeBgColor: #113D60;
+$boosterInfoTabs: #25506A;
+$boosterInfoTabsContent: #0D314E;
+$boosterInfoYXBg: #1A4C6C;
+$yaoceTabBorderRight: #2B5D78;
+$yaoceTabBgColorOdd: #102F43;
+$yaoceTabBorderColorOdd: #295C7B;
+$boosterModalInputBorder: #35586C;
+$boosterModalInputBg: #0A1A2A;
+$boosterModalFooter: #0E1629;
+
+$cockpitBdColor7: rgba(255, 255, 255, .6);
+
+$measurePointBorder: #22A7A2;
+$measureTurboBorder: #29485D;
+$measureTurboBg: #0B3148;
+$measureTurboActiveBorder: #21D3D5;
+$measureTurboActiveBg: #05131E;
+$measureTreeFooterBorder: #2F5A6D;
+$measureFuncBtnNormal: #123D5D;
+$measureTableHead: #0E344B;
+$measureTableHeadBorder: #00223B;
+$measureTableFootBtnBg: #E46962;
+$measureTableFootBg: #0D354F;
+$measureTableTooltipBorder: #2B3C4C;
+$measureBtnHover: #1ddbdb;
+$measureBtnBoxShadow: #14545D;
+
+$warnCatBg: #113C5D;
+$warnCatBd: #214F6D;
+$warnCatBg2: #102239;
+$warnTableBd: #24546B;
+$warnhTypeColor1: #dda118;
+$warnhTypeColor0: #dff09d;
+$warnhTypeColor2: #d55762;
+$warnConfrimBdColor1: #2A5970;
+$warnConfirmBdColor2: #5d6e7e;
+$warnConfirmBgColor1: #173148;
+$warnConfirmBgColor2: #071727;
+
+$borderLeftColor: #19acb3;
+$btnDisabled: #808080;
+
+$agcBdColor: #536374;
+$realTimeMonitorBdColor: #25374C;
+
+$operationViewBgColor1: #39565e;
+$operationViewBgColor2: #62de88;
+$operationViewBgColor3: rgb(170, 170, 170);
+$operationViewBgColor4: rgb(204, 204, 204);
+
+$helpBdColor: rgba(44, 93, 119, 0.85);
+
+$powerCurveManager1: #0E2641;
+$powerCurveManager2: #2C5D77;
+$powerCurveManager3: #1BC9C9;
+$powerCurveManager4: #0D2842;
+$powerCurveManager5: #275770;
+$powerCurveManager6: #0d2941;
+$powerCurveManager7: #0b1d31;
+$powerCurveManager8: rgba(205, 81, 81, 0.3);
+$powerCurveManager9: rgb(206, 81, 81);
+$powerCurveManager10: rgb(44, 93, 119);
+$powerCurveManager11: rgba(14, 22, 41, 0.95);
+$powerCurveManager12: #103D5A;
+
+$addRemove1: rgba(14, 22, 41, 0.95);
+
+$appLeftBorder: #75f2fd;
+
+$datePickerColor1: #63C0E1;
+
+$sideFieldsGreen1: #91ffb8;
+$sideFieldsGreen2: #8CF6B2;
+$sideFieldsGreen3: #b8d6c3;
+$sideFieldsGreen4: #2d5e3f;
+
+$audioOnColor: #76f2fe;
+$audioOnColor1: #00FFFF;
+
+$trBgColor: #05162A;
+
+$lightStautsBorder: rgb(27, 72, 102); //#1B4866
+$lightStautsBg: rgb(23, 43, 62); //#172B3E
+$lightStautsTrue: rgb(0, 217, 163); //#00D9A3
+$lightStautsFalse: rgb(255, 92, 38); //#FF5C26
+$lightStautsUnknow: rgb(160, 160, 160); //#A0A0A0
+
+$blueLoginDesc: #63B1C2;
+
+/*login-but*/
+$colorDisable: #e9e9e9;
+$loginButNormal: #3a95e2;
+$loginButHover: #40acff;
+$loginButActive: #0068b7;
+$loginDisFont: #9d9d9d;
+/** login **/
+$loginFontColor: #3e3e3e;
+$loginFontColorOp: rgba(62,62,62,0.4);
+$loginGreyColor: rgba(12,12,32,0.2);
+$loginBorderFocus: #0068b7;
+/** head **/
+$headBgColor: rgba(0,0,0,0.2);
+/** home **/
+@mixin splitColors {
+    background-color: $splitColor;
+    //box-shadow: $splitBoxShadow;
+    opacity: 0.3;
+}
+$homePanelBorderColor: #c1c1c1;
+$homePanelBgColor: #fff;
+$homeColor: #333;
+$homeColorGrey: #666;
+$homeColorGrey2: #bbb;
+$homeBorderColor: #f0f0f0;
+$homeChartGrid: #ccc;
+$homeHeadBottom: #eee;//linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(162, 162, 162, 0.5) 50%, rgba(255, 255, 255, 0) 100%);
+$homeSummaryBottom: linear-gradient(0deg, #eeeeee 0%, #eeeeee 100%), linear-gradient(#ffffff, #ffffff);
+$homeAreaSplit: linear-gradient(90deg, rgba(162, 162, 162, 0.04) 0%, rgba(162, 162, 162, 0.2) 50%, rgba(162, 162, 162, 0.04) 100%);
+$splitColor: #e7e7e7;
+$splitBoxShadow: 0px 0px 4px 0px rgba(0, 23, 61, 0.33);
+
+$homeBasicColor: #0cb7d5;
+$homeSubColor: #67b4ef;
+$homeBreadcrumbColor: #999;
+$homeMenuIconColor: #a6a6a6;
+$homePageShadow: 0px 8px 10px 0px rgba(140, 140, 140, 0.2);
+$homePageBorder: solid 1px rgba(191, 191, 191, 0.4);
+$homePageBorderRadius: 8px;
+$textSelectShadow: 0px 0px 1px $homeBasicColor;
+$scrollBarColor: rgba(103, 180, 239, 0.4);
+$scrollBarHoverColor: rgba(103, 180, 239, 0.6);
+$scrollBarWidth: 6px;
+$homeTabLine: #ccc;
+$homeTab: #aaa;
+$homeTabHighlight: #20c1dd;
+$homeAlarmGrey: #aaaaaa;
+$homeAlarmRed: #ff5555;
+$homeAlarmFault: rgba(255,85,85,0.75);
+$homeAlarmWarning: rgba(250,206,53,0.75)    ;
+$homeAlarmInfo: rgba(255,243,140,0.75);
+$homeRadioBgColor: rgba(95, 169, 222, 0.1);
+$homeRadioBorderColor: rgba(32, 193, 221, 0.8);
+$homeRadioBgColorChecked: rgba(32, 193, 221, 0.2);
+$homeRadioBorderColorChecked: rgb(32, 193, 221);
+$homeServiceAccessTabActiveBg: $homeTabHighlight;
+$homeServiceAccessTabActiveColor: #fff;
+$homeModelGrey: #9da4ac;
+$homeModelBlue: #2eb8e5;
+$lineblue:#2eb8e5;
+$networkIn: #2eb8e5;
+$networkOut: #7d9be6;
+$cpuMax: #00a0e9;
+$cpuMin: #7d9be6;
+$diskTotal: #c9cfda;
+$diskHot: #67b4ef;
+$diskCold: #8ceaff;
+$diskCylinder: $diskTotal;
+$diskCylinderBorderColor: #ddd;
+$diskCylinderCold: #709aef;
+$diskCylinderHot: #96d6e7;
+/**图表颜色**/
+$chartDataScaleColors: #2eb8e5 #25ffdf #7d9be6;
+$chartDataScaleSubColor: $homeBasicColor;
+$chartModelOverviewColor1: rgba(120,231,255,0.35);
+$chartModelOverviewStroke1: #78e7ff;
+$chartModelOverviewColor2: rgba(125,155,230,0.35);
+$chartModelOverviewStroke2: #7d9be6;
+/**crud view**/
+$crudBg: #f5f5f5;
+$crudContentBg: $white;
+$crudTableHead: $white;
+$crudTableHeadBottom: rgba(103, 180, 239, 0.4);
+$crudTableRowEven: #f8f8f8;
+$crudBorderColor: #e4e4e4;
+/**help view**/
+$helpSubColor: #bbb;
+$helpSearchIconColor: #c1c1c1;
+$helpLinkColor: $homeBasicColor;
+
+:export {
+    scrollBarColor: $scrollBarColor;
+    scrollBarWidth: $scrollBarWidth;
+    homeColor: $homeColor;
+    homeColorGrey: $homeColorGrey;
+    homeColorGrey2: $homeColorGrey2;
+    homeTabLine: $homeTabLine;
+    homeChartGrid: $homeChartGrid;
+    homeBasicColor: $homeBasicColor;
+    homeTabHighlight: $homeTabHighlight;
+    networkIn: $networkIn;
+    networkOut: $networkOut;
+    cpuMax: $cpuMax;
+    cpuMin: $cpuMin;
+    chartDataScaleColors: $chartDataScaleColors;
+    chartDataScaleSubColor: $chartDataScaleSubColor;
+    chartModelOverviewColor1: $chartModelOverviewColor1;
+    chartModelOverviewStroke1: $chartModelOverviewStroke1;
+    chartModelOverviewColor2: $chartModelOverviewColor2;
+    chartModelOverviewStroke2: $chartModelOverviewStroke2;
+    diskCylinderCold: $diskCylinderCold;
+    diskCylinderHot: $diskCylinderHot;
+}
+//antd btn默认边框色和字体色
+$btnBorderColor:#d3d3d3;
+$btnWordColor:#8c8c8c

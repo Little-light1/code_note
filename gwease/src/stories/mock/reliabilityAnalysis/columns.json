@@ -1,0 +1,66 @@
+[
+  {
+    "title": "序号",
+    "dataIndex": "index",
+    "key": "index",
+    "align": "center",
+    "ellipsis": true,
+    "width": "44",
+    "visible": true
+  },
+  {
+    "title": "集团名称",
+    "dataIndex": "group_name",
+    "key": "group_name",
+    "align": "center",
+    "ellipsis": true,
+    "width": "126",
+    "visible": true
+  },
+  {
+    "title": "区域名称",
+    "dataIndex": "area_name",
+    "key": "area_name",
+    "align": "center",
+    "ellipsis": true,
+    "width": "138",
+    "visible": true
+  },
+  {
+    "title": "集控名称",
+    "dataIndex": "control_center_name",
+    "key": "control_center_name",
+    "align": "left",
+    "ellipsis": true,
+    "width": "150",
+    "sorter": false,
+    "visible": true
+  },
+  {
+    "title": "电场名称",
+    "dataIndex": "farm_name",
+    "key": "farm_name",
+    "align": "center",
+    "ellipsis": true,
+    "width": "214",
+    "visible": true
+  },
+  {
+    "title": "统计时间",
+    "dataIndex": "dimTime",
+    "key": "dimTime",
+    "align": "center",
+    "ellipsis": true,
+    "width": "214",
+    "visible": true
+  },
+  {
+    "title": "平均无故障运行时间",
+    "dataIndex": "mtbf",
+    "key": "mtbf",
+    "align": "center",
+    "ellipsis": true,
+    "width": "214",
+    "visible": true
+  }
+]

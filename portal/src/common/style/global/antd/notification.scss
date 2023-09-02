@@ -1,0 +1,33 @@
+@import '~@style/variable/color.scss';
+
+.portal-app {
+    // 限制notification最大高度
+    .portal-antd-notification {
+        max-height: calc(100% - 50px);
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .portal-antd-notification-notice-with-icon
+        .portal-antd-notification-notice-description {
+        margin: 0 20px 0 48px;
+    }
+
+    // .portal-antd-notification-notice {
+    //     color: white;
+    // }
+
+    // .portal-antd-notification-notice-closable {
+    //     .portal-antd-notification-notice-close {
+    //         color: white;
+    //         right: 15px;
+    //     }
+    // }
+
+    // .portal-antd-notification-notice-error {
+    //     background: rgba(0, 17, 26, 0.8);
+
+    //     // .anticon.portal-antd-notification-notice-icon-error {
+    //     //     color: white;
+    //     // }
+    // }
+}

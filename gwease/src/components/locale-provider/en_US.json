@@ -1,0 +1,27 @@
+{
+    "Table": {
+        "index": "Serial No",
+        "originalData": "Raw Data",
+        "quitEdit": "Click Esc to exit form editing state",
+        "hide": "Hide",
+        "setDisplayCols": "Set display columns",
+        "total": "Total {total}"
+    },
+    "GlobalMask": {
+        "loading": "Loading..."
+    },
+    "Modal": {
+        "ok": "Sure",
+        "cancel": "Cancel"
+    },
+    "SearchTreeSelect": {
+        "placeholder": "Please choose",
+        "searchPlaceholder": "Please enter query criteria"
+    },
+    "Page": {
+        "renderError": "Page rendering error",
+        "retry": "Retry",
+        "refresh": "Refresh",
+        "message": "Error message"
+    }
+}

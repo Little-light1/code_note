@@ -1,0 +1,154 @@
+[
+  {
+    "title": "序号",
+    "dataIndex": "index",
+    "key": "index",
+    "width": "65px",
+    "sorter": null,
+    "align": "center"
+  },
+  {
+    "title": "集团名称",
+    "dataIndex": "group_name",
+    "key": "group_name",
+    "width": "150px",
+    "sorter": null,
+    "align": "left"
+  },
+  {
+    "title": "区域名称",
+    "dataIndex": "area_name",
+    "key": "area_name",
+    "width": "150px",
+    "sorter": null,
+    "align": "left"
+  },
+  {
+    "title": "电场名称",
+    "dataIndex": "farm_name",
+    "key": "farm_name",
+    "width": "150px",
+    "sorter": null,
+    "align": "left"
+  },
+  {
+    "title": "统计时间",
+    "dataIndex": "statisticsTime",
+    "key": "statisticsTime",
+    "width": "150px",
+    "sorter": null,
+    "align": "left"
+  },
+  {
+    "title": "上网电量(万kWh)",
+    "dataIndex": "onElec",
+    "key": "onElec",
+    "width": "160px",
+    "sorter": "asc",
+    "align": "right"
+  },
+  {
+    "title": "场区出线电量(万kWh)",
+    "dataIndex": "fieldOutElec",
+    "key": "fieldOutElec",
+    "width": "190px",
+    "sorter": "asc",
+    "align": "right"
+  },
+  {
+    "title": "平均风速(m/s)",
+    "dataIndex": "averageWindSpeed",
+    "key": "averageWindSpeed",
+    "width": "150px",
+    "sorter": "asc",
+    "align": "right"
+  },
+  {
+    "title": "理论发电量(万kWh)",
+    "dataIndex": "wtTheoryActivePower",
+    "key": "wtTheoryActivePower",
+    "width": "180px",
+    "sorter": "asc",
+    "align": "right"
+  },
+  {
+    "title": "场区发电量(万kWh)",
+    "dataIndex": "correctelec",
+    "key": "correctelec",
+    "width": "180px",
+    "sorter": "asc",
+    "align": "right"
+  },
+  {
+    "title": "损失电量(万kWh)",
+    "dataIndex": "wtLossPower",
+    "key": "wtLossPower",
+    "width": "160px",
+    "sorter": "asc",
+    "align": "right"
+  },
+  {
+    "title": "等效利用小时数(h)",
+    "dataIndex": "equivalentUseHours",
+    "key": "equivalentUseHours",
+    "width": "170px",
+    "sorter": "asc",
+    "align": "right"
+  },
+  {
+    "title": "综合能量可利用率(%)",
+    "dataIndex": "energyAvailability",
+    "key": "energyAvailability",
+    "width": "190px",
+    "sorter": "asc",
+    "align": "right"
+  },
+  {
+    "title": "集电线路及箱变损耗电量(万kWh)",
+    "dataIndex": "lossPowerOfLineAndBox",
+    "key": "lossPowerOfLineAndBox",
+    "width": "260px",
+    "sorter": "asc",
+    "align": "right"
+  },
+  {
+    "title": "集电线路及箱变电能损耗率(%)",
+    "dataIndex": "lossPowerOfLineAndBoxRate",
+    "key": "lossPowerOfLineAndBoxRate",
+    "width": "250px",
+    "sorter": "asc",
+    "align": "right"
+  },
+  {
+    "title": "站内进线电量(万kWh)",
+    "dataIndex": "incomingPower",
+    "key": "incomingPower",
+    "width": "190px",
+    "sorter": "asc",
+    "align": "right"
+  },
+  {
+    "title": "升压站损耗电量(万kWh)",
+    "dataIndex": "lossPowerOfBoosterStation",
+    "key": "lossPowerOfBoosterStation",
+    "width": "210px",
+    "sorter": "asc",
+    "align": "right"
+  },
+  {
+    "title": "升压站电能损耗率(%)",
+    "dataIndex": "lossPowerOfBoosterStationRate",
+    "key": "lossPowerOfBoosterStationRate",
+    "width": "190px",
+    "sorter": "asc",
+    "align": "right"
+  },
+  {
+    "title": "PBA(%)",
+    "dataIndex": "pba",
+    "key": "pba",
+    "width": "100px",
+    "sorter": "asc",
+    "align": "right"
+  }
+]

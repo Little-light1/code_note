@@ -1,0 +1,25 @@
+.group {
+    padding: 0 20px;
+
+    .area {
+        width: 100%;
+        display: flex;
+
+        .item {
+            display: flex;
+            align-items: center;
+            margin-right: 30px;
+
+            &>div {
+                margin-right: 5px;
+            }
+
+            .block {
+                display: inline-block;
+                height: 15px;
+                width: 15px;
+            }
+        }
+
+    }
+}

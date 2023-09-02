@@ -1,0 +1,60 @@
+@import '~@style/variable/color.scss';
+
+// 通用按钮:
+
+
+// 重置
+.commonButtonReset {
+  background-color: transparent;
+  border: 1px solid $button-primary;
+  color: $button-primary;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: transparent;
+    color: $font;
+  }
+}
+
+// icon
+// table 操作图标颜色
+.commonOperationIcon {
+  color: $table-expand-icon;
+  cursor: pointer;
+}
+
+//  当状态禁用删除图标样式
+.commonDisabledIcon {
+  cursor: not-allowed !important; //会是一个禁止的形状
+  color: $table-expand-icon;
+}
+
+// 带搜索框的列表结构抽取
+.searchView {
+  display: flex;
+  flex-direction: column;
+
+  .topContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tableArea {
+    padding: 10px 0;
+    min-height: 200px;
+    display: flex;
+    flex: 1;
+  }
+}
+
+// 已修改待保存
+.commonStatusEdited {
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  border-radius: 50%;
+  background: rgba(255, 137, 155, 1);
+}

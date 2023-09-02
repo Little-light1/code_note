@@ -1,0 +1,83 @@
+/*
+ * @Author: sds 
+ * @Date: 2021-12-02 09:27:30 
+ * @Last Modified by: sun.t
+ * @Last Modified time: 2022-01-27 19:58:55
+ */
+.roleAssociate {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+    & > div {
+        height: 100%;
+    }
+
+    .left {
+        width: 47%;
+    }
+
+    .middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .operateIcon {
+            display: flex;
+            flex-direction: column;
+            height: 80px;
+            justify-content: space-between;
+
+            :global {
+                .portal-antd-btn[disabled] {
+                    background: #1a3f44;
+                }
+            }
+
+            & > Button {
+                background: #0090a3;
+                border: none;
+
+                :hover {
+                    color: #63e4f4;
+                }
+            }
+
+            .icon {
+                color: #fff;
+            }
+        }
+
+        .cutLine {
+            height: 45%;
+            width: 1px;
+            border-right: 1px solid rgba(67, 141, 222, 0.2);
+            margin: 10px 0;
+        }
+    }
+
+    .right {
+        width: 47%;
+    }
+
+    .content {
+        .head {
+            display: flex;
+            margin-bottom: 5px;
+        }
+    }
+    .inputSearch {
+        :global {
+            .portal-antd-input {
+                background: transparent;
+                border: 1px solid #40b9c9;
+                color: #fff;
+            }
+
+            // .portal-antd-input-search-button {
+            //     border-color: #40b9c9;
+            // }
+        }
+    }
+}

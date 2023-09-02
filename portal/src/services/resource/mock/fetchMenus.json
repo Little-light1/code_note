@@ -1,0 +1,78 @@
+{
+  "code": "200",
+  "msg": "",
+  "data": [
+    {
+      "id": "1468211603353759746",
+      "code": "portal_local",
+      "secret": "EjvtfalhCSqUKRZqBZcB/Q==",
+      "name": "应用门户_本地",
+      "version": "v1.0.200.0",
+      "menuModelVOS": [
+        {
+          "menuModeId": 1,
+          "menuModeCode": "测试",
+          "menuModeNameCn": "string",
+          "menuModeNameEn": "string",
+          "parentTreeKey": "0_0",
+          "treeKey": "0_1",
+          "applicationCode": "portal_local",
+          "menuRoutingPath": "/dataDictConfig"
+        }
+      ]
+    },
+    {
+      "id": "1374523982048567297",
+      "code": "things",
+      "secret": "EjvtfalhCSqUKRZqBZcB/Q==",
+      "name": "物管理",
+      "version": "v1.0.200.0",
+      "menuModelVOS": [
+        {
+          "menuModeId": 1,
+          "menuModeCode": "测试",
+          "menuModeNameCn": "string",
+          "menuModeNameEn": "string",
+          "parentTreeKey": "0_0",
+          "treeKey": "0_1",
+          "applicationCode": "things",
+          "menuRoutingPath": "string"
+        }
+      ]
+    },
+    {
+      "id": "1403221614576676866",
+      "code": "scada",
+      "secret": "2ZMo7zC3x9qzuCVFbeNQOA==",
+      "name": "scada",
+      "version": "v1",
+      "menuModelVOS": []
+    },
+    {
+      "id": "1405343748040138753",
+      "code": "wm_scada",
+      "secret": "aTSi0LnTqTDfdWIvLL1qpw==",
+      "name": "wm_scada名称",
+      "version": "V1",
+      "menuModelVOS": []
+    },
+    {
+      "id": "2",
+      "code": "public",
+      "secret": "6kM0gfBfOyKYfM+iyxA5+g==",
+      "name": "公共组件",
+      "version": "6.0.200.0",
+      "company": "金风慧能",
+      "menuModelVOS": []
+    },
+    {
+      "id": "3",
+      "code": "dataplat",
+      "secret": "6kM0gfBfOyKYfM+iyxA5+g==",
+      "name": "数据平台",
+      "version": "6.0.200.0",
+      "company": "金风慧能",
+      "menuModelVOS": []
+    }
+  ]
+}

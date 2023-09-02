@@ -1,0 +1,50 @@
+@import '~@style/variable/component.scss';
+
+.view {
+  height: 100%;
+
+  &>div {
+    height: 100%;
+  }
+
+  .leftTreeContainer {
+    // background: rgba(15, 42, 59, 0.8);
+    background: linear-gradient(90deg, rgba(10, 70, 93, 0.4), rgba(7, 72, 98, 0.7));
+    box-shadow: 0px 8px 16px 0px rgb(8 53 112 / 40%);
+    border-radius: 4px;
+
+    .leftTree {
+      padding: 10px;
+      height: 100%;
+
+      .treeSubTitle {
+        margin-left: 10px;
+
+        .icon {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+
+  .rightTable {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+
+    .toolbar {
+      padding-bottom: 10px;
+
+      &>button {
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+.operations {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+}

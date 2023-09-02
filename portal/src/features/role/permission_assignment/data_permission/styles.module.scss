@@ -1,0 +1,165 @@
+@import '~@style/variable/component.scss';
+
+.view {
+    height: 100%;
+    display: flex;
+
+    .tabs {
+        height: 100%;
+        width: 126px;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        .tabTitle {
+            width: 126px;
+            height: 50px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            position: relative;
+            justify-content: center;
+            cursor: pointer;
+            margin-bottom: 1px;
+
+            .title {
+                display: flex;
+                justify-content: space-around;
+                padding: 1px 0px;
+
+                .span {
+                    text-overflow: -o-ellipsis-lastline;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                }
+                .iconGroup {
+                    .icon {
+                        margin-right: 5px;
+                        font-size: 15px;
+
+                        &:hover {
+                            color: #0496ab;
+                        }
+                    }
+                }
+            }
+
+            .divider {
+                position: absolute;
+                width: 95%;
+                bottom: 0;
+                height: 2px;
+                border-radius: 1px;
+                background: linear-gradient(
+                    90deg,
+                    rgba(3, 230, 245, 0.1),
+                    rgba(3, 230, 245, 0.99),
+                    rgba(3, 230, 245, 0.1)
+                );
+            }
+        }
+
+        .active {
+            border-radius: 4px 0px 0px 4px;
+            background: linear-gradient(
+                90deg,
+                #025e6b 0%,
+                rgba(12, 154, 172, 0.1) 100%
+            );
+        }
+
+        .activeBlock {
+            width: 4px;
+            height: 16px;
+            background: #03e6f5;
+            border-radius: 2px;
+            position: absolute;
+        }
+    }
+
+    .scope {
+        width: 161px;
+        height: 100%;
+        background: rgba(12, 154, 172, 0.1);
+        border-radius: 0px 0px 0px 4px;
+        display: flex;
+        flex-direction: column;
+
+        .title {
+            padding: 5px;
+        }
+
+        .content {
+            flex: 1;
+            padding: 10px;
+        }
+    }
+
+    .allocation {
+        background: rgba(12, 154, 172, 0.16);
+        // flex: 1;
+        width: calc(100% - 287px);
+        // width: 0;
+        display: flex;
+
+        .organization {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+
+            .title {
+                padding: 5px;
+            }
+        }
+
+        .device {
+            flex: 1;
+            width: 0;
+            display: flex;
+            flex-direction: column;
+
+            .title {
+                padding: 5px;
+            }
+        }
+
+        .fomItem {
+            flex: 1;
+            padding: 10px;
+            overflow: auto;
+
+            :global {
+                .portal-antd-form-item-control-input {
+                    height: 100%;
+                }
+
+                .portal-antd-form-item-control-input-content {
+                    height: 100%;
+                }
+
+                .portal-antd-form-item-control {
+                    height: 100%;
+                }
+
+                .portal-antd-row {
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    .tableArea {
+        height: 290px;
+    }
+
+    .formItemNoBorder {
+        :global {
+            .portal-antd-input {
+                border: none;
+            }
+        }
+    }
+}

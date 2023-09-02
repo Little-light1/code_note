@@ -1,0 +1,137 @@
+@import '~@style/variable/component.scss';
+
+.view {
+    background: url('../images/header.jpg');
+    background-size: cover;
+    height: 72px;
+    width: 100%;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .toggle {
+        width: 50px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .toggle_child {
+            position: absolute;
+            top: 0;
+            left: 10;
+            width: 25px;
+            height: 50px;
+            padding-bottom: 10px;
+            cursor: pointer;
+            background-color: #0496ab;
+            border-radius: 0 0 50px 50px;
+        }
+    }
+
+    .systemName {
+        min-width: 200px;
+    }
+
+    .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+
+        .systemName {
+            height: 48px;
+            line-height: 48px;
+            font-size: 36px;
+            text-align: center;
+            font-weight: bold;
+            font-family: '微软雅黑';
+        }
+    }
+
+    //影响非1920*1080分辨率下样式展现
+    //   :global {
+    //     .portal-antd-col {
+    //       width: 0;
+    //     }
+    //   }
+
+    .quickBar {
+        display: flex;
+        height: 100%;
+        justify-content: flex-end;
+    }
+
+    .smallIcon {
+        font-size: 14px;
+        opacity: 0.5;
+        padding: 0 10px;
+    }
+
+    .line {
+        border-color: rgba(255, 255, 255, 0.5);
+        height: 24px;
+    }
+}
+
+.toggleHidden {
+    width: 22px;
+    height: 18px;
+    position: absolute;
+    float: left;
+    color: white;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 2px;
+    transition: height 0.5s;
+
+    &:hover {
+        height: 30px;
+    }
+
+    .toggleHidden_child {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25px;
+        height: 100%;
+        cursor: pointer;
+        background-color: #0496ab;
+        border-radius: 0 0 50px 50px;
+    }
+
+    .icon {
+        color: $font-layout-toggle;
+        text-shadow: 0 0 8px $font-shadow-layout-toggle;
+    }
+}
+
+// .header {
+//   height: 110px;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   padding: 0;
+
+//   // .logo {
+//   //   height: 100%;
+//   //   width: 200px;
+//   //   display: flex;
+//   //   align-items: center;
+//   // }
+// }
+.header {
+    height: 110px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 !important;
+    color: #ffffff;
+}

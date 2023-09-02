@@ -1,0 +1,61 @@
+/*
+ * @Author: sds 
+ * @Date: 2022-02-23 17:26:51 
+ * @Last Modified by: sun.t
+ * @Last Modified time: 2022-04-13 23:26:57
+ */
+@import '~@style/variable/color.scss';
+
+.portal-app {
+    .portal-antd-select-tree .portal-antd-select-tree-node-content-wrapper {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .portal-antd-select-tree-treenode {
+        .portal-antd-select-tree-show-line,
+        .portal-antd-select-tree-switcher {
+            background: transparent;
+        }
+    }
+
+    .portal-antd-select-tree
+        .portal-antd-select-tree-node-content-wrapper:hover {
+        background: $search-input-border;
+    }
+
+    .portal-antd-select-tree {
+        // box-shadow: 0px 10px 20px 0px rgba(140, 140, 140, 0.2);
+        padding: 10px;
+        background: rgba(15, 42, 59, 0.8);
+        border-radius: 4px;
+        color: $font;
+    }
+
+    .portal-antd-select-tree
+        .portal-antd-select-tree-treenode-disabled
+        .portal-antd-select-tree-node-content-wrapper {
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .portal-antd-select-tree
+        .portal-antd-select-tree-node-content-wrapper.portal-antd-select-tree-node-selected {
+        background-color: $tree-node-selected-background;
+        color: $tree-node-selected;
+    }
+    .portal-antd-tree-switcher-line-icon {
+        svg {
+            color: #00e4ff;
+        }
+    }
+
+    .portal-antd-select-tree-switcher-leaf-line::before {
+        border-right: 1px dashed $tree-switcher-leaf-line;
+        border-left: none;
+    }
+
+    .portal-antd-select-tree-switcher-leaf-line::after {
+        border-bottom: 1px dashed $tree-switcher-leaf-line;
+    }
+}

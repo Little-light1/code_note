@@ -1,0 +1,20 @@
+@import '~@style/variable/color.scss';
+
+
+.portal-antd-popover-arrow-content,
+.portal-antd-popover-inner {
+  background-color: $popover-background !important;
+  color: $font;
+
+  .portal-antd-popover-inner-content {
+    color: $font;
+  }
+}
+
+.portal-antd-popover-message-title {
+  color: #ffffff;
+}
+
+.portal-antd-popover .portal-antd-popover-title {
+  color: $font;
+}

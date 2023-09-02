@@ -1,0 +1,97 @@
+/*
+ * @Author: sds 
+ * @Date: 2022-02-23 17:26:51 
+ * @Last Modified by: sun.t
+ * @Last Modified time: 2022-04-12 15:03:28
+ */
+@import '../colors.scss';
+
+.ease-app {
+  .portal-antd-btn {
+    border: 1px solid #0cb7d5;
+    opacity: 0.8;
+    color: $font;
+    border-radius: 4px;
+    background-color: transparent;
+    margin-right: 10px;
+
+    &:hover {
+      background-color: transparent;
+    }
+
+    &:focus {
+      background-color: transparent;
+    }
+  }
+
+  // dataplat myicon
+  .portal-antd-btn>.dataplat-iconfont+span,
+  .ant-btn>span+.dataplat-iconfont {
+    margin-left: 8px;
+  }
+
+  .portal-antd-btn.portal-antd-btn-primary {
+    background-color: $button-primary;
+    color: $font;
+    border: none;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $button-primary-hover;
+      color: $font;
+    }
+  }
+
+  .portal-antd-btn.portal-antd-btn-default {
+    background-color: $button-primary;
+    color: $font;
+    border: none;
+    margin-right: 10px;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $button-primary-hover;
+      color: $font;
+    }
+  }
+
+  .portal-antd-btn.portal-antd-btn-danger {
+    background-color: $button-danger;
+    color: $font;
+    border: none;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $button-danger-hover;
+      color: $font;
+    }
+  }
+
+  // 禁用样式
+  .portal-antd-btn[disabled],
+  .portal-antd-btn[disabled]:hover,
+  .portal-antd-btn[disabled]:focus,
+  .portal-antd-btn[disabled]:active {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background: rgba(255, 255, 255, 0.4);
+    text-shadow: none;
+    box-shadow: none;
+    opacity: 0.4;
+  }
+
+  .portal-antd-btn-background-ghost.portal-antd-btn-primary[disabled],
+  .portal-antd-btn-background-ghost.portal-antd-btn-primary[disabled]:hover,
+  .portal-antd-btn-background-ghost.portal-antd-btn-primary[disabled]:focus,
+  .portal-antd-btn-background-ghost.portal-antd-btn-primary[disabled]:active {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background: rgba(255, 255, 255, 0.4);
+    text-shadow: none;
+    box-shadow: none;
+    opacity: 0.4;
+  }
+}

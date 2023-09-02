@@ -1,0 +1,187 @@
+@import '~@style/variable/component.scss';
+
+.num {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px 0;
+
+    .header {
+        width: 4px;
+        height: 16px;
+        background: $table-expand-icon;
+        border-radius: 2px;
+        line-height: 15px;
+        float: left;
+    }
+
+    .body {
+        width: 897px;
+        height: 35px;
+        font-size: 16px;
+        font-family: FZLanTingHei-R-GBK;
+        font-weight: 400;
+        color: $font;
+        line-height: 35px;
+        float: left;
+
+        display: flex;
+        align-items: center;
+
+        > span {
+            margin-left: 8px;
+            color: $font;
+        }
+
+        .bodyTitle {
+            width: auto; // 112px
+            // height: 16px;
+        }
+
+        .decorativeLine {
+            background: url('/public/image/DecorativeLine.png');
+            height: 5px;
+            display: inline-block;
+            margin-bottom: 2px;
+            // background-size: 610px 5px;
+            flex: 1;
+        }
+
+        .addToBorder {
+            width: 32px;
+            height: 32px;
+            background: #041128;
+            border: 1px solid $rangePicker-picker-border;
+            border-radius: 4px;
+            display: inline-block;
+            text-align: center;
+
+            .addTo {
+                background: url('/public/image/addTo.png') no-repeat;
+                display: inline-block;
+                width: 14px;
+                height: 14px;
+                margin: auto;
+            }
+        }
+    }
+}
+
+.bgcPanel {
+    width: 900px;
+    padding: 20px;
+    background: linear-gradient(
+        90deg,
+        rgba(10, 70, 93, 0.4),
+        rgba(7, 72, 98, 0.7)
+    );
+    box-shadow: 0px 8px 16px 0px rgba(8, 53, 112, 0.4);
+    border-radius: 0px 0px 4px 4px;
+
+    .upload {
+        height: 50px;
+        width: 50px;
+    }
+
+    .inputSty {
+        // TODO: 按需加载，打包后antd样式会后加载导致样式错乱
+        margin-bottom: 10px !important;
+        // height: 30px;
+        .inputPassWord {
+            background-color: #041e30 !important;
+        }
+        // placeholder 获得焦点时不展示placeholder 失去焦点时展示
+        .inputPassWord:focus::placeholder {
+            opacity: 0;
+        }
+        .inputPassWord::placeholder {
+            color: #fff !important;
+            // line-height: 32px;
+        }
+    }
+    // input 输入边框
+    .inputFrame {
+        border: 1px solid $table-expand-icon;
+    }
+
+    // 应用服务样式修改
+    .spaceFlex {
+        display: flex;
+
+        .box {
+            width: 854px;
+            height: 33px;
+            border: 1px solid $rangePicker-picker-border;
+            border-radius: 4px;
+            margin-top: 17px;
+            text-align: center;
+            background: rgba(4, 17, 40, 0.5);
+
+            .tags {
+                width: 190px;
+                height: 24px;
+                // background-color: $treeSelect-selection-tag-background;
+
+                background-color: #0f3e4f;
+                // opacity: 0.2;
+                border-radius: 4px;
+                float: left;
+                margin: 3px 0 2px 10px;
+                line-height: 24px;
+            }
+
+            .picker {
+                color: $font;
+                font-size: 14px;
+                line-height: 30px;
+                padding-left: 73px;
+
+                .pickerTime {
+                    width: 283px;
+                }
+            }
+
+            .minusSign {
+                width: 32px;
+                height: 32px;
+                display: inline-block;
+                float: right;
+                border-left: 1px solid $table-expand-icon;
+                border-radius: 4px;
+
+                .removeIcon {
+                    line-height: 32px;
+                    margin-left: -5px;
+                    width: 9px;
+                    height: 3px;
+                    font-family: Microsoft YaHei;
+                    font-weight: 400;
+                    color: $rangePicker-picker-border;
+                }
+            }
+        }
+    }
+
+    .button {
+        width: 32px;
+        height: 32px;
+        margin-left: 86px;
+        background: $treeSelect-selection-tag-background;
+        border-radius: 4px;
+        border: none;
+
+        .buttonAdd {
+            font-size: 20px;
+            color: $font;
+            margin: 2px -20px 0 -19px;
+        }
+    }
+}
+
+.bgcPanel {
+    :global {
+        .portal-antd-col-8 {
+            flex: 0 0 20%;
+        }
+    }
+}

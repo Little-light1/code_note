@@ -1,0 +1,11 @@
+@import '~@style/variable/color.scss';
+
+.portal-app {
+  .portal-antd-anchor-link-title {
+    color: $font !important;
+
+    &:hover {
+      color: $font-layout-toggle !important;
+    }
+  }
+}

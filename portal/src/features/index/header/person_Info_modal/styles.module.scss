@@ -1,0 +1,18 @@
+.personInfoModel {
+    width: 100%;
+    .span {
+        word-break: break-all;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1; 
+        padding: 4px 11px;
+    }
+
+    .systemExplain {
+        margin-top: 16px;
+        width: 387px;
+        font-size: 12px;
+    }
+}

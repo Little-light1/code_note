@@ -1,0 +1,2281 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+msgid "添加"
+msgstr "添加"
+
+msgid "保存"
+msgstr "保存"
+
+msgid "取消"
+msgstr "取消"
+
+msgid "关闭"
+msgstr "关闭"
+
+msgid "修改"
+msgstr "修改"
+
+msgid "是否确定删除选中的记录?"
+msgstr "是否确定删除选中的记录?"
+
+msgid "是"
+msgstr "是"
+
+msgid "否"
+msgstr "否"
+
+msgid "删除成功"
+msgstr "删除成功"
+
+msgid "创建成功"
+msgstr "创建成功"
+
+msgid "创建失败"
+msgstr "创建失败"
+
+msgid "更新成功"
+msgstr "更新成功"
+
+msgid "删除失败"
+msgstr "删除失败"
+
+msgid "更新失败"
+msgstr "更新失败"
+
+msgid "请选择要删除的选项"
+msgstr "请选择要删除的选项"
+
+msgid "新建"
+msgstr "新建"
+
+msgid "编辑"
+msgstr "编辑"
+
+msgid "删除"
+msgstr "删除"
+
+msgid "顺序"
+msgstr "顺序"
+
+msgid "标识"
+msgstr "标识"
+
+msgid "状态"
+msgstr "状态"
+
+msgid "启用"
+msgstr "启用"
+
+msgid "禁用"
+msgstr "禁用"
+
+msgid "操作"
+msgstr "操作"
+
+msgid "描述"
+msgstr "描述"
+
+msgid "返回上一级"
+msgstr "返回上一级"
+
+msgid "导入"
+msgstr "导入"
+
+msgid "请输入"
+msgstr "请输入"
+
+msgid "数字"
+msgstr "数字"
+
+msgid "小数"
+msgstr "小数"
+
+msgid "台"
+msgstr "台"
+
+msgid "个"
+msgstr "个"
+
+msgid "禁止输入空格"
+msgstr "禁止输入空格"
+
+msgid "禁止输入特殊字符"
+msgstr "禁止输入特殊字符"
+
+msgid "请输入中文，英文，数字或其组合"
+msgstr "请输入中文，英文，数字或其组合"
+
+msgid "请输入英文，数字或其组合"
+msgstr "请输入英文，数字或其组合"
+
+msgid "请输入英文，数字或下划线"
+msgstr "请输入英文，数字或下划线"
+
+msgid "新增子菜单"
+msgstr "新增子菜单"
+
+msgid "启用状态下数据不可删除"
+msgstr "启用状态下数据不可删除"
+
+msgid "内部产品不可删除"
+msgstr "内部产品不可删除"
+
+msgid "查询"
+msgstr "查询"
+
+msgid "一键已读"
+msgstr "一键已读"
+
+msgid "详情"
+msgstr "详情"
+
+msgid "确定"
+msgstr "确定"
+
+msgid "序号"
+msgstr "序号"
+
+msgid "导出"
+msgstr "导出"
+
+msgid "修改状态:{{name}}"
+msgstr "修改状态:{{name}}"
+
+msgid "权限"
+msgstr "权限"
+
+msgid "功能权限"
+msgstr "功能权限"
+
+msgid "数据权限"
+msgstr "数据权限"
+
+msgid "权限分配"
+msgstr "权限分配"
+
+msgid "角色名称"
+msgstr "角色名称"
+
+msgid "角色编码"
+msgstr "角色编码"
+
+msgid "重置"
+msgstr "重置"
+
+msgid "请输入角色编码/角色名称"
+msgstr "请输入角色编码/角色名称"
+
+msgid "选择角色类型"
+msgstr "选择角色类型"
+
+msgid "角色权限"
+msgstr "角色权限"
+
+msgid "{{verb}}角色:  {{roleName}}"
+msgstr "{{verb}}角色:  {{roleName}}"
+
+msgid "删除角色:  {{roleName}}"
+msgstr "删除角色:  {{roleName}}"
+
+msgid "修改角色状态:  {{name}}"
+msgstr "修改角色状态:  {{name}}"
+
+msgid "字典编码"
+msgstr "字典编码"
+
+msgid "字典名称"
+msgstr "字典名称"
+
+msgid "字典描述"
+msgstr "字典描述"
+
+msgid "字典项名称"
+msgstr "字典项名称"
+
+msgid "字典项"
+msgstr "字典项"
+
+msgid "字典项值"
+msgstr "字典项值"
+
+msgid "所属分类"
+msgstr "所属分类"
+
+msgid "字典项描述"
+msgstr "字典项描述"
+
+msgid "上级分类"
+msgstr "上级分类"
+
+msgid "新建类型"
+msgstr "新建类型"
+
+msgid "分类编码"
+msgstr "分类编码"
+
+msgid "分类名称"
+msgstr "分类名称"
+
+msgid "不可删除启用状态的字典项"
+msgstr "不可删除启用状态的字典项"
+
+msgid "共"
+msgstr "共"
+
+msgid "条"
+msgstr "条"
+
+msgid "接口错误"
+msgstr "接口错误"
+
+msgid "新增字典项：{{name}}"
+msgstr "新增字典项：{{name}}"
+
+msgid "编辑字典项：{{name}}"
+msgstr "编辑字典项：{{name}}"
+
+msgid "删除字典项：{{name}}"
+msgstr "删除字典项：{{name}}"
+
+msgid "批量删除字典项：{{num}}条"
+msgstr "批量删除字典项：{{num}}条"
+
+msgid "新增分类：{{name}}"
+msgstr "新增分类：{{name}}"
+
+msgid "编辑分类：{{name}}"
+msgstr "编辑分类：{{name}}"
+
+msgid "删除分类：{{name}}"
+msgstr "删除分类：{{name}}"
+
+msgid "修改字典项状态：{{name}}"
+msgstr "修改字典项状态：{{name}}"
+
+msgid "用户账号"
+msgstr "用户账号"
+
+msgid "用户名称"
+msgstr "用户名称"
+
+msgid "组织机构"
+msgstr "组织机构"
+
+msgid "激活"
+msgstr "激活"
+
+msgid "模板下载"
+msgstr "模板下载"
+
+msgid "请输入用户账号/用户名称"
+msgstr "请输入用户账号/用户名称"
+
+msgid "手机号码"
+msgstr "手机号码"
+
+msgid "用户类型"
+msgstr "用户类型"
+
+msgid "标签"
+msgstr "标签"
+
+msgid "邮箱"
+msgstr "邮箱"
+
+msgid "重置密码"
+msgstr "重置密码"
+
+msgid "用户角色"
+msgstr "用户角色"
+
+msgid "设备ID"
+msgstr "设备ID"
+
+msgid "设备名称"
+msgstr "设备名称"
+
+msgid "型号"
+msgstr "型号"
+
+msgid "上级组织架构"
+msgstr "上级组织架构"
+
+msgid "顺序号"
+msgstr "顺序号"
+
+msgid "组织类型"
+msgstr "组织类型"
+
+msgid "物理设备"
+msgstr "物理设备"
+
+msgid "电场名称"
+msgstr "电场名称"
+
+msgid "关联设备"
+msgstr "关联设备"
+
+msgid "设备ID/设备名称/型号"
+msgstr "设备ID/设备名称/型号"
+
+msgid "导出组织机构数据"
+msgstr "导出组织机构数据"
+
+msgid "业务电场"
+msgstr "业务电场"
+
+msgid "普通组织"
+msgstr "普通组织"
+
+msgid "下级组织机构"
+msgstr "下级组织机构"
+
+msgid "机构名称"
+msgstr "机构名称"
+
+msgid "机构描述"
+msgstr "机构描述"
+
+msgid "有操作记录，确定要切换节点吗"
+msgstr "有操作记录，确定要切换节点吗"
+
+msgid "请选择需要移动的设备"
+msgstr "请选择需要移动的设备"
+
+msgid "绑定用户"
+msgstr "绑定用户"
+
+msgid "设备类型"
+msgstr "设备类型"
+
+msgid "删除设备"
+msgstr "删除设备"
+
+msgid "请选择节点"
+msgstr "请选择节点"
+
+msgid "获取组织机构树"
+msgstr "获取组织机构树"
+
+msgid "新增组织机构"
+msgstr "新增组织机构"
+
+msgid "编辑组织机构"
+msgstr "编辑组织机构"
+
+msgid "删除组织机构"
+msgstr "删除组织机构"
+
+msgid "框架配置"
+msgstr "框架配置"
+
+msgid "文件格式为: .png、.jpg、.svg, 图片分辨率为: 32 * 32, 大小不超过100k"
+msgstr "文件格式为: .png、.jpg、.svg, 图片分辨率为: 32 * 32, 大小不超过100k"
+
+msgid "基本信息配置"
+msgstr "基本信息配置"
+
+msgid "背景页面配置"
+msgstr "背景页面配置"
+
+msgid "通用功能配置"
+msgstr "通用功能配置"
+
+msgid "LOGO配置"
+msgstr "LOGO配置"
+
+msgid "上传浏览器Logo"
+msgstr "上传浏览器Logo"
+
+msgid "上传LOGO"
+msgstr "上传LOGO"
+
+msgid "浏览器标题名称"
+msgstr "浏览器标题名称"
+
+msgid "不能含有特殊字符"
+msgstr "不能含有特殊字符"
+
+msgid "框架显示配置"
+msgstr "框架显示配置"
+
+msgid "顶部默认显示"
+msgstr "顶部默认显示"
+
+msgid "左侧导航默认显示"
+msgstr "左侧导航默认显示"
+
+msgid "显示"
+msgstr "显示"
+
+msgid "隐藏"
+msgstr "隐藏"
+
+msgid "保存成功"
+msgstr "保存成功"
+
+msgid "编码"
+msgstr "编码"
+
+msgid "功能名称"
+msgstr "功能名称"
+
+msgid "图标"
+msgstr "图标"
+
+msgid "URL地址"
+msgstr "URL地址"
+
+msgid "请输入相对路径或者绝对路径,绝对路径需包含协议"
+msgstr "请输入相对路径或者绝对路径,绝对路径需包含协议"
+
+msgid "跳转类型为外部时，路由地址必须是带协议的完整地址"
+msgstr "跳转类型为外部时，路由地址必须是带协议的完整地址"
+
+msgid "说明：若配置bi报表地址，在录完地址后需要带入BI后缀，点此"
+msgstr "说明：若配置bi报表地址，在录完地址后需要带入BI后缀，点此"
+
+msgid "一键引用"
+msgstr "一键引用"
+
+msgid "已引用地址无法重复一键引用"
+msgstr "已引用地址无法重复一键引用"
+
+msgid "跳转本系统界面，请填写相对路径路由地址"
+msgstr "跳转本系统界面，请填写相对路径路由地址"
+
+msgid "当前记录启用中，不可删除"
+msgstr "当前记录启用中，不可删除"
+
+msgid "存在子菜单，确定要删除吗"
+msgstr "存在子菜单，确定要删除吗"
+
+msgid "确定要删除吗"
+msgstr "确定要删除吗"
+
+msgid "文件格式为: .png, .jpg 图片分辨率为: 48 * 48px, 大小不超过100k"
+msgstr "文件格式为: .png, .jpg 图片分辨率为: 48 * 48px, 大小不超过100k"
+
+msgid "图片名称"
+msgstr "图片名称"
+
+msgid "缩略图"
+msgstr "缩略图"
+
+msgid "背景图片"
+msgstr "背景图片"
+
+msgid "文件格式为: .png、.jpg, 图片分辨率为: 1920 * 1080px, 大小不超过1M"
+msgstr "文件格式为: .png、.jpg, 图片分辨率为: 1920 * 1080px, 大小不超过1M"
+
+msgid "编辑基本信息配置"
+msgstr "编辑基本信息配置"
+
+msgid "新建背景页面: {{pageName}}"
+msgstr "新建背景页面: {{pageName}}"
+
+msgid "编辑背景页面: {{pageName}}"
+msgstr "编辑背景页面: {{pageName}}"
+
+msgid "删除背景页面: {{pageName}}"
+msgstr "删除背景页面: {{pageName}}"
+
+msgid "新建通用功能: {{funcName}}"
+msgstr "新建通用功能: {{funcName}}"
+
+msgid "编辑通用功能: {{funcName}}"
+msgstr "编辑通用功能: {{funcName}}"
+
+msgid "删除通用功能: {{funcName}}"
+msgstr "删除通用功能: {{funcName}}"
+
+msgid "修改背景页面状态: {{name}}"
+msgstr "修改背景页面状态: {{name}}"
+
+msgid "修改通用功能状态: {{name}}"
+msgstr "修改通用功能状态: {{name}}"
+
+msgid "企业logo"
+msgstr "企业logo"
+
+msgid "企业名称"
+msgstr "企业名称"
+
+msgid "企业简称"
+msgstr "企业简称"
+
+msgid "账户性质"
+msgstr "账户性质"
+
+msgid "账户状态"
+msgstr "账户状态"
+
+msgid "产品服务使用时效"
+msgstr "产品服务使用时效"
+
+msgid "账号名称"
+msgstr "账号名称"
+
+msgid "账号密码"
+msgstr "账号密码"
+
+msgid "请输入账号密码"
+msgstr "请输入账号密码"
+
+msgid "请输入8-16位数字、字母和符号组合，字母区分大小写"
+msgstr "请输入8-16位数字、字母和符号组合，字母区分大小写"
+
+msgid "账号状态"
+msgstr "账号状态"
+
+msgid "基本信息"
+msgstr "基本信息"
+
+msgid "默认管理员账号"
+msgstr "默认管理员账号"
+
+msgid "请输入企业名称/企业简称"
+msgstr "请输入企业名称/企业简称"
+
+msgid "企业名称长度不可以大于100字符"
+msgstr "企业名称长度不可以大于100字符"
+
+msgid "企业名称不能重复"
+msgstr "企业名称不能重复"
+
+msgid "企业名称不能输入表情"
+msgstr "企业名称不能输入表情"
+
+msgid "企业简称不能输入表情"
+msgstr "企业简称不能输入表情"
+
+msgid "请输入企业简称"
+msgstr "请输入企业简称"
+
+msgid "企业简称长度不可以大于50字符"
+msgstr "企业简称长度不可以大于50字符"
+
+msgid "账户性质不可以为空"
+msgstr "账户性质不可以为空"
+
+msgid "请选择账户性质"
+msgstr "请选择账户性质"
+
+msgid "文件格式为:png、jpg,图片分辨率:32x32px,大小不超过 100k"
+msgstr "文件格式为:png、jpg,图片分辨率:32x32px,大小不超过 100k"
+
+msgid "请输入账号名称"
+msgstr "请输入账号名称"
+
+msgid "账号名称不能输入表情"
+msgstr "账号名称不能输入表情"
+
+msgid "请上传企业logo"
+msgstr "请上传企业logo"
+
+msgid "请选择产品服务名称"
+msgstr "请选择产品服务名称"
+
+msgid "不能添加相同产品服务"
+msgstr "不能添加相同产品服务"
+
+msgid "请求报错"
+msgstr "请求报错"
+
+msgid "查询成功"
+msgstr "查询成功"
+
+msgid "账号名称和账号密码不能重复"
+msgstr "账号名称和账号密码不能重复"
+
+msgid "复制成功"
+msgstr "复制成功"
+
+msgid "复制失败，请手动复制"
+msgstr "复制失败，请手动复制"
+
+msgid "平台企业"
+msgstr "平台企业"
+
+msgid "应用企业"
+msgstr "应用企业"
+
+msgid "运维企业"
+msgstr "运维企业"
+
+msgid "该应用已被禁用"
+msgstr "该应用已被禁用"
+
+msgid "{{verb}}企业:{{name}}"
+msgstr "{{verb}}企业:{{name}}"
+
+msgid "修改企业账户状态: {{name}}"
+msgstr "修改企业账户状态: {{name}}"
+
+msgid "应用编码"
+msgstr "应用编码"
+
+msgid "存在重复编码，请重新输入"
+msgstr "存在重复编码，请重新输入"
+
+msgid "请输入应用编码"
+msgstr "请输入应用编码"
+
+msgid "应用名称"
+msgstr "应用名称"
+
+msgid "存在重复名称，请重新输入"
+msgstr "存在重复名称，请重新输入"
+
+msgid "应用名称不能输入表情"
+msgstr "应用名称不能输入表情"
+
+msgid "应用编码不能输入表情"
+msgstr "应用编码不能输入表情"
+
+msgid "请输入应用名称"
+msgstr "请输入应用名称"
+
+msgid "请输入应用名称/应用编码"
+msgstr "请输入应用名称/应用编码"
+
+msgid "应用描述"
+msgstr "应用描述"
+
+msgid "请输入255字以内的应用描述"
+msgstr "请输入255字以内的应用描述"
+
+msgid "数据查询失败"
+msgstr "数据查询失败"
+
+msgid "应用IP"
+msgstr "应用IP"
+
+msgid "请输入应用IP"
+msgstr "请输入应用IP"
+
+msgid "请输入正确的IP地址"
+msgstr "请输入正确的IP地址"
+
+msgid "应用IP以/结尾或路由地址以/开头"
+msgstr "应用IP以/结尾或路由地址以/开头"
+
+msgid "请输入顺序"
+msgstr "请输入顺序"
+
+msgid "路由地址"
+msgstr "路由地址"
+
+msgid "请输入路由地址"
+msgstr "请输入路由地址"
+
+msgid "请输入正确的路由地址"
+msgstr "请输入正确的路由地址"
+
+msgid "内外标识"
+msgstr "内外标识"
+
+msgid "内外标识不可以为空"
+msgstr "内外标识不可以为空"
+
+msgid "请选择内外标识"
+msgstr "请选择内外标识"
+
+msgid "金风内部产品"
+msgstr "金风内部产品"
+
+msgid "第三方的产品"
+msgstr "第三方的产品"
+
+msgid "应用终端类型"
+msgstr "应用终端类型"
+
+msgid "PC端"
+msgstr "PC端"
+
+msgid "移动端"
+msgstr "移动端"
+
+msgid "{{verb}}应用:{{name}}"
+msgstr "{{verb}}应用:{{name}}"
+
+msgid "修改应用状态: {{name}}"
+msgstr "修改应用状态: {{name}}"
+
+msgid "查询应用列表"
+msgstr "查询应用列表"
+
+msgid "标签编码"
+msgstr "标签编码"
+
+msgid "标签名称"
+msgstr "标签名称"
+
+msgid "请输入标签名称"
+msgstr "请输入标签名称"
+
+msgid "标签名称不能输入表情"
+msgstr "标签名称不能输入表情"
+
+msgid "存在重复标签名称，请重新输入"
+msgstr "存在重复标签名称，请重新输入"
+
+msgid "用户数量"
+msgstr "用户数量"
+
+msgid "标签描述"
+msgstr "标签描述"
+
+msgid "请输入100字以内的标签描述"
+msgstr "请输入100字以内的标签描述"
+
+msgid "所属组织机构"
+msgstr "所属组织机构"
+
+msgid "用户账号/用户名称/所属组织机构"
+msgstr "用户账号/用户名称/所属组织机构"
+
+msgid "已选人员"
+msgstr "已选人员"
+
+msgid "标签下存在用户 , 无法删除"
+msgstr "标签下存在用户 , 无法删除"
+
+msgid "{{verb}}标签:{{name}}"
+msgstr "{{verb}}标签:{{name}}"
+
+msgid "添加资源"
+msgstr "添加资源"
+
+msgid "菜单编码"
+msgstr "菜单编码"
+
+msgid "菜单名称"
+msgstr "菜单名称"
+
+msgid "文件格式为: .png、.jpg、.gif, 图片分辨率为: 48 * 48, 大小不超过100k"
+msgstr "文件格式为: .png、.jpg、.gif, 图片分辨率为: 48 * 48, 大小不超过100k"
+
+msgid "类型"
+msgstr "类型"
+
+msgid "排序"
+msgstr "排序"
+
+msgid "菜单信息"
+msgstr "菜单信息"
+
+msgid "页面资源"
+msgstr "页面资源"
+
+msgid "资源名称"
+msgstr "资源名称"
+
+msgid "资源类型"
+msgstr "资源类型"
+
+msgid "权限标识"
+msgstr "权限标识"
+
+msgid "已启用，不能删除！"
+msgstr "已启用，不能删除！"
+
+msgid "资源"
+msgstr "资源"
+
+msgid "上级菜单"
+msgstr "上级菜单"
+
+msgid "跳转类型"
+msgstr "跳转类型"
+
+msgid "请选择跳转类型"
+msgstr "请选择跳转类型"
+
+msgid "显示菜单"
+msgstr "显示菜单"
+
+msgid "显示图标"
+msgstr "显示图标"
+
+msgid "新增菜单：{{name}}"
+msgstr "新增菜单：{{name}}"
+
+msgid "删除菜单：{{name}}"
+msgstr "删除菜单：{{name}}"
+
+msgid "编辑菜单：{{name}}"
+msgstr "编辑菜单：{{name}}"
+
+msgid "新增资源：{{name}}"
+msgstr "新增资源：{{name}}"
+
+msgid "编辑资源"
+msgstr "编辑资源"
+
+msgid "编辑资源：{{name}}"
+msgstr "编辑资源：{{name}}"
+
+msgid "删除资源"
+msgstr "删除资源"
+
+msgid "删除资源：{{name}}"
+msgstr "删除资源：{{name}}"
+
+msgid "修改菜单状态：{{name}}"
+msgstr "修改菜单状态：{{name}}"
+
+msgid "附件管理"
+msgstr "附件管理"
+
+msgid "标题"
+msgstr "标题"
+
+msgid "请输入标题"
+msgstr "请输入标题"
+
+msgid "文件名"
+msgstr "文件名"
+
+msgid "创建时间"
+msgstr "创建时间"
+
+msgid "上传中"
+msgstr "上传中"
+
+msgid "上传附件"
+msgstr "上传附件"
+
+msgid "删除附件"
+msgstr "删除附件"
+
+msgid "附件过多，最多支持10个附件！"
+msgstr "附件过多，最多支持10个附件！"
+
+msgid "附件上传大小不能超过50MB"
+msgstr "附件上传大小不能超过50MB"
+
+msgid "提示"
+msgstr "提示"
+
+msgid "您确定要删除这个附件吗？"
+msgstr "您确定要删除这个附件吗？"
+
+msgid "确认"
+msgstr "确认"
+
+msgid "父节点"
+msgstr "父节点"
+
+msgid "新增成功"
+msgstr "新增成功"
+
+msgid "请删除输入值的首尾空格"
+msgstr "请删除输入值的首尾空格"
+
+msgid "是否删除文档？"
+msgstr "是否删除文档？"
+
+msgid "无数据"
+msgstr "无数据"
+
+msgid "是否退出编辑？"
+msgstr "是否退出编辑？"
+
+msgid "在帮助中搜索"
+msgstr "在帮助中搜索"
+
+msgid "文档创建者："
+msgstr "文档创建者："
+
+msgid "编辑次数："
+msgstr "编辑次数："
+
+msgid "最近更新："
+msgstr "最近更新："
+
+msgid "附件："
+msgstr "附件："
+
+msgid "于"
+msgstr "于"
+
+msgid "新增帮助文档"
+msgstr "新增帮助文档"
+
+msgid "删除帮助文档"
+msgstr "删除帮助文档"
+
+msgid "修改帮助文档"
+msgstr "修改帮助文档"
+
+msgid "查询文档"
+msgstr "查询文档"
+
+msgid "搜索"
+msgstr "搜索"
+
+msgid "新增"
+msgstr "新增"
+
+msgid "文档"
+msgstr "文档"
+
+msgid "上传"
+msgstr "上传"
+
+msgid "附件"
+msgstr "附件"
+
+msgid "控件名称"
+msgstr "控件名称"
+
+msgid "控件类型"
+msgstr "控件类型"
+
+msgid "请选择控件类型"
+msgstr "请选择控件类型"
+
+msgid "文本框"
+msgstr "文本框"
+
+msgid "日期"
+msgstr "日期"
+
+msgid "下拉框"
+msgstr "下拉框"
+
+msgid "时间"
+msgstr "时间"
+
+msgid "编码文本框"
+msgstr "编码文本框"
+
+msgid "标签不显示"
+msgstr "标签不显示"
+
+msgid "序号控件"
+msgstr "序号控件"
+
+msgid "数据类型"
+msgstr "数据类型"
+
+msgid "请选择数据类型"
+msgstr "请选择数据类型"
+
+msgid "字符"
+msgstr "字符"
+
+msgid "是否必填"
+msgstr "是否必填"
+
+msgid "请选择是否必填"
+msgstr "请选择是否必填"
+
+msgid "非必填"
+msgstr "非必填"
+
+msgid "必填"
+msgstr "必填"
+
+msgid "默认值"
+msgstr "默认值"
+
+msgid "新建机构类型"
+msgstr "新建机构类型"
+
+msgid "请先选择框架"
+msgstr "请先选择框架"
+
+msgid "复制新建"
+msgstr "复制新建"
+
+msgid "自定义"
+msgstr "自定义"
+
+msgid "批量删除"
+msgstr "批量删除"
+
+msgid "默认"
+msgstr "默认"
+
+msgid "您确定要删除这条记录吗?"
+msgstr "您确定要删除这条记录吗?"
+
+msgid "您确定要删除这些记录吗?"
+msgstr "您确定要删除这些记录吗?"
+
+msgid "请选择要删除的字段"
+msgstr "请选择要删除的字段"
+
+msgid "编辑成功"
+msgstr "编辑成功"
+
+msgid "最大长度为50个字符"
+msgstr "最大长度为50个字符"
+
+msgid "字段名称"
+msgstr "字段名称"
+
+msgid "请输入字段名称"
+msgstr "请输入字段名称"
+
+msgid "复制新建成功"
+msgstr "复制新建成功"
+
+msgid "框架名称"
+msgstr "框架名称"
+
+msgid "请输入新建框架名称"
+msgstr "请输入新建框架名称"
+
+msgid "框架添加成功"
+msgstr "框架添加成功"
+
+msgid "添加机构类型别名"
+msgstr "添加机构类型别名"
+
+msgid "机构类型别名"
+msgstr "机构类型别名"
+
+msgid "请输入机构类型别名"
+msgstr "请输入机构类型别名"
+
+msgid "机构类型"
+msgstr "机构类型"
+
+msgid "请选择机构类型"
+msgstr "请选择机构类型"
+
+msgid "{{verb}}控件名称:{{name}}"
+msgstr "{{verb}}控件名称:{{name}}"
+
+msgid "{{verb}}机构类型别名:{{name}}"
+msgstr "{{verb}}机构类型别名:{{name}}"
+
+msgid "{{verb}}框架名称:{{name}}"
+msgstr "{{verb}}框架名称:{{name}}"
+
+msgid "删除机构类型"
+msgstr "删除机构类型"
+
+msgid "删除机构类型:{{name}}"
+msgstr "删除机构类型:{{name}}"
+
+msgid "新建机构类型:{{name}}"
+msgstr "新建机构类型:{{name}}"
+
+msgid "删除多个控件名称"
+msgstr "删除多个控件名称"
+
+msgid "消息内容"
+msgstr "消息内容"
+
+msgid "消息类型"
+msgstr "消息类型"
+
+msgid "来源"
+msgstr "来源"
+
+msgid "未配置该类型代办，请联系管理员"
+msgstr "未配置该类型代办，请联系管理员"
+
+msgid "消息发送时间"
+msgstr "消息发送时间"
+
+msgid "消息发送人"
+msgstr "消息发送人"
+
+msgid "消息发送部门"
+msgstr "消息发送部门"
+
+msgid "消息接收人"
+msgstr "消息接收人"
+
+msgid "接收部门"
+msgstr "接收部门"
+
+msgid "阅读信息"
+msgstr "阅读信息"
+
+msgid "时间选择"
+msgstr "时间选择"
+
+msgid "未读"
+msgstr "未读"
+
+msgid "已读"
+msgstr "已读"
+
+msgid "请选择..."
+msgstr "请选择..."
+
+msgid "发送时间："
+msgstr "发送时间："
+
+msgid "发送部门："
+msgstr "发送部门："
+
+msgid "发送人："
+msgstr "发送人："
+
+msgid "查询消息中心列表"
+msgstr "查询消息中心列表"
+
+msgid "查询待办列表"
+msgstr "查询待办列表"
+
+msgid "消息中心"
+msgstr "消息中心"
+
+msgid "待办"
+msgstr "待办"
+
+msgid "已读消息"
+msgstr "已读消息"
+
+msgid "操作-已读"
+msgstr "操作-已读"
+
+msgid "登录账号"
+msgstr "登录账号"
+
+msgid "共{{total}}条"
+msgstr "共{{total}}条"
+
+msgid "登录方式"
+msgstr "登录方式"
+
+msgid "登录姓名"
+msgstr "登录姓名"
+
+msgid "登录机器IP"
+msgstr "登录机器IP"
+
+msgid "登录状态"
+msgstr "登录状态"
+
+msgid "登录时长"
+msgstr "登录时长"
+
+msgid "登录时间"
+msgstr "登录时间"
+
+msgid "退出时间"
+msgstr "退出时间"
+
+msgid "全部"
+msgstr "全部"
+
+msgid "已发送"
+msgstr "已发送"
+
+msgid "待发送"
+msgstr "待发送"
+
+msgid "点击取消"
+msgstr "点击取消"
+
+msgid "草稿"
+msgstr "草稿"
+
+msgid "成功"
+msgstr "成功"
+
+msgid "失败"
+msgstr "失败"
+
+msgid "请选择"
+msgstr "请选择"
+
+msgid "请选择时间"
+msgstr "请选择时间"
+
+msgid "时间必须大于当前时间"
+msgstr "时间必须大于当前时间"
+
+msgid "最大时间选择范围为31天，请重新选择时间"
+msgstr "最大时间选择范围为31天，请重新选择时间"
+
+msgid "登录日志查询时间范围不得超过31天，请重新选择时间范围"
+msgstr "登录日志查询时间范围不得超过31天，请重新选择时间范围"
+
+msgid "查询登录日志列表"
+msgstr "查询登录日志列表"
+
+msgid "导出登录日志列表"
+msgstr "导出登录日志列表"
+
+msgid "操作账号"
+msgstr "操作账号"
+
+msgid "操作姓名"
+msgstr "操作姓名"
+
+msgid "业务应用"
+msgstr "业务应用"
+
+msgid "操作时间"
+msgstr "操作时间"
+
+msgid "操作行为"
+msgstr "操作行为"
+
+msgid "操作位置"
+msgstr "操作位置"
+
+msgid "日志类型"
+msgstr "日志类型"
+
+msgid "操作内容"
+msgstr "操作内容"
+
+msgid "操作结果"
+msgstr "操作结果"
+
+msgid "业务级"
+msgstr "业务级"
+
+msgid "系统级"
+msgstr "系统级"
+
+msgid "操作日志查询时间范围不得超过31天，请重新选择时间范围"
+msgstr "操作日志查询时间范围不得超过31天，请重新选择时间范围"
+
+msgid "请选择操作时间"
+msgstr "请选择操作时间"
+
+msgid "最大时间选择范围为31天，请重新选择操作时间"
+msgstr "最大时间选择范围为31天，请重新选择操作时间"
+
+msgid "查询操作日志列表"
+msgstr "查询操作日志列表"
+
+msgid "导出操作日志列表"
+msgstr "导出操作日志列表"
+
+msgid "操作IP"
+msgstr "操作IP"
+
+msgid "异常日志查询时间范围不得超过31天，请重新选择时间范围"
+msgstr "异常日志查询时间范围不得超过31天，请重新选择时间范围"
+
+msgid "查询异常日志列表"
+msgstr "查询异常日志列表"
+
+msgid "导出异常日志列表"
+msgstr "导出异常日志列表"
+
+msgid "告警跳转地址"
+msgstr "告警跳转地址"
+
+msgid "请先输入告警跳转地址！"
+msgstr "请先输入告警跳转地址！"
+
+msgid "告警扩展配置保存成功！"
+msgstr "告警扩展配置保存成功！"
+
+msgid "请输入正确的相对路径"
+msgstr "请输入正确的相对路径"
+
+msgid "请输入正确的绝对路径"
+msgstr "请输入正确的绝对路径"
+
+msgid "请输入数字、字母或斜杠"
+msgstr "请输入数字、字母或斜杠"
+
+msgid "修改告警扩展配置"
+msgstr "修改告警扩展配置"
+
+msgid "告警内容"
+msgstr "告警内容"
+
+msgid "请输入告警内容"
+msgstr "请输入告警内容"
+
+msgid "告警类型"
+msgstr "告警类型"
+
+msgid "告警产生时间"
+msgstr "告警产生时间"
+
+msgid "告警等级"
+msgstr "告警等级"
+
+msgid "告警对象名称"
+msgstr "告警对象名称"
+
+msgid "告警原因"
+msgstr "告警原因"
+
+msgid "告警时间"
+msgstr "告警时间"
+
+msgid "处理状态"
+msgstr "处理状态"
+
+msgid "待处理"
+msgstr "待处理"
+
+msgid "已处理"
+msgstr "已处理"
+
+msgid "处理人"
+msgstr "处理人"
+
+msgid "处理时间"
+msgstr "处理时间"
+
+msgid "告警详情查看"
+msgstr "告警详情查看"
+
+msgid "处理"
+msgstr "处理"
+
+msgid "开始日期"
+msgstr "开始日期"
+
+msgid "结束日期"
+msgstr "结束日期"
+
+msgid "请选择日期范围"
+msgstr "请选择日期范围"
+
+msgid "告警信息处理完成！"
+msgstr "告警信息处理完成！"
+
+msgid "告警信息处理失败！"
+msgstr "告警信息处理失败！"
+
+msgid "查询告警中心列表"
+msgstr "查询告警中心列表"
+
+msgid "处理告警信息:{{name}}"
+msgstr "处理告警信息:{{name}}"
+
+msgid "操作-处理"
+msgstr "操作-处理"
+
+msgid "请选择组织机构"
+msgstr "请选择组织机构"
+
+msgid "连接状态"
+msgstr "连接状态"
+
+msgid "离线"
+msgstr "离线"
+
+msgid "在线"
+msgstr "在线"
+
+msgid "使用周期"
+msgstr "使用周期"
+
+msgid "查询用户连接状态监测列表"
+msgstr "查询用户连接状态监测列表"
+
+msgid "访问时间控制"
+msgstr "访问时间控制"
+
+msgid "访问地址控制"
+msgstr "访问地址控制"
+
+msgid "可访问起始时间"
+msgstr "可访问起始时间"
+
+msgid "可访问结束时间"
+msgstr "可访问结束时间"
+
+msgid "可访问起始地址"
+msgstr "可访问起始地址"
+
+msgid "可访问结束地址"
+msgstr "可访问结束地址"
+
+msgid "已选择用户"
+msgstr "已选择用户"
+
+msgid "请确认是否要删除选择的数据？"
+msgstr "请确认是否要删除选择的数据？"
+
+msgid "请选择用户"
+msgstr "请选择用户"
+
+msgid "请选择可访问起始时间"
+msgstr "请选择可访问起始时间"
+
+msgid "请选择可访问结束时间"
+msgstr "请选择可访问结束时间"
+
+msgid "可访问结束时间必须大于可访问起始时间！"
+msgstr "可访问结束时间必须大于可访问起始时间！"
+
+msgid "请输入可访问起始地址"
+msgstr "请输入可访问起始地址"
+
+msgid "请输入可访问结束地址"
+msgstr "请输入可访问结束地址"
+
+msgid "请输入合法可访问起始地址"
+msgstr "请输入合法可访问起始地址"
+
+msgid "请输入合法可访问结束地址"
+msgstr "请输入合法可访问结束地址"
+
+msgid "前三段地址必须保持一致！例：1.1.1.X~1.1.1.X"
+msgstr "前三段地址必须保持一致！例：1.1.1.X~1.1.1.X"
+
+msgid "可访问起始地址要小于可访问结束地址"
+msgstr "可访问起始地址要小于可访问结束地址"
+
+msgid "所属组织"
+msgstr "所属组织"
+
+msgid "待选用户"
+msgstr "待选用户"
+
+msgid "已选用户"
+msgstr "已选用户"
+
+msgid "登录姓名/登录账号"
+msgstr "登录姓名/登录账号"
+
+msgid "新增访问时间控制 起始时间：{{startTime}} 结束时间：{{endTime}}"
+msgstr "新增访问时间控制 起始时间：{{startTime}} 结束时间：{{endTime}}"
+
+msgid "编辑访问时间控制 起始时间：{{startTime}} 结束时间：{{endTime}}"
+msgstr "编辑访问时间控制 起始时间：{{startTime}} 结束时间：{{endTime}}"
+
+msgid "删除访问时间控制 起始时间：{{startTime}} 结束时间：{{endTime}}"
+msgstr "删除访问时间控制 起始时间：{{startTime}} 结束时间：{{endTime}}"
+
+msgid "新增访问地址控制 起始地址：{{startAddress}} 结束地址：{{endAddress}}"
+msgstr "新增访问地址控制 起始地址：{{startAddress}} 结束地址：{{endAddress}}"
+
+msgid "编辑访问地址控制 起始地址：{{startAddress}} 结束地址：{{endAddress}}"
+msgstr "编辑访问地址控制 起始地址：{{startAddress}} 结束地址：{{endAddress}}"
+
+msgid "删除访问地址控制 起始地址：{{startAddress}} 结束地址：{{endAddress}}"
+msgstr "删除访问地址控制 起始地址：{{startAddress}} 结束地址：{{endAddress}}"
+
+msgid "请输入用户名"
+msgstr "请输入用户名"
+
+msgid "请输入密码"
+msgstr "请输入密码"
+
+msgid "请输入验证码"
+msgstr "请输入验证码"
+
+msgid "请选择语言"
+msgstr "请选择语言"
+
+msgid "登录"
+msgstr "登录"
+
+msgid "忘记密码?"
+msgstr "忘记密码?"
+
+msgid "原密码"
+msgstr "原密码"
+
+msgid "请输入你的原密码!"
+msgstr "请输入你的原密码!"
+
+msgid "新密码"
+msgstr "新密码"
+
+msgid "请输入你的新密码!"
+msgstr "请输入你的新密码!"
+
+msgid "确认新密码"
+msgstr "确认新密码"
+
+msgid "请确认你的新密码!"
+msgstr "请确认你的新密码!"
+
+msgid "确认新密码与新密码不一致"
+msgstr "确认新密码与新密码不一致"
+
+msgid "密码长度不得小于8位"
+msgstr "密码长度不得小于8位"
+
+msgid '密码长度不得大于16位'
+msgstr '密码长度不得大于16位'
+
+msgid '密码必须包含字母、数字、符号三种字符'
+msgstr '密码必须包含字母、数字、符号三种字符'
+
+msgid '密码不能包含用户名'
+msgstr '密码不能包含用户名'
+
+msgid '新密码不能与原密码相同'
+msgstr '新密码不能与原密码相同'
+
+msgid '初次登录必须修改密码，终止修改将跳转到登陆页面。是否继续修改？'
+msgstr '初次登录必须修改密码，终止修改将跳转到登陆页面。是否继续修改？'
+
+msgid '必须修改密码，终止修改将跳转到登陆页面。是否继续修改？'
+msgstr '必须修改密码，终止修改将跳转到登陆页面。是否继续修改？'
+
+msgid '休眠'
+msgstr '休眠'
+
+msgid '请选择使用周期'
+msgstr '请选择使用周期'
+
+msgid '请选择使用状态'
+msgstr '请选择使用状态'
+
+msgid '注销'
+msgstr '注销'
+
+msgid '永久'
+msgstr '永久'
+
+msgid '有限'
+msgstr '有限'
+
+msgid '应用图片'
+msgstr '应用图片'
+
+msgid '文件格式为：.png、.jpg，图片分辨率不超过1000*500px，大小不超过2M'
+msgstr '文件格式为：.png、.jpg，图片分辨率不超过1000*500px，大小不超过2M'
+
+msgid '单点登录方式'
+msgstr '单点登录方式'
+
+msgid '请选择单点登录方式'
+msgstr '请选择单点登录方式'
+
+msgid '单点登录参数'
+msgstr '单点登录参数'
+
+msgid '输入的参数格式有误，请检查输入的参数数据格式'
+msgstr '输入的参数格式有误，请检查输入的参数数据格式'
+
+msgid '请输入单点登录参数，参数格式为JSON类型，长度不超过500'
+msgstr '请输入单点登录参数，参数格式为JSON类型，长度不超过500'
+
+msgid '密码已修改！'
+msgstr '密码已修改！'
+
+msgid '操作成功！'
+msgstr '操作成功！'
+
+msgid '组织'
+msgstr '组织'
+
+msgid '账号密码不能包含用户账号'
+msgstr '账号密码不能包含用户账号'
+
+msgid '用户'
+msgstr '用户'
+
+msgid '请输入用户账号'
+msgstr '请输入用户账号'
+
+msgid '请输入1-64位字符'
+msgstr '请输入1-64位字符'
+
+msgid '请输入用户名称'
+msgstr '请输入用户名称'
+
+msgid '请输入1-50位字符'
+msgstr '请输入1-50位字符'
+
+msgid '密码长度不得小于8位,请重新输入！'
+msgstr '密码长度不得小于8位,请重新输入！'
+
+msgid '密码长度不得大于16位，请重新输入！'
+msgstr '密码长度不得大于16位，请重新输入！'
+
+msgid '密码必须包含字母、数字、符号三种字符，请重新输入！'
+msgstr '密码必须包含字母、数字、符号三种字符，请重新输入！'
+
+msgid '密码只能包含字母、数字、符号三种字符，请重新输入！'
+msgstr '密码只能包含字母、数字、符号三种字符，请重新输入！'
+
+msgid '密码不能包含用户名，请重新输入！'
+msgstr '密码不能包含用户名，请重新输入！'
+
+msgid '请选择所属组织机构'
+msgstr '请选择所属组织机构'
+
+msgid '所选择所属组织机构无权限'
+msgstr '所选择所属组织机构无权限'
+
+msgid '所属角色'
+msgstr '所属角色'
+
+msgid '除数据权限外，请选择同类型角色'
+msgstr '除数据权限外，请选择同类型角色'
+
+msgid '请输入手机号码'
+msgstr '请输入手机号码'
+
+msgid '手机号码不合法'
+msgstr '手机号码不合法'
+
+msgid '添加标签'
+msgstr '添加标签'
+
+msgid '请添加标签'
+msgstr '请添加标签'
+
+msgid '请输入邮箱'
+msgstr '请输入邮箱'
+
+msgid '请输入1-64位字符'
+msgstr '请输入1-64位字符'
+
+msgid '邮箱格式不正确'
+msgstr '邮箱格式不正确'
+
+msgid '身份证号'
+msgstr '身份证号'
+
+msgid '请输入身份证号'
+msgstr '请输入身份证号'
+
+msgid '身份证格式不正确'
+msgstr '身份证格式不正确'
+
+msgid '首次登录强制修改密码'
+msgstr '首次登录强制修改密码'
+
+msgid '使用状态'
+msgstr '使用状态'
+
+msgid '使用期限'
+msgstr '使用期限'
+
+msgid '请选择使用期限'
+msgstr '请选择使用期限'
+
+msgid '人脸图片'
+msgstr '人脸图片'
+
+msgid '人脸图片要求：200KB至4MB图片大小、半身近照、图片类型为JPG、PNG或JPEG，不能有遮挡物'
+msgstr '人脸图片要求：200KB至4MB图片大小、半身近照、图片类型为JPG、PNG或JPEG，不能有遮挡物'
+
+msgid '随机'
+msgstr '随机'
+
+msgid '导入用户列表'
+msgstr '导入用户列表'
+
+msgid '导入成功'
+msgstr '导入成功'
+
+msgid '上传失败'
+msgstr '上传失败'
+
+msgid '用户导入'
+msgstr '用户导入'
+
+msgid '请上传用户EXCEL'
+msgstr '请上传用户EXCEL'
+
+msgid '上传文件'
+msgstr '上传文件'
+
+msgid '更新用户密码'
+msgstr '更新用户密码'
+
+msgid '密码修改成功'
+msgstr '密码修改成功'
+
+msgid '密码重置'
+msgstr '密码重置'
+
+msgid '账户密码'
+msgstr '账户密码'
+
+msgid '角色类型'
+msgstr '角色类型'
+
+msgid '角色'
+msgstr '角色'
+
+msgid '更新用户关联角色信息'
+msgstr '更新用户关联角色信息'
+
+msgid '已更新'
+msgstr '已更新'
+
+msgid '除数据权限外，请选择相同类型角色'
+msgstr '除数据权限外，请选择相同类型角色'
+
+msgstr '操作成功！'
+msgstr '操作成功！'
+
+msgid '二维码图片配置信息保存成功'
+msgstr '二维码图片配置信息保存成功'
+
+msgid '角色类型'
+msgstr '角色类型'
+
+msgid '请输入角色编码'
+msgstr '请输入角色编码'
+
+msgid '请输入1-50位数字、字母或其组合，字母区分大小写'
+msgstr '请输入1-50位数字、字母或其组合，字母区分大小写'
+
+msgid '请输入角色名称'
+msgstr '请输入角色名称'
+
+msgid '请输入1-50字符'
+msgstr '请输入1-50字符'
+
+msgid '标题不为空'
+msgstr '标题不为空'
+
+msgid '消息类型不为空'
+msgstr '消息类型不为空'
+
+msgid '下载成功'
+msgstr '下载成功'
+
+msgid '当前没有选中的的设备'
+msgstr '当前没有选中的的设备'
+
+msgid '机构名称'
+msgstr 'Organization name'
+
+msgid '关联成功'
+msgstr '关联成功'
+
+msgid '操作失败'
+msgstr '操作失败'
+
+msgid '数据提交中,请稍候....'
+msgstr '数据提交中,请稍候....'
+
+msgid '当前操作将会清空角色数据权限, 是否确定重置?'
+msgstr '当前操作将会清空角色数据权限, 是否确定重置?'
+
+msgid '没有数据需要提交'
+msgstr '没有数据需要提交'
+
+msgid '更新角色成功'
+msgstr '更新角色成功'
+
+msgid '数据权限更新成功'
+msgstr '数据权限更新成功'
+
+msgid '更新功能权限'
+msgstr '更新功能权限'
+
+msgid '功能权限更新成功'
+msgstr '功能权限更新成功'
+
+msgid 'Android版下载的二维码图片'
+msgstr 'Android版下载的二维码图片'
+
+msgid 'iPhone版下载的二维码图片'
+msgstr 'iPhone版下载的二维码图片'
+
+msgid '上传成功'
+msgstr '上传成功'
+
+msgid '清空成功'
+msgstr '清空成功'
+
+msgid '无组织机构数据'
+msgstr '无组织机构数据'
+
+msgid '请先选择用户'
+msgstr '请先选择用户'
+
+msgid '禁止休眠登录用户'
+msgstr '禁止休眠登录用户'
+
+msgid '请先选择要注销的数据'
+msgstr '请先选择要注销的数据'
+
+msgid '管理员账号禁止注销，请重新选择'
+msgstr '管理员账号禁止注销，请重新选择'
+
+msgid '包含已被注销的数据，不能进行批量注销操作'
+msgstr '包含已被注销的数据，不能进行批量注销操作'
+
+msgid '注销用户'
+msgstr '注销用户'
+
+msgid '导出用户列表'
+msgstr '导出用户列表'
+
+msgid '下载模板成功'
+msgstr '下载模板成功'
+
+msgid '导出成功'
+msgstr '导出成功'
+
+msgid '请输入浏览器标题名称'
+msgstr '请输入浏览器标题名称'
+
+msgid '上传系统Logo'
+msgstr '上传系统Logo'
+
+msgid '系统配置'
+msgstr '系统配置'
+
+msgid '系统名称'
+msgstr '系统名称'
+
+msgid '请输入系统名称'
+msgstr '请输入系统名称'
+
+msgid '文件格式为.png, .jpg，图片分辨率为32 * 32px，大小不超过 100k'
+msgstr '文件格式为.png, .jpg，图片分辨率为32 * 32px，大小不超过 100k'
+
+msgid '请输入查询条件'
+msgstr '请输入查询条件'
+
+msgid '密码修改'
+msgstr '密码修改'
+
+msgid '退出系统'
+msgstr '退出系统'
+
+msgid '选择用户'
+msgstr '选择用户'
+
+msgid '请输入组织机构名称'
+msgstr '请输入组织机构名称'
+
+msgid '功能目录'
+msgstr '功能目录'
+
+msgid '页面资源权限'
+msgstr '页面资源权限'
+
+msgid '权限范围'
+msgstr '权限范围'
+
+msgid '请输入设备类型/设备名称/设备型号'
+msgstr '请输入设备类型/设备名称/设备型号'
+
+msgid '分类'
+msgstr '分类'
+
+msgid '字典'
+msgstr '字典'
+
+msgid '字典值'
+msgstr '字典值'
+
+msgid '请联系企业管理员找回密码'
+msgstr '请联系企业管理员找回密码'
+
+msgid "无"
+msgstr "无"
+
+msgid "按钮"
+msgstr "按钮"
+
+msgid "卡片"
+msgstr "卡片"
+
+msgid "不支持输入表情"
+msgstr "不支持输入表情"
+
+msgid "请输入数字、汉字或字母"
+msgstr "请输入数字、汉字或字母"
+
+msgid "请输入数字、字母或下划线"
+msgstr "请输入数字、字母或下划线"
+
+msgid "请输入数字或字母"
+msgstr "请输入数字或字母"
+
+msgid "请输入正确的地址"
+msgstr "请输入正确的地址"
+
+msgid "严重"
+msgstr "严重"
+
+msgid "一般"
+msgstr "一般"
+
+msgid "上传文件格式错误"
+msgstr "上传文件格式错误"
+
+msgid "文件大小超出限制"
+msgstr "文件大小超出限制"
+
+msgid "图片尺寸超出限制"
+msgstr "图片尺寸超出限制"
+
+msgid "上传图片验证不通过"
+msgstr "上传图片验证不通过"
+
+msgid "角色类型过滤"
+msgstr "角色类型过滤"
+
+msgid "更新数据权限："
+msgstr "更新数据权限："
+
+msgid "角色分配"
+msgstr "角色分配"
+
+msgid "使用期限过滤"
+msgstr "使用期限过滤"
+
+msgid "使用状态过滤"
+msgstr "使用状态过滤"
+
+msgid "关联角色"
+msgstr "关联角色"
+
+msgid "查询角色信息"
+msgstr "查询角色信息"
+
+msgid "查询用户信息"
+msgstr "查询用户信息"
+
+msgid "离开页面"
+msgstr "离开页面"
+
+msgid "进入页面"
+msgstr "进入页面"
+
+msgid "开始装载{{name}}应用资源"
+msgstr "开始装载{{name}}应用资源"
+
+msgid "开始挂载{{name}}应用"
+msgstr "开始挂载{{name}}应用"
+
+msgid "完成挂载{{name}}应用"
+msgstr "完成挂载{{name}}应用"
+
+msgid "开始卸载{{name}}应用"
+msgstr "开始卸载{{name}}应用"
+
+msgid "完成卸载{{name}}应用"
+msgstr "完成卸载{{name}}应用"
+
+msgid "关闭当前页签"
+msgstr "关闭当前页签"
+
+msgid "关闭其它页签"
+msgstr "关闭其它页签"
+
+msgid "关闭左侧页签"
+msgstr "关闭左侧页签"
+
+msgid "关闭右侧页签"
+msgstr "关闭右侧页签"
+
+msgid "关闭全部页签"
+msgstr "关闭全部页签"
+
+msgid "系统版本变化"
+msgstr "系统版本变化"
+
+msgid "检测到系统环境发生变化"
+msgstr "检测到系统环境发生变化"
+
+msgid "请重新载入系统"
+msgstr "请重新载入系统"
+
+msgid "告警数量"
+msgstr "告警数量"
+
+msgid "没有访问权限，请联系管理员"
+msgstr "没有访问权限，请联系管理员"
+
+msgid "请上传logo"
+msgstr "请上传logo"
+
+msgid "新建字典项"
+msgstr "新建字典项"
+
+msgid "编辑字典项"
+msgstr "编辑字典项"
+
+msgid "请输入正确的URL格式"
+msgstr "请输入正确的URL格式"
+
+msgid "加入快捷菜单"
+msgstr "加入快捷菜单"
+
+msgid "设备列表"
+msgstr "设备列表"
+
+msgid "请填写告警跳转地址"
+msgstr "请填写告警跳转地址"
+
+msgid "继续登录"
+msgstr "继续登录"
+
+msgid "强制退出"
+msgstr "强制退出"
+
+msgid "不约束"
+msgstr "不约束"
+
+msgid "约束"
+msgstr "约束"
+
+msgid "请求超时"
+msgstr "请求超时"
+
+msgid "选择节点不存在物理设备"
+msgstr "选择节点不存在物理设备"
+
+msgid '最多启用五个'
+msgstr '最多启用五个'
+
+msgid '新增用户'
+msgstr '新增用户'
+
+msgid '编辑用户'
+msgstr '编辑用户'
+
+msgid '激活用户'
+msgstr '激活用户'
+
+msgid '休眠用户'
+msgstr '休眠用户'
+
+msgid '请选择所属角色'
+msgstr '请选择所属角色'
+
+msgid '新增角色'
+msgstr '新增角色'
+
+msgid '编辑角色'
+msgstr '编辑角色'
+
+msgid '更新角色关联用户信息'
+msgstr '更新角色关联用户信息'
+
+msgid '已有用户在该浏览器上登录，是否继续登录？'
+msgstr '已有用户在该浏览器上登录，是否继续登录？'
+
+msgid '您已在其他浏览器上登录，是否强制退出？'
+msgstr '您已在其他浏览器上登录，是否强制退出？'
+
+msgid '包含子级的数据不可删除'
+msgstr '包含子级的数据不可删除'
+
+msgid "待选角色"
+msgstr "待选角色"
+
+msgid "已选角色"
+msgstr "已选角色"
+
+msgid '新建企业'
+msgstr '新建企业'
+
+msgid '编辑企业'
+msgstr '编辑企业'
+
+msgid '加入成功！'
+msgstr '加入成功！'
+
+msgid '组织关联用户已更新'
+msgstr '组织关联用户已更新'
+
+msgid '设备型号'
+msgstr '设备型号'
+
+msgid '请选择角色类型'
+msgstr '请选择角色类型'
+
+msgid '角色关联用户已更新'
+msgstr '角色关联用户已更新'
+
+msgid '保存基本信息配置'
+msgstr '保存基本信息配置'
+
+msgid '电场类型'
+msgstr '电场类型'
+
+msgid '映射的物理电场'
+msgstr '映射的物理电场'
+
+msgid '查询用户标签列表'
+msgstr '查询用户标签列表'
+
+msgid '查询企业账户列表'
+msgstr '查询企业账户列表'
+
+msgid '查询应用维护列表'
+msgstr '查询应用维护列表'
+
+msgid '复制新建框架名称'
+msgstr '复制新建框架名称'
+
+msgid '支持附件格式为'
+msgstr '支持附件格式为'
+
+msgid '删除标签'
+msgstr '删除标签'
+
+msgid '新建标签'
+msgstr '新建标签'
+
+msgid '编辑标签'
+msgstr '编辑标签'
+
+msgid '请输入数字、汉字、字母、括号或者句号'
+msgstr '请输入数字、汉字、字母、括号或者句号'
+
+msgid "注销成功"
+msgstr "注销成功"
+
+msgid "是否确定注销选中的用户"
+msgstr "是否确定注销选中的用户?"
+
+msgid "最多选10个"
+msgstr "最多选10个"
+
+msgid "个人信息"
+msgstr "个人信息"
+
+msgid "个人信息修改成功"
+msgstr "个人信息修改成功"
+
+msgid "账号："
+msgstr "账号："
+
+msgid "姓名："
+msgstr "姓名："
+
+msgid "请输入姓名"
+msgstr "请输入姓名"
+
+msgid "手机号码："
+msgstr "手机号码："
+
+msgid "请输入正确的手机号码"
+msgstr "请输入正确的手机号码"
+
+msgid "邮箱："
+msgstr "邮箱："
+
+msgid "帮助中心"
+msgstr "帮助中心"
+
+msgid "APP下载"
+msgstr "APP下载"
+
+msgid "关于系统"
+msgstr "关于系统"
+
+msgid "说明："
+msgstr "说明："
+
+msgid "版权所有©2022金风慧能技术有限公司。"
+msgstr "版本所有©2022金风慧能技术有限公司。"
+
+msgid "页面是否自动退出"
+msgstr "页面是否自动退出"
+
+msgid "当前版本号"
+msgstr "当前版本号"
+
+msgid "清空"
+msgstr "清空"
+
+msgid "版本号"
+msgstr "版本号"
+
+msgid "发布日期"
+msgstr "发布日期"
+
+msgid "更新日期"
+msgstr "更新日期"
+
+msgid "否启用"
+msgstr "否启用"
+
+msgid "Android版"
+msgstr "Android版"
+
+msgid "iPhone版"
+msgstr "iPhone版"
+
+msgid "版本信息"
+msgstr "版本信息"
+
+msgid "已关联"
+msgstr "已关联"
+
+msgid "未关联"
+msgstr "未关联"
+
+msgid "二维码图片配置信息保存成功"
+msgstr "二维码图片配置信息保存成功"
+
+msgid "是否级联删除子组织机构"
+msgstr "是否级联删除子组织机构"
+
+msgid "是否确定删除选中的组织机构"
+msgstr "是否确定删除选中的组织机构"
+
+msgid "Network Error"
+msgstr "网络异常"
+
+msgid "Request failed with status code 500"
+msgstr "请求失败, 状态码500"
+
+msgid "未上传"
+msgstr "未上传"
+
+msgid "上传中"
+msgstr "上传中"
+
+msgid "上传完成"
+msgstr "上传完成"
+
+msgid "上传失败"
+msgstr "上传失败"
+
+msgid "文件名"
+msgstr "文件名"
+
+msgid "文件大小"
+msgstr "文件大小"
+
+msgid "移除"
+msgstr "移除"
+
+msgid "确定移除附件吗？"
+msgstr "确定移除附件吗？"
+
+msgid "文件大小应小于100MB!"
+msgstr "文件大小应小于100MB!"
+
+msgid "已达到最大文件上传数量!"
+msgstr "已达到最大文件上传数量!"
+
+msgid "存在未上传完成或者失败的附件，确认后将放弃上传,是否继续提交？"
+msgstr "存在未上传完成或者失败的附件，确认后将放弃上传,是否继续提交？"
+
+msgid "通知公告已定时发送"
+msgstr "通知公告已定时发送"
+
+msgid "通知公告已发送"
+msgstr "通知公告已发送"
+
+msgid "请填写公告内容"
+msgstr "请填写公告内容"
+
+msgid "通知公告已保存草稿"
+msgstr "通知公告已保存草稿"

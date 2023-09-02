@@ -1,0 +1,2289 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+msgid "添加"
+msgstr "Add"
+
+msgid "保存"
+msgstr "Save"
+
+msgid "取消"
+msgstr "Cancel"
+
+msgid "关闭"
+msgstr "Close"
+
+msgid "修改"
+msgstr "Modify"
+
+msgid "是否确定删除选中的记录?"
+msgstr "Are you sure to delete the selected records?"
+
+msgid "是"
+msgstr "Yes"
+
+msgid "否"
+msgstr "No"
+
+msgid "删除成功"
+msgstr "Successfully deleted"
+
+msgid "创建成功"
+msgstr "Created successfully"
+
+msgid "更新成功"
+msgstr "Updated successfully"
+
+msgid "删除失败"
+msgstr "Fail to delete"
+
+msgid "更新失败"
+msgstr "Updating failed"
+
+msgid "请选择要删除的选项"
+msgstr "Please select the option to be deleted"
+
+msgid "新建"
+msgstr "Create"
+
+msgid "编辑"
+msgstr "Edit"
+
+msgid "删除"
+msgstr "Delete"
+
+msgid "顺序"
+msgstr "Sequence"
+
+msgid "标识"
+msgstr "Labeling"
+
+msgid "状态"
+msgstr "Status"
+
+msgid "启用"
+msgstr "Enable"
+
+msgid "禁用"
+msgstr "Disable"
+
+msgid "操作"
+msgstr "Operation"
+
+msgid "描述"
+msgstr "Description"
+
+msgid "返回上一级"
+msgstr "Back to previous level"
+
+msgid "导入"
+msgstr "Import"
+
+msgid "请输入"
+msgstr "Please enter"
+
+msgid "数字"
+msgstr "Integer"
+
+msgid "小数"
+msgstr "Decimal number"
+
+msgid "台"
+msgstr "Set"
+
+msgid "个"
+msgstr "Piece"
+
+msgid "禁止输入空格"
+msgstr "Disable space input"
+
+msgid "禁止输入特殊字符"
+msgstr "Do not enter special characters"
+
+msgid "请输入中文，英文，数字或其组合"
+msgstr "Please enter Chinese，English，Numbers or combination thereof"
+
+msgid "请输入英文，数字或其组合"
+msgstr "Please enter English，Numbers or combination thereof"
+
+msgid "请输入英文，数字或下划线"
+msgstr "Please enter English，Number or underline"
+
+msgid "新增子菜单"
+msgstr "New submenu"
+
+msgid "启用状态下数据不可删除"
+msgstr "Data cannot be deleted in the enabled state"
+
+msgid "内部产品不可删除"
+msgstr "Internal products cannot be deleted"
+
+msgid "查询"
+msgstr "Query"
+
+msgid "一键已读"
+msgstr "All read"
+
+msgid "详情"
+msgstr "Details"
+
+msgid "确定"
+msgstr "OK"
+
+msgid "修改状态:{{name}}"
+msgstr "Modify status:{{name}}"
+
+msgid "权限"
+msgstr "Permission"
+
+msgid "功能权限"
+msgstr "Function permission"
+
+msgid "数据权限"
+msgstr "Data permission"
+
+msgid "权限分配"
+msgstr "Permission allocation"
+
+msgid "角色名称"
+msgstr "Role name"
+
+msgid "角色编码"
+msgstr "Role code"
+
+msgid "重置"
+msgstr "Reset"
+
+msgid "请输入角色编码/角色名称"
+msgstr "Please enter the role code/role name"
+
+msgid "选择角色类型"
+msgstr "Select role type"
+
+msgid "角色权限"
+msgstr "Role Permissions"
+
+msgid "{{verb}}角色:  {{roleName}}"
+msgstr "{{verb}} a new role:{{roleName}}"
+
+msgid "删除角色:  {{roleName}}"
+msgstr "delete a role:{{roleName}}"
+
+msgid "修改角色状态:  {{name}}"
+msgstr "Modify role status:  {{name}}"
+
+msgid "字典编码"
+msgstr "Dictionary encoding"
+
+msgid "字典名称"
+msgstr "Dictionary name"
+
+msgid "字典描述"
+msgstr "Dictionary description"
+
+msgid "字典项名称"
+msgstr "Dictionary item name"
+
+msgid "字典项"
+msgstr "Dictionary item"
+
+msgid "字典项值"
+msgstr "Dictionary item value"
+
+msgid "所属分类"
+msgstr "Affiliated classification"
+
+msgid "字典项描述"
+msgstr "Dictionary item description"
+
+msgid "上级分类"
+msgstr "Higher level category"
+
+msgid "新建类型"
+msgstr "New type"
+
+msgid "分类编码"
+msgstr "Classification code"
+
+msgid "分类名称"
+msgstr "Classification name"
+
+msgid "不可删除启用状态的字典项"
+msgstr "The dictionary item in the enabled status cannot be deleted"
+
+msgid "共"
+msgstr "Total"
+
+msgid "条"
+msgstr "Piece"
+
+msgid "接口错误"
+msgstr "Interface error"
+
+msgid "新增字典项：{{name}}"
+msgstr "Add dictionary item：{{name}}"
+
+msgid "编辑字典项：{{name}}"
+msgstr "Edit dictionary item：{{name}}"
+
+msgid "删除字典项：{{name}}"
+msgstr "Delete dictionary item：{{name}}"
+
+msgid "批量删除字典项：{{num}}条"
+msgstr "Number of dictionary items deleted in batch：{{num}}"
+
+msgid "新增分类：{{name}}"
+msgstr "Add Classification：{{name}}"
+
+msgid "编辑分类：{{name}}"
+msgstr "Edit Classification：{{name}}"
+
+msgid "删除分类：{{name}}"
+msgstr "Delete Classification：{{name}}"
+
+msgid "修改字典项状态：{{name}}"
+msgstr "Modify dictionary item state：{{name}}"
+
+msgid "用户账号"
+msgstr "User account"
+
+msgid "用户名称"
+msgstr "User name"
+
+msgid "组织机构"
+msgstr "Organization"
+
+msgid "激活"
+msgstr "Activation"
+
+msgid "模板下载"
+msgstr "Template download"
+
+msgid "请输入用户账号/用户名称"
+msgstr "Please enter the user account/username"
+
+msgid "手机号码"
+msgstr "Mobile phone number"
+
+msgid "用户类型"
+msgstr "User type"
+
+msgid "标签"
+msgstr "Tag"
+
+msgid "邮箱"
+msgstr "Email"
+
+msgid "重置密码"
+msgstr "Reset password"
+
+msgid "用户角色"
+msgstr "User role"
+
+msgid "设备ID"
+msgstr "Device Id"
+
+msgid "设备名称"
+msgstr "Device name"
+
+msgid "型号"
+msgstr "Model"
+
+msgid "上级组织架构"
+msgstr "Superordinate organization"
+
+msgid "顺序号"
+msgstr "Sequence number"
+
+msgid "组织类型"
+msgstr "Organization type"
+
+msgid "物理设备"
+msgstr "Physical device"
+
+msgid "电场名称"
+msgstr "Name of the electric field"
+
+msgid "关联设备"
+msgstr "Relevant equipment"
+
+msgid "设备ID/设备名称/型号"
+msgstr "Device Id/Device name/Model"
+
+msgid "导出组织机构数据"
+msgstr "Export the organization data"
+
+msgid "业务电场"
+msgstr "Business electric field"
+
+msgid "普通组织"
+msgstr "Common organization"
+
+msgid "下级组织机构"
+msgstr "Subordinate organization"
+
+msgid "机构名称"
+msgstr "Institution name"
+
+msgid "机构描述"
+msgstr "Institution description"
+
+msgid "有操作记录，确定要切换节点吗"
+msgstr "There are operation record，Are you sure to switch nodes？"
+
+msgid "请选择需要移动的设备"
+msgstr "Please select the device to be moved"
+
+msgid "绑定用户"
+msgstr "Binding user"
+
+msgid "设备类型"
+msgstr "Equipment type"
+
+msgid "删除设备"
+msgstr "Delete device"
+
+msgid "请选择节点"
+msgstr "Please select the node"
+
+msgid "获取组织机构树"
+msgstr "get the organization tree"
+
+msgid "新增组织机构"
+msgstr "New organization"
+
+msgid "编辑组织机构"
+msgstr "Edit organization"
+
+msgid "删除组织机构"
+msgstr "delete the organization"
+
+msgid "框架配置"
+msgstr "Frame configuration"
+
+msgid "文件格式为: .png、.jpg、.svg, 图片分辨率为: 32 * 32, 大小不超过100k"
+msgstr "The file format is: .png, .jpg, .svg, the image resolution is: 32 * 32, size no more than 100K"
+
+msgid "基本信息配置"
+msgstr "Basic information configuration"
+
+msgid "背景页面配置"
+msgstr "Background page configuration"
+
+msgid "通用功能配置"
+msgstr "General function configuration"
+
+msgid "LOGO配置"
+msgstr "Logo configuration"
+
+msgid "上传浏览器Logo"
+msgstr "Upload browser logo"
+
+msgid "上传LOGO"
+msgstr "Upload logo"
+
+msgid "浏览器标题名称"
+msgstr "Browser title name"
+
+msgid "不能含有特殊字符"
+msgstr "Special characters cannot be contained"
+
+msgid "框架显示配置"
+msgstr "Frame display configuration"
+
+msgid "顶部默认显示"
+msgstr "Top default display"
+
+msgid "左侧导航默认显示"
+msgstr "Default display of left navigation"
+
+msgid "显示"
+msgstr "Display"
+
+msgid "隐藏"
+msgstr "Hide"
+
+msgid "保存成功"
+msgstr "Saved successfully"
+
+msgid "编码"
+msgstr "Code"
+
+msgid "功能名称"
+msgstr "Function name"
+
+msgid "图标"
+msgstr "Icon"
+
+msgid "URL地址"
+msgstr "URL address"
+
+msgid "请输入相对路径或者绝对路径,绝对路径需包含协议"
+msgstr "Please enter a relative or absolute path, the absolute path needs to include protocols"
+
+msgid "跳转类型为外部时，路由地址必须是带协议的完整地址"
+msgstr "If the jump type is external, the route address must be a complete address with a protocol"
+
+msgid "说明：若配置bi报表地址，在录完地址后需要带入BI后缀，点此"
+msgstr "Note: If the bi report address is configured, you need to enter the BI suffix after recording the address. Click here to "
+
+msgid "一键引用"
+msgstr "One-key reference"
+
+msgid "已引用地址无法重复一键引用"
+msgstr "A referenced address cannot be referenced by one key again"
+
+msgid "跳转本系统界面，请填写相对路径路由地址"
+msgstr "To jump to this system page, enter the relative path routing address"
+
+msgid "当前记录启用中，不可删除"
+msgstr "Current record being enabled, cannot be deleted"
+
+msgid "存在子菜单，确定要删除吗"
+msgstr "The submenu exists, are you sure to delete it"
+
+msgid "确定要删除吗"
+msgstr "Are you sure to delete"
+
+msgid "文件格式为: .png, .jpg 图片分辨率为: 48 * 48px, 大小不超过100k"
+msgstr "The file format is: .png, .jpg the image resolution is: 48 * 48px, size no more than 100K"
+
+msgid "图片名称"
+msgstr "Image name"
+
+msgid "缩略图"
+msgstr "Thumbnails"
+
+msgid "背景图片"
+msgstr "Background picture"
+
+msgid "文件格式为: .png、.jpg, 图片分辨率为: 1920 * 1080px, 大小不超过1M"
+msgstr "The file format is: .png, .jpg, the image resolution is: 1920 * 1080px, size no more than 1M"
+
+msgid "编辑基本信息配置"
+msgstr "Edit basic information configuration"
+
+msgid "新建背景页面: {{pageName}}"
+msgstr "Create a new background page:{{pageName}}"
+
+msgid "编辑背景页面: {{pageName}}"
+msgstr "Edit a background page:{{pageName}}"
+
+msgid "删除背景页面: {{pageName}}"
+msgstr "Delete a new background page:{{pageName}}"
+
+msgid "新建通用功能: {{funcName}}"
+msgstr "Create a new general function:{{funcName}}"
+
+msgid "编辑通用功能: {{funcName}}"
+msgstr "Edit a new general function:{{funcName}}"
+
+msgid "删除通用功能: {{funcName}}"
+msgstr "Delete a new general function:{{funcName}}"
+
+msgid "修改背景页面状态: {{name}}"
+msgstr "Modify background state: {{name}}"
+
+msgid "修改通用功能状态: {{name}}"
+msgstr "Modify general function state: {{name}}"
+
+msgid "企业logo"
+msgstr "Enterprise LOGO"
+
+msgid "企业名称"
+msgstr "Enterprise name"
+
+msgid "企业简称"
+msgstr "Enterprise abbreviation"
+
+msgid "账户性质"
+msgstr "Attribute of account"
+
+msgid "账户状态"
+msgstr "Account status"
+
+msgid "产品服务使用时效"
+msgstr "Product service usage time limit"
+
+msgid "账号名称"
+msgstr "Account name"
+
+msgid "账号密码"
+msgstr "Account password"
+
+msgid "请输入账号密码"
+msgstr "Please enter the account password"
+
+msgid "请输入8-16位数字、字母和符号组合，字母区分大小写"
+msgstr "Please enter 8-16 digits, letters, and symbol combinations, the lower case and upper case of letter shall be distinguished"
+
+msgid "账号状态"
+msgstr "Account status"
+
+msgid "基本信息"
+msgstr "Basic information"
+
+msgid "默认管理员账号"
+msgstr "Default administrator account"
+
+msgid "请输入企业名称/企业简称"
+msgstr "Please enter the name of the enterprise/enterprise abbreviation"
+
+msgid "企业名称长度不可以大于100字符"
+msgstr "The length of the enterprise name cannot be greater than 100 characters"
+
+msgid "企业名称不能重复"
+msgstr "The enterprise name cannot be duplicate"
+
+msgid "企业名称不能输入表情"
+msgstr "The emoticons cannot be entered in the enterprise name"
+
+msgid "企业简称不能输入表情"
+msgstr "The emoticons cannot be entered in the enterprise abbreviation"
+
+msgid "请输入企业简称"
+msgstr "Please enter the enterprise abbreviation"
+
+msgid "企业简称长度不可以大于50字符"
+msgstr "The length of the enterprise abbreviation cannot be greater than 50 characters"
+
+msgid "账户性质不可以为空"
+msgstr "The account nature cannot be null"
+
+msgid "请选择账户性质"
+msgstr "Please select the account nature"
+
+msgid "文件格式为:png、jpg,图片分辨率:32x32px,大小不超过 100k"
+msgstr "The file format is: PNG, JPG, the image resolution is： 32x32px, size no more than 100K"
+
+msgid "请输入账号名称"
+msgstr "Please enter the account name"
+
+msgid "账号名称不能输入表情"
+msgstr "The emoticons cannot be entered in the account name"
+
+msgid "请上传企业logo"
+msgstr "Please upload the enterprise logo"
+
+msgid "请选择产品服务名称"
+msgstr "Please select product service name"
+
+msgid "不能添加相同产品服务"
+msgstr "The same product service cannot be added"
+
+msgid "请求报错"
+msgstr "Request error"
+
+msgid "查询成功"
+msgstr "Successful query"
+
+msgid "账号名称和账号密码不能重复"
+msgstr "The account name and account password cannot be duplicate"
+
+msgid "复制成功"
+msgstr "Copying successful"
+
+msgid "复制失败，请手动复制"
+msgstr "Failure to copy, please copy manually"
+
+msgid "平台企业"
+msgstr "Platform enterprise"
+
+msgid "应用企业"
+msgstr "Application enterprise"
+
+msgid "运维企业"
+msgstr "Operation and maintenance enterprise"
+
+msgid "该应用已被禁用"
+msgstr "The application has been disabled"
+
+msgid "{{verb}}企业:{{name}}"
+msgstr "{{verb}} enterprise: {{name}}"
+
+msgid "修改企业账户状态: {{name}}"
+msgstr "Modify Enterprise account status: {{name}}"
+
+msgid "应用编码"
+msgstr "Application code"
+
+msgid "存在重复编码，请重新输入"
+msgstr "The duplicate codes exist, please re-enter"
+
+msgid "请输入应用编码"
+msgstr "Please enter the application code"
+
+msgid "应用名称"
+msgstr "Application name"
+
+msgid "存在重复名称，请重新输入"
+msgstr "The duplicate names exist, please re-enter"
+
+msgid "应用名称不能输入表情"
+msgstr "The emoticons cannot be entered in the application name"
+
+msgid "应用编码不能输入表情"
+msgstr "The emoticons cannot be entered in the application code"
+
+msgid "请输入应用名称"
+msgstr "Please enter the application name"
+
+msgid "请输入应用名称/应用编码"
+msgstr "Please enter the application name/the application code"
+
+msgid "应用描述"
+msgstr "Application description"
+
+msgid "请输入255字以内的应用描述"
+msgstr "Please enter the application description within 255 words"
+
+msgid "数据查询失败"
+msgstr "Failure to query data"
+
+msgid "应用IP"
+msgstr "Application IP"
+
+msgid "请输入应用IP"
+msgstr "Please enter the application IP"
+
+msgid "请输入正确的IP地址"
+msgstr "Please enter the correct IP address"
+
+msgid "应用IP以/结尾或路由地址以/开头"
+msgstr "The application IP address ends with/or the route address starts with /"
+
+msgid "请输入顺序"
+msgstr "Please enter the sequence"
+
+msgid "路由地址"
+msgstr "Routing address"
+
+msgid "请输入路由地址"
+msgstr "Please enter the routing address"
+
+msgid "请输入正确的路由地址"
+msgstr "Please enter the correct routing address"
+
+msgid "内外标识"
+msgstr "Inner and outer markings"
+
+msgid "内外标识不可以为空"
+msgstr "The inner and outer markings cannot be null"
+
+msgid "请选择内外标识"
+msgstr "Please select inner and outer markings"
+
+msgid "金风内部产品"
+msgstr "Goldwind’s internal product"
+
+msgid "第三方的产品"
+msgstr "Third-party product"
+
+msgid "应用终端类型"
+msgstr "Application terminal type"
+
+msgid "PC端"
+msgstr "PC"
+
+msgid "移动端"
+msgstr "Mobile end"
+
+msgid "{{verb}}应用:{{name}}"
+msgstr "{{verb}} application: {{name}}"
+
+msgid "修改应用状态: {{name}}"
+msgstr "Modify application state: {{name}}"
+
+msgid "查询应用列表"
+msgstr "Query application list"
+
+msgid "标签编码"
+msgstr "Label encoding"
+
+msgid "标签名称"
+msgstr "Tag name"
+
+msgid "请输入标签名称"
+msgstr "Please enter the tag name"
+
+msgid "标签名称不能输入表情"
+msgstr "The emoticons cannot be entered in the label name"
+
+msgid "存在重复标签名称，请重新输入"
+msgstr "There are repeated label names, please re-enter"
+
+msgid "用户数量"
+msgstr "Number of users"
+
+msgid "标签描述"
+msgstr "Label description"
+
+msgid "请输入100字以内的标签描述"
+msgstr "Please enter the label description within 100 words"
+
+msgid "所属组织机构"
+msgstr "Subordinate organization"
+
+msgid "用户账号/用户名称/所属组织机构"
+msgstr "User account/user name/subordinate organization"
+
+msgid "已选人员"
+msgstr "Selected personnel"
+
+msgid "标签下存在用户 , 无法删除"
+msgstr "There are users under the tag, which cannot be deleted"
+
+msgid "{{verb}}标签:{{name}}"
+msgstr "{{verb}} Label: {{name}}"
+
+msgid "添加资源"
+msgstr "Add resources"
+
+msgid "菜单编码"
+msgstr "Menu code"
+
+msgid "菜单名称"
+msgstr "Menu name"
+
+msgid "文件格式为: .png、.jpg、.gif, 图片分辨率为: 48 * 48, 大小不超过100k"
+msgstr "The file format is: .png, .jpg, .gif, the image resolution is： 48 * 48, size no more than 100K"
+
+msgid "类型"
+msgstr "Type"
+
+msgid "排序"
+msgstr "Ranking"
+
+msgid "菜单信息"
+msgstr "Menu information"
+
+msgid "页面资源"
+msgstr "Page resources"
+
+msgid "资源名称"
+msgstr "Resource name"
+
+msgid "资源类型"
+msgstr "Resource type"
+
+msgid "权限标识"
+msgstr "Permission identifier"
+
+msgid "已启用，不能删除！"
+msgstr "It has been enabled and cannot be deleted!"
+
+msgid "资源"
+msgstr "Resources"
+
+msgid "上级菜单"
+msgstr "Superordinate menu"
+
+msgid "跳转类型"
+msgstr "Jump type"
+
+msgid "请选择跳转类型"
+msgstr "Please select a jump type"
+
+msgid "显示菜单"
+msgstr "Display menu"
+
+msgid "显示图标"
+msgstr "Show icon"
+
+msgid "新增菜单：{{name}}"
+msgstr "Add menu: {{name}}"
+
+msgid "删除菜单：{{name}}"
+msgstr "Delete menu: {{name}}"
+
+msgid "编辑菜单：{{name}}"
+msgstr "Edit Menu: {{name}}"
+
+msgid "新增资源：{{name}}"
+msgstr "Add resources: {{name}}"
+
+msgid "编辑资源"
+msgstr "Edit resources"
+
+msgid "编辑资源：{{name}}"
+msgstr "Edit resources: {{name}}"
+
+msgid "删除资源"
+msgstr "Delete resources"
+
+msgid "删除资源：{{name}}"
+msgstr "Delete resources: {{name}}"
+
+msgid "修改菜单状态：{{name}}"
+msgstr "Modify menu state：{{name}}"
+
+msgid "附件管理"
+msgstr "Attachment administration"
+
+msgid "标题"
+msgstr "Title"
+
+msgid "请输入标题"
+msgstr "Please enter a title"
+
+msgid "文件名"
+msgstr "File name"
+
+msgid "创建时间"
+msgstr "Created on"
+
+msgid "上传中"
+msgstr "Uploading"
+
+msgid "上传附件"
+msgstr "Upload the attachment"
+
+msgid "删除附件"
+msgstr "Delete attachment"
+
+msgid "附件过多，最多支持10个附件！"
+msgstr "Excessive attachment, support up to 10 attachments!"
+
+msgid "附件上传大小不能超过50MB"
+msgstr "The size of the attachment uploaded must not exceed 50MB"
+
+msgid "提示"
+msgstr "Prompt"
+
+msgid "您确定要删除这个附件吗？"
+msgstr "Are you sure to delete this attachment?"
+
+msgid "确认"
+msgstr "Confirm"
+
+msgid "父节点"
+msgstr "Parent node"
+
+msgid "新增成功"
+msgstr "Added successfully"
+
+msgid "请删除输入值的首尾空格"
+msgstr "Please delete the first and last space of the input value"
+
+msgid "是否删除文档？"
+msgstr "Do you delete documents?"
+
+msgid "无数据"
+msgstr "No data"
+
+msgid "是否退出编辑？"
+msgstr "Do you withdraw the editor?"
+
+msgid "在帮助中搜索"
+msgstr "Search in help"
+
+msgid "文档创建者："
+msgstr "Document creator:"
+
+msgid "编辑次数："
+msgstr "Edition times:"
+
+msgid "最近更新："
+msgstr "Recent update:"
+
+msgid "附件："
+msgstr "Attachment:"
+
+msgid "于"
+msgstr "On"
+
+msgid "新增帮助文档"
+msgstr "Add the help document"
+
+msgid "删除帮助文档"
+msgstr "Delete the help document"
+
+msgid "修改帮助文档"
+msgstr "Modify the help document"
+
+msgid "查询文档"
+msgstr "Query document"
+
+msgid "搜索"
+msgstr "search"
+
+msgid "新增"
+msgstr "New"
+
+msgid "文档"
+msgstr "Documentation"
+
+msgid "上传"
+msgstr "Upload"
+
+msgid "附件"
+msgstr "Attachment"
+
+msgid "控件名称"
+msgstr "Control name"
+
+msgid "控件类型"
+msgstr "Control type"
+
+msgid "请选择控件类型"
+msgstr "Please select the control type"
+
+msgid "文本框"
+msgstr "Text box"
+
+msgid "日期"
+msgstr "Date"
+
+msgid "下拉框"
+msgstr "Drop-down box"
+
+msgid "时间"
+msgstr "Time"
+
+msgid "编码文本框"
+msgstr "Encoded text box"
+
+msgid "标签不显示"
+msgstr "Label not displayed"
+
+msgid "序号控件"
+msgstr "SN control"
+
+msgid "数据类型"
+msgstr "Data type"
+
+msgid "请选择数据类型"
+msgstr "Please select the data type"
+
+msgid "字符"
+msgstr "Character"
+
+msgid "是否必填"
+msgstr "Whether required"
+
+msgid "请选择是否必填"
+msgstr "Please select whether it is required"
+
+msgid "非必填"
+msgstr "Not required"
+
+msgid "必填"
+msgstr "Required"
+
+msgid "默认值"
+msgstr "Default value"
+
+msgid "新建机构类型"
+msgstr "New institution type"
+
+msgid "请先选择框架"
+msgstr "Please select the frame first"
+
+msgid "复制新建"
+msgstr "Copy New"
+
+msgid "自定义"
+msgstr "Customize"
+
+msgid "批量删除"
+msgstr "Batch deletion"
+
+msgid "默认"
+msgstr "Default"
+
+msgid "您确定要删除这条记录吗?"
+msgstr "Are you sure to delete this entry of record?"
+
+msgid "您确定要删除这些记录吗?"
+msgstr "Are you sure to delete these entry of records?"
+
+msgid "请选择要删除的字段"
+msgstr "Please select the fields to be deleted"
+
+msgid "编辑成功"
+msgstr "Edited successfully"
+
+msgid "最大长度为50个字符"
+msgstr "The maximum length is 50 characters"
+
+msgid "字段名称"
+msgstr "Field name"
+
+msgid "请输入字段名称"
+msgstr "Please enter the field name"
+
+msgid "复制新建成功"
+msgstr "Copy New successfully"
+
+msgid "框架名称"
+msgstr "Frame name"
+
+msgid "请输入新建框架名称"
+msgstr "Please enter the name of the new frame"
+
+msgid "框架添加成功"
+msgstr "Frame added successfully"
+
+msgid "添加机构类型别名"
+msgstr "Add the institution type alias"
+
+msgid "机构类型别名"
+msgstr "Institution type alias"
+
+msgid "请输入机构类型别名"
+msgstr "Please enter the alias of the institution type"
+
+msgid "机构类型"
+msgstr "Institution type"
+
+msgid "请选择机构类型"
+msgstr "Please select institutional type"
+
+msgid "{{verb}}控件名称:{{name}}"
+msgstr "{{ve}} control name: {{name}}"
+
+msgid "{{verb}}机构类型别名:{{name}}"
+msgstr "{{ve}} institutional type aliases: {{name}}"
+
+msgid "{{verb}}框架名称:{{name}}"
+msgstr "{{ve}} Frame name: {{name}}"
+
+msgid "删除机构类型"
+msgstr "Delete institution type"
+
+msgid "删除机构类型:{{name}}"
+msgstr "Delete institution type: {{name}}"
+
+msgid "新建机构类型:{{name}}"
+msgstr "Add institution type: {{name}}"
+
+msgid "删除多个控件名称"
+msgstr "Delete multiple control names"
+
+msgid "消息内容"
+msgstr "Message content"
+
+msgid "消息类型"
+msgstr "Message type"
+
+msgid "来源"
+msgstr "Source"
+
+msgid "未配置该类型代办，请联系管理员"
+msgstr "This type of agent is not configured. Contact the administrator"
+
+msgid "消息发送时间"
+msgstr "Message sending time"
+
+msgid "消息发送人"
+msgstr "Message sender"
+
+msgid "消息发送部门"
+msgstr "Message sending department"
+
+msgid "消息接收人"
+msgstr "Message recipient"
+
+msgid "接收部门"
+msgstr "Receiving department"
+
+msgid "阅读信息"
+msgstr "Reading information"
+
+msgid "时间选择"
+msgstr "Time selection"
+
+msgid "未读"
+msgstr "Unread"
+
+msgid "已读"
+msgstr "Read"
+
+msgid "请选择..."
+msgstr "please select..."
+
+msgid "发送时间："
+msgstr "Sending time:"
+
+msgid "发送部门"
+msgstr "Sending department"
+
+msgid "发送人"
+msgstr "sender"
+
+msgid "查询消息中心列表"
+msgstr "Query Message Center List"
+
+msgid "查询待办列表"
+msgstr "Query Wait Deal Center List"
+
+msgid "待办"
+msgstr "Wait Deal"
+
+msgid "消息中心"
+msgstr "Message Center"
+
+msgid "已读消息"
+msgstr "Read message"
+
+msgid "操作-已读"
+msgstr "Operation-read"
+
+msgid "登录账号"
+msgstr "Login account"
+
+msgid "共{{total}}条"
+msgstr "Total {{total}}"
+
+msgid "登录方式"
+msgstr "Login method"
+
+msgid "登录姓名"
+msgstr "Login name"
+
+msgid "登录机器IP"
+msgstr "Login machine IP"
+
+msgid "登录状态"
+msgstr "Login status"
+
+msgid "登录时长"
+msgstr "Login Duration"
+
+msgid "登录时间"
+msgstr "Login time"
+
+msgid "退出时间"
+msgstr "Time of exit"
+
+msgid "全部"
+msgstr "All"
+
+msgid "已发送"
+msgstr "Has been sent"
+
+msgid "待发送"
+msgstr "Waiting to be sent"
+
+msgid "草稿"
+msgstr "Draft"
+
+msgid "点击取消"
+msgstr "Click cancel"
+
+msgid "成功"
+msgstr "success"
+
+msgid "失败"
+msgstr "Fail"
+
+msgid "请选择"
+msgstr "Please select"
+
+msgid "请选择时间"
+msgstr "Please select time"
+
+msgid "时间必须大于当前时间"
+msgstr "The time must be later than the current time"
+
+msgid "最大时间选择范围为31天，请重新选择时间"
+msgstr "The maximum time range is 31 days. Select a new time"
+
+msgid "登录日志查询时间范围不得超过31天，请重新选择时间范围"
+msgstr "The time range of the login log query must not exceed 31 days, please select the new time range"
+
+msgid "查询登录日志列表"
+msgstr "Query login log list"
+
+msgid "导出登录日志列表"
+msgstr "Export login log list"
+
+msgid "操作账号"
+msgstr "Operation account"
+
+msgid "操作姓名"
+msgstr "Operation name"
+
+msgid "业务应用"
+msgstr "Business application"
+
+msgid "操作时间"
+msgstr "Operation time"
+
+msgid "操作行为"
+msgstr "Operation behavior"
+
+msgid "操作位置"
+msgstr "Operating position"
+
+msgid "日志类型"
+msgstr "Log type"
+
+msgid "操作内容"
+msgstr "Operation content"
+
+msgid "操作结果"
+msgstr "Operation result"
+
+msgid "业务级"
+msgstr "Business grade"
+
+msgid "系统级"
+msgstr "System level"
+
+msgid "操作日志查询时间范围不得超过31天，请重新选择时间范围"
+msgstr "The operating log query time range must not exceed 31 days, please select the time range"
+
+msgid "请选择操作时间"
+msgstr "Please select the operation time"
+
+msgid "最大时间选择范围为31天，请重新选择操作时间"
+msgstr "The maximum time selection range is 31 days, please select the operation time again"
+
+msgid "查询操作日志列表"
+msgstr "Query operation log list"
+
+msgid "导出操作日志列表"
+msgstr "Export operation log list"
+
+msgid "操作IP"
+msgstr "Operation IP"
+
+msgid "异常日志查询时间范围不得超过31天，请重新选择时间范围"
+msgstr "The range range of abnormal log query must not exceed 31 days, please select the time range"
+
+msgid "查询异常日志列表"
+msgstr "Query abnormal log list"
+
+msgid "导出异常日志列表"
+msgstr "Export abnormal log list"
+
+msgid "告警跳转地址"
+msgstr "Alarm jump address"
+
+msgid "请先输入告警跳转地址！"
+msgstr "Please enter the alarm jump address first!"
+
+msgid "告警扩展配置保存成功！"
+msgstr "The alarm expansion configuration is successfully saved!"
+
+msgid "请输入正确的相对路径"
+msgstr "Please enter the correct relative path"
+
+msgid "请输入正确的绝对路径"
+msgstr "Please enter the correct absolute path"
+
+msgid "请输入数字、字母或斜杠"
+msgstr "Please enter numbers, letters, or slashes"
+
+msgid "修改告警扩展配置"
+msgstr "Modify the alarm extension configuration"
+
+msgid "告警内容"
+msgstr "Warning content"
+
+msgid "请输入告警内容"
+msgstr "Please enter the warning content"
+
+msgid "告警类型"
+msgstr "Alarm Type"
+
+msgid "告警产生时间"
+msgstr "Alarm generation time"
+
+msgid "告警等级"
+msgstr "Alarm level"
+
+msgid "告警对象名称"
+msgstr "Alert object name"
+
+msgid "告警原因"
+msgstr "Alert reason"
+
+msgid "处理状态"
+msgstr "Processing status"
+
+msgid "待处理"
+msgstr "To be processed"
+
+msgid "已处理"
+msgstr "Processed"
+
+msgid "处理人"
+msgstr "Handle"
+
+msgid "处理时间"
+msgstr "Processing time"
+
+msgid "告警详情查看"
+msgstr "Details of the police"
+
+msgid "处理"
+msgstr "deal with"
+
+msgid "开始日期"
+msgstr "start date"
+
+msgid "结束日期"
+msgstr "Ending date"
+
+msgid "请选择日期范围"
+msgstr "Please select the date range"
+
+msgid "告警信息处理完成！"
+msgstr "The alarm information processing is complete!"
+
+msgid "告警信息处理失败！"
+msgstr "Alarm information processing failed!"
+
+msgid "查询告警中心列表"
+msgstr "Query Alarm Center List"
+
+msgid "处理告警信息：{{name}}"
+msgstr "Processing alarm information: {{name}}"
+
+msgid "操作-处理"
+msgstr "Operation-processing"
+
+msgid "请选择组织机构"
+msgstr "Please select an organization"
+
+msgid "连接状态"
+msgstr "Connection Status"
+
+msgid "离线"
+msgstr "Offline"
+
+msgid "在线"
+msgstr "Online"
+
+msgid "使用周期"
+msgstr "Life cycle"
+
+msgid "查询用户连接状态监测列表"
+msgstr "Query user connection status monitoring list"
+
+msgid "访问时间控制"
+msgstr "Access time control"
+
+msgid "访问地址控制"
+msgstr "Access address control"
+
+msgid "可访问起始时间"
+msgstr "Accessible start time"
+
+msgid "可访问结束时间"
+msgstr "Accessible end time"
+
+msgid "可访问起始地址"
+msgstr "Accessible start address"
+
+msgid "可访问结束地址"
+msgstr "Accessible end address"
+
+msgid "已选择用户"
+msgstr "User selected"
+
+msgid "请确认是否要删除选择的数据？"
+msgstr "Are you sure you want to delete the selected data?"
+
+msgid "请选择用户"
+msgstr "Please select a user"
+
+msgid "请选择可访问起始时间"
+msgstr "Please select an accessible start time"
+
+msgid "请选择可访问结束时间"
+msgstr "Please select an accessible end time"
+
+msgid "可访问结束时间必须大于可访问起始时间！"
+msgstr "Accessibility end time must be greater than accessibility start time!"
+
+msgid "请输入可访问起始地址"
+msgstr "Please enter accessible start address"
+
+msgid "请输入可访问结束地址"
+msgstr "Please enter accessible end address"
+
+msgid "请输入合法可访问起始地址"
+msgstr "Please enter a legal and accessible start address"
+
+msgid "请输入合法可访问结束地址"
+msgstr "Please enter a legal and accessible end address"
+
+msgid "前三段地址必须保持一致！例：1.1.1.X~1.1.1.X"
+msgstr "The first three addresses must be consistent! Example: 1.1.1.X~1.1.1.X"
+
+msgid "可访问起始地址要小于可访问结束地址"
+msgstr "The accessible start address is less than the accessible end address"
+
+msgid "所属组织"
+msgstr "Organization"
+
+msgid "待选用户"
+msgstr "User to be selected"
+
+msgid "已选用户"
+msgstr "User selected"
+
+msgid "登录姓名/登录账号"
+msgstr "Login name/Login account"
+
+msgid "新增访问时间控制 起始时间：{{startTime}} 结束时间：{{endTime}}"
+msgstr "Add access time control. Start time：{{startTime}} End time：{{endTime}}"
+
+msgid "编辑访问时间控制 起始时间：{{startTime}} 结束时间：{{endTime}}"
+msgstr "Edit access time control. Start time：{{startTime}} End time：{{endTime}}"
+
+msgid "删除访问时间控制 起始时间：{{startTime}} 结束时间：{{endTime}}"
+msgstr "Delete access time control. Start time：{{startTime}} End time：{{endTime}}"
+
+msgid "新增访问地址控制 起始地址：{{startAddress}} 结束地址：{{endAddress}}"
+msgstr "Add access address control. Start address：{{startAddress}} End address：{{endAddress}}"
+
+msgid "编辑访问地址控制 起始地址：{{startAddress}} 结束地址：{{endAddress}}"
+msgstr "Edit access address control. Start address：{{startAddress}} End address：{{endAddress}}"
+
+msgid "删除访问地址控制 起始地址：{{startAddress}} 结束地址：{{endAddress}}"
+msgstr "Delete access address control. Start address：{{startAddress}} End address：{{endAddress}}"
+
+msgid "请输入用户名"
+msgstr "Please enter the user name"
+
+msgid "请输入密码"
+msgstr "Please enter the password"
+
+msgid "请输入验证码"
+msgstr "Please input verification code"
+
+msgid "请选择语言"
+msgstr "Please select the language"
+
+msgid "登录"
+msgstr "Login"
+
+msgid "忘记密码?"
+msgstr "Forget password ?"
+
+msgid "序号"
+msgstr "Serial No"
+
+msgid "密码修改"
+msgstr "Change password"
+
+msgid "退出系统"
+msgstr "Exit system"
+
+msgid "原密码"
+msgstr "Original password"
+
+msgid "请输入你的原密码!"
+msgstr "Please enter your original password!"
+
+msgid "新密码"
+msgstr "New password"
+
+msgid "请输入你的新密码!"
+msgstr "Please enter your new password!"
+
+msgid "确认新密码"
+msgstr "Confirm new password"
+
+msgid "请确认你的新密码！"
+msgstr "Please confirm your new password!"
+
+msgid "确认新密码与新密码不一致"
+msgstr "Confirm that the new password is inconsistent with the new password"
+
+msgid "密码长度不得小于8位"
+msgstr "Password length shall not be less than 8 digits"
+
+msgid '密码长度不得大于16位'
+msgstr 'Password length shall not be greater than 16 bits'
+
+msgid '密码必须包含字母、数字、符号三种字符'
+msgstr 'The password must contain letters, numbers and symbols'
+
+msgid '密码不能包含用户名'
+msgstr 'Password cannot contain user name'
+
+msgid '新密码不能与原密码相同'
+msgstr 'The new password cannot be the same as the original password'
+
+msgid '初次登录必须修改密码，终止修改将跳转到登陆页面。是否继续修改？'
+msgstr 'The password must be modified for the first login, and the login page will be skipped if the modification is terminated. Do you want to continue modifying?'
+
+msgid '必须修改密码，终止修改将跳转到登陆页面。是否继续修改？'
+msgstr 'The password must be modified. If you stop modifying, you will jump to the login page. Do you want to continue modifying?'
+
+msgid '休眠'
+msgstr 'Dormancy'
+
+msgid '导出'
+msgstr 'export'
+
+msgid '请选择使用周期'
+msgstr 'Please select a service cycle'
+
+msgid '请选择使用状态'
+msgstr 'Please select the usage status'
+
+msgid '注销'
+msgstr 'Logout'
+
+msgid '永久'
+msgstr 'Permanent'
+
+msgid '有限'
+msgstr 'Limited'
+
+msgid '应用图片'
+msgstr 'App picture'
+
+msgid '文件格式为：.png、.jpg，图片分辨率不超过1000*500px，大小不超过2M'
+msgstr 'The file format is.png and.jpg. The image resolution should not exceed 1000 x 500px and the size should not exceed 2M'
+
+msgid '单点登录方式'
+msgstr 'Single sign on mode'
+
+msgid '请选择单点登录方式'
+msgstr 'Please select single sign on mode'
+
+msgid '单点登录参数'
+msgstr 'Single sign on parameters'
+
+msgid '输入的参数格式有误，请检查输入的参数数据格式'
+msgstr 'The format of the input parameter is incorrect. Please check the format of the input parameter data'
+
+msgid '请输入单点登录参数，参数格式为JSON类型，长度不超过500'
+msgstr 'Please enter the single sign on parameters in JSON format and no more than 500 in length'
+
+msgid "请确认你的新密码!"
+msgstr "Please confirm your new password!"
+
+msgid '密码已修改！'
+msgstr 'Password has been modified!'
+
+msgid '操作成功！'
+msgstr 'Operation succeeded!'
+
+msgid '二维码图片配置信息保存成功'
+msgstr 'The QR code image configuration information is saved successfully'
+
+msgid '组织'
+msgstr 'organization'
+
+msgid '账号密码不能包含用户账号'
+msgstr 'Account password cannot include user account'
+
+msgid '用户'
+msgstr 'user'
+
+msgid '请输入用户账号'
+msgstr 'Please enter the user account'
+
+msgid '请输入1-64位字符'
+msgstr 'Please enter 1-64 characters'
+
+msgid '请输入用户名称'
+msgstr 'Please enter the user name'
+
+msgid '请输入1-50位字符'
+msgstr 'Please enter 1-50 characters'
+
+msgid '密码长度不得小于8位,请重新输入！'
+msgstr 'The password length cannot be less than 8 digits, please re-enter！'
+
+msgid '密码长度不得大于16位，请重新输入！'
+msgstr 'The password length cannot be less than 8 digits, please re-enter'
+
+msgid '密码必须包含字母、数字、符号三种字符，请重新输入！'
+msgstr 'The password must contain letters, numbers and symbols. Please re-enter！'
+
+msgid '密码只能包含字母、数字、符号三种字符，请重新输入！'
+msgstr 'The password can only contain letters, numbers and symbols. Please re-enter！'
+
+msgid '密码不能包含用户名，请重新输入！'
+msgstr 'The password cannot contain the user name, please re-enter！'
+
+msgid '请选择所属组织机构'
+msgstr 'Please select the organization'
+
+msgid '所选择所属组织机构无权限'
+msgstr 'The selected organization has no permission'
+
+msgid '所属角色'
+msgstr 'Role'
+
+msgid '除数据权限外，请选择同类型角色'
+msgstr 'Please select roles of the same type except for data permission'
+
+msgid '请输入手机号码'
+msgstr 'Please enter your mobile number'
+
+msgid '手机号码不合法'
+msgstr 'Illegal mobile number'
+
+msgid '添加标签'
+msgstr 'Add label'
+
+msgid '请添加标签'
+msgstr 'Please add a label'
+
+msgid '请输入邮箱'
+msgstr 'Please enter your email address'
+
+msgid '请输入1-64位字符'
+msgstr 'Please enter 1-64 characters'
+
+msgid '邮箱格式不正确'
+msgstr 'Incorrect mailbox format'
+
+msgid '身份证号'
+msgstr 'ID number'
+
+msgid '请输入身份证号'
+msgstr 'Please enter ID number'
+
+msgid '身份证格式不正确'
+msgstr 'The format of ID card is incorrect'
+
+msgid '首次登录强制修改密码'
+msgstr 'Force password change for first login'
+
+msgid '使用状态'
+msgstr 'Usage status'
+
+msgid '使用期限'
+msgstr 'Service life'
+
+msgid '请选择使用期限'
+msgstr 'Please select the service life'
+
+msgid '人脸图片'
+msgstr 'Face picture'
+
+msgid '人脸图片要求：200KB至4MB图片大小、半身近照、图片类型为JPG、PNG或JPEG，不能有遮挡物'
+msgstr 'Requirements for face pictures: 200KB to 4MB picture size, half body recent photo, JPG, PNG or JPEG picture type, no obstructions'
+
+msgid '随机'
+msgstr 'random'
+
+msgid '导入用户列表'
+msgstr 'Import User List'
+
+msgid '导入成功'
+msgstr 'Import succeeded'
+
+msgid '上传失败'
+msgstr 'Upload failed'
+
+msgid '用户导入'
+msgstr 'User import'
+
+msgid '请上传用户EXCEL'
+msgstr 'Please upload user EXCEL'
+
+msgid '上传文件'
+msgstr 'Upload files'
+
+msgid '更新用户密码'
+msgstr 'Update user password'
+
+msgid '密码修改成功'
+msgstr 'Password modified successfully'
+
+msgid '密码重置'
+msgstr 'Password Reset'
+
+msgid '账户密码'
+msgstr 'Account password'
+
+msgid '角色类型'
+msgstr 'Role Type'
+
+msgid '角色'
+msgstr 'role'
+
+msgid '更新用户关联角色信息'
+msgstr 'Update user associated role information'
+
+msgid '已更新'
+msgstr 'Updated'
+
+msgid '除数据权限外，请选择相同类型角色'
+msgstr 'Please select the same type of role except for data permission'
+
+msgstr 'Operation succeeded!'
+msgstr 'Operation succeeded!'
+
+msgid '角色类型'
+msgstr 'Role type'
+
+msgid '请输入角色编码'
+msgstr 'Please enter the role code'
+
+msgid '请输入1-50位数字、字母或其组合，字母区分大小写'
+msgstr 'Please enter 1-50 numbers, letters or their combinations. Letters are case sensitive'
+
+msgid '请输入角色名称'
+msgstr 'Please enter the role name'
+
+msgid '请输入1-50字符'
+msgstr 'Please enter 1-50 characters'
+
+msgid '标题不为空'
+msgstr 'The title is not empty'
+
+msgid '消息类型不为空'
+msgstr 'Message type is not empty'
+
+msgid '下载成功'
+msgstr 'Download succeeded'
+
+msgid '当前没有选中的的设备'
+msgstr 'There is no currently selected device'
+
+msgid '机构名称'
+msgstr 'Organization name'
+
+msgid '关联成功'
+msgstr 'Association succeeded'
+
+msgid '操作失败'
+msgstr 'operation failed'
+
+msgid '数据提交中,请稍候....'
+msgstr 'Data submission in progress, please wait'
+
+msgid '当前操作将会清空角色数据权限, 是否确定重置?'
+msgstr 'The current operation will clear the role data permission. Are you sure you want to reset?'
+
+msgid '没有数据需要提交'
+msgstr 'No data needs to be submitted'
+
+msgid '更新角色成功'
+msgstr 'Role updated successfully'
+
+msgid '数据权限更新成功'
+msgstr 'Data permission updated successfully'
+
+msgid '更新功能权限'
+msgstr 'Update function permissions'
+
+msgid '功能权限更新成功'
+msgstr 'Function permission updated successfully'
+
+msgid 'Android版下载的二维码图片'
+msgstr 'Download QR code image for Android version'
+
+msgid 'iPhone版下载的二维码图片'
+msgstr 'Download QR code image for iPhone'
+
+msgid '上传成功'
+msgstr 'Upload succeeded'
+
+msgid '清空成功'
+msgstr 'Emptying succeeded'
+
+msgid '无组织机构数据'
+msgstr 'No organization data'
+
+msgid '请先选择用户'
+msgstr 'Please select a user first'
+
+msgid '禁止休眠登录用户'
+msgstr 'Disable dormant login users'
+
+msgid '请先选择要注销的数据'
+msgstr 'Please select the data to log out first'
+
+msgid '管理员账号禁止注销，请重新选择'
+msgstr 'The administrator account is forbidden to log out, please choose again'
+
+msgid '包含已被注销的数据，不能进行批量注销操作'
+msgstr 'Contains data that has been logged out, and batch logout operations cannot be performed'
+
+msgid '注销用户'
+msgstr 'Logout user'
+
+msgid '导出用户列表'
+msgstr 'Export User List'
+
+msgid '下载模板成功'
+msgstr 'Template downloaded successfully'
+
+msgid '导出成功'
+msgstr 'Export succeeded'
+
+msgid '请输入浏览器标题名称'
+msgstr 'Please enter the browser title name'
+
+msgid '上传系统Logo'
+msgstr 'Upload the system logo'
+
+msgid '系统配置'
+msgstr 'System configuration'
+
+msgid '系统名称'
+msgstr 'System name'
+
+msgid '请输入系统名称'
+msgstr 'Please enter the system name'
+
+msgid '文件格式为.png, .jpg，图片分辨率为32 * 32px，大小不超过 100k'
+msgstr 'The file format is .png, .jpg, image resolution 32 * 32px, size no more than 100k'
+
+msgid '请输入查询条件'
+msgstr 'Please enter query criteria'
+
+msgid '密码修改'
+msgstr 'Change Password'
+
+msgid '退出系统'
+msgstr 'Exit system'
+
+msgid '选择用户'
+msgstr 'Select user'
+
+msgid '请输入组织机构名称'
+msgstr 'Please enter an organization name'
+
+msgid '功能目录'
+msgstr 'Functional Catalog'
+
+msgid '页面资源权限'
+msgstr 'Page Resource Permission'
+
+msgid '权限范围'
+msgstr 'Permission scope'
+
+msgid '请输入设备类型/设备名称/设备型号'
+msgstr 'Please enter the Equipment type/ device name / Device model'
+
+msgid '分类'
+msgstr 'Classification'
+
+msgid '字典'
+msgstr 'Dictionary'
+
+msgid '字典值'
+msgstr 'Dictionary value'
+
+msgid '请联系企业管理员找回密码'
+msgstr 'Please contact the enterprise administrator to retrieve the password'
+
+msgid "无"
+msgstr "Nothing"
+
+msgid "按钮"
+msgstr "Button"
+
+msgid "卡片"
+msgstr "Card"
+
+msgid "不支持输入表情"
+msgstr "Input emoticon is not supported"
+
+msgid "请输入数字、汉字或字母"
+msgstr "Please enter numbers, Chinese characters or letters"
+
+msgid "请输入数字、字母或下划线"
+msgstr "Please enter numbers, letters or underscores"
+
+msgid "请输入数字或字母"
+msgstr "Please enter numbers or letters"
+
+msgid "请输入正确的地址"
+msgstr "Please enter the correct address"
+
+msgid "严重"
+msgstr "serious"
+
+msgid "一般"
+msgstr "common"
+
+msgid "上传文件格式错误"
+msgstr "Upload file format error"
+
+msgid "文件大小超出限制"
+msgstr "File size exceeds the limit"
+
+msgid "图片尺寸超出限制"
+msgstr "Picture size exceeds the limit"
+
+msgid "上传图片验证不通过"
+msgstr "Failed to upload image verification"
+
+msgid "角色类型过滤"
+msgstr "Role type filtering"
+
+msgid "更新数据权限："
+msgstr "Update data permission:"
+
+msgid "角色分配"
+msgstr "Role assignment"
+
+msgid "使用期限过滤"
+msgstr "Lifetime filtering"
+
+msgid "使用状态过滤"
+msgstr "Use status filtering"
+
+msgid "关联角色"
+msgstr "Associated roles"
+
+msgid "查询角色信息"
+msgstr "Query role information"
+
+msgid "查询用户信息"
+msgstr "Query user information"
+
+msgid "离开页面"
+msgstr "Leave page"
+
+msgid "进入页面"
+msgstr "Enter page"
+
+msgid "开始装载{{name}}应用资源"
+msgstr "Start loading {{name}} application resources"
+
+msgid "开始挂载{{name}}应用"
+msgstr "Start to mount the {{name}} application"
+
+msgid "完成挂载{{name}}应用"
+msgstr "Complete attaching the {{name}} application"
+
+msgid "开始卸载{{name}}应用"
+msgstr "Start uninstalling {{name}} app"
+
+msgid "完成卸载{{name}}应用"
+msgstr "Finish uninstalling {{name}} app"
+
+msgid "关闭当前页签"
+msgstr "Close the current tab"
+
+msgid "关闭其它页签"
+msgstr "Close Other Tabs"
+
+msgid "关闭左侧页签"
+msgstr "Close the left tab"
+
+msgid "关闭右侧页签"
+msgstr "Close the right tab"
+
+msgid "关闭全部页签"
+msgstr "Close all tabs"
+
+msgid "系统版本变化"
+msgstr "System version change"
+
+msgid "检测到系统环境发生变化"
+msgstr "Changes in the system environment are detected"
+
+msgid "请重新载入系统"
+msgstr "Please reload the system"
+
+msgid "告警数量"
+msgstr "Number of alarms"
+
+msgid "告警时间"
+msgstr "Alarm Time"
+
+msgid "没有访问权限，请联系管理员"
+msgstr "No access permission, please contact the administrator"
+
+msgid "请上传logo"
+msgstr "Please upload the logo"
+
+msgid "新建字典项"
+msgstr "Create dictionary Item"
+
+msgid "编辑字典项"
+msgstr "Edit dictionary Item"
+
+msgid "请输入正确的URL格式"
+msgstr "Please enter the correct URL format"
+
+msgid "加入快捷菜单"
+msgstr "Add to shortcut menu"
+
+msgid "设备列表"
+msgstr "Device List"
+
+msgid "请填写告警跳转地址"
+msgstr "Please fill in the alarm jump address"
+
+msgid "继续登录"
+msgstr "Continue to log in"
+
+msgid "强制退出"
+msgstr "Force quit"
+
+msgid "不约束"
+msgstr "Not bound"
+
+msgid "约束"
+msgstr "Bound"
+
+msgid "请求超时"
+msgstr "Request timed out"
+
+msgid "选择节点不存在物理设备"
+msgstr "No physical device exists on the selected node"
+
+msgid '最多启用五个'
+msgstr 'Enable up to five'
+
+msgid '新增用户'
+msgstr 'Add user '
+
+msgid '编辑用户'
+msgstr 'Edit user '
+
+msgid '激活用户'
+msgstr 'Activate user'
+
+msgid '休眠用户'
+msgstr 'Dormant user'
+
+msgid '请选择所属角色'
+msgstr 'Please select your role'
+
+msgid '新增角色'
+msgstr 'Add role'
+
+msgid '编辑角色'
+msgstr 'Edit role'
+
+msgid '更新角色关联用户信息'
+msgstr 'Update role associated user information'
+
+msgid '已有用户在该浏览器上登录，是否继续登录？'
+msgstr 'A user has already logged in to this browser. Do you want to continue logging in?'
+
+msgid '您已在其他浏览器上登录，是否强制退出？'
+msgstr 'You have logged in to another browser, do you want to force out?'
+
+msgid '包含子级的数据不可删除'
+msgstr 'Data containing children cannot be deleted'
+
+msgid "待选角色"
+msgstr "Candidate role"
+
+msgid "已选角色"
+msgstr "Selected role"
+
+msgid '新建企业'
+msgstr 'New Enterprise'
+
+msgid '编辑企业'
+msgstr 'Edit Enterprise'
+
+msgid '加入成功！'
+msgstr 'Add successfully!'
+
+msgid '组织关联用户已更新'
+msgstr 'Org Linked Users Updated'
+
+msgid '设备型号'
+msgstr 'Device Model'
+
+msgid '请选择角色类型'
+msgstr 'Please select a role type'
+
+msgid '角色关联用户已更新'
+msgstr 'Role associated user has been updated'
+
+msgid '保存基本信息配置'
+msgstr 'Save basic information configuration'
+
+msgid '电场类型'
+msgstr 'Electric field type'
+
+msgid '映射的物理电场'
+msgstr 'Mapped physical electric field'
+
+msgid '查询用户标签列表'
+msgstr 'Query user tag list'
+
+msgid '查询企业账户列表'
+msgstr 'Query enterprise account list'
+
+msgid '查询应用维护列表'
+msgstr 'Query Application Maintenance List'
+
+msgid '复制新建框架名称'
+msgstr 'Copy New Frame Name'
+
+msgid '支持附件格式为'
+msgstr 'Supported attachment formats are'
+
+msgid '删除标签'
+msgstr 'Delete tags'
+
+msgid '新建标签'
+msgstr 'New tag'
+
+msgid '编辑标签'
+msgstr 'Edit tag'
+
+msgid '请输入数字、汉字、字母、括号或者句号'
+msgstr 'Please enter numbers, Chinese characters, letters, brackets or periods'
+
+msgid "注销成功"
+msgstr "Logout successful"
+
+msgid "是否确定注销选中的用户"
+msgstr "Are you sure to log off the selected user?"
+
+msgid "最多选10个"
+msgstr "Select up to 10"
+
+msgid "个人信息"
+msgstr "Personal information"
+
+msgid "个人信息修改成功"
+msgstr "The personal information is modified successfully"
+
+msgid "账号："
+msgstr "Account number:"
+
+msgid "姓名："
+msgstr "Name:"
+
+msgid "请输入姓名"
+msgstr "Please enter your name"
+
+msgid "手机号码："
+msgstr "Mobile phone number"
+
+msgid "请输入正确的手机号码"
+msgstr "Please enter the correct mobile number"
+
+msgid "邮箱："
+msgstr "Email："
+
+msgid "帮助中心"
+msgstr "Help Center"
+
+msgid "APP下载"
+msgstr "APP download"
+
+msgid "关于系统"
+msgstr "About the system"
+
+msgid "说明："
+msgstr "Explain:"
+
+msgid "版权所有©2022金风慧能技术有限公司。"
+msgstr "Copyright © 2022 Goldwind Huineng Technology Co., Ltd."
+
+msgid "页面是否自动退出"
+msgstr "Whether the page automatically exits"
+
+msgid "当前版本号"
+msgstr "Current version number"
+
+msgid "清空"
+msgstr "清空"
+
+msgid "版本号"
+msgstr "版本号"
+
+msgid "发布日期"
+msgstr "发布日期"
+
+msgid "更新日期"
+msgstr "更新日期"
+
+msgid "否启用"
+msgstr "否启用"
+
+msgid "Android版"
+msgstr "Android版"
+
+msgid "iPhone版"
+msgstr "iPhone版"
+
+msgid "版本信息"
+msgstr "版本信息"
+
+msgid "已关联"
+msgstr "Associated"
+
+msgid "未关联"
+msgstr "Not associated"
+
+msgid "二维码图片配置信息保存成功"
+msgstr "二维码图片配置信息保存成功"
+
+msgid "是否级联删除子组织机构"
+msgstr "Cascade Delete Sub-Organization"
+
+msgid "是否确定删除选中的组织机构"
+msgstr "Are you sure to delete the selected organization"
+
+msgid "Network Error"
+msgstr "Network Error"
+
+msgid "Request failed with status code 500"
+msgstr "Request failed with status code 500"
+
+msgid "未上传"
+msgstr "Not uploaded"
+
+msgid "上传中"
+msgstr "Uploading"
+
+msgid "上传完成"
+msgstr "Uploading completed"
+
+msgid "上传失败"
+msgstr "Uploading failed"
+
+msgid "文件名"
+msgstr "File name"
+
+msgid "文件大小"
+msgstr "File size"
+
+msgid "移除"
+msgstr "Remove"
+
+msgid "确定移除附件吗？"
+msgstr "Are you sure you remove the attachment?"
+
+msgid "文件大小应小于100MB!"
+msgstr "The file size should be less than 100MB!"
+
+msgid "已达到最大文件上传数量!"
+msgstr "The maximum number of files have been reached!"
+
+msgid "存在未上传完成或者失败的附件，确认后将放弃上传,是否继续提交？"
+msgstr "There are attachments that have not been uploaded or failed. After confirmation, the upload will be abandoned. Do you want to continue submitting?"
+
+msgid "通知公告已定时发送"
+msgstr "Announcements are regularly sent"
+
+msgid "通知公告已发送"
+msgstr "Announcement sent"
+
+msgid "请填写公告内容"
+msgstr "Please fill in the announcement"
+
+msgid "通知公告已保存草稿"
+msgstr "A draft of the announcement has been saved"
+
+

@@ -1,0 +1,18 @@
+/*
+ * @Author: sds 
+ * @Date: 2022-02-23 17:26:51 
+ * @Last Modified by: sun.t
+ * @Last Modified time: 2022-04-12 11:27:34
+ */
+@import '../colors.scss';
+
+
+.ease-app {
+  .portal-antd-switch {
+    background: #f94c4c;
+  }
+
+  .portal-antd-switch-checked {
+    background: rgba(149, 201, 77, 1);
+  }
+}

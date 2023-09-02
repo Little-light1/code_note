@@ -1,0 +1,70 @@
+/*
+ * @Author: sds 
+ * @Date: 2021-12-02 09:27:30 
+ * @Last Modified by: sds
+ * @Last Modified time: 2022-01-06 20:11:06
+ */
+.roleAssociate {
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+        width: 45%;
+    }
+
+    .middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .operateIcon {
+            display: flex;
+            flex-direction: column;
+            height: 80px;
+            justify-content: space-between;
+
+            :global {
+                .portal-antd-btn[disabled] {
+                    background: #1a3f44;
+                }
+            }
+
+            & > Button {
+                background: #0090a3;
+                border: none;
+
+                :hover {
+                    color: #63e4f4;
+                }
+            }
+
+            .icon {
+                color: #fff;
+            }
+        }
+    }
+
+    .right {
+        width: 45%;
+    }
+
+    .contant {
+        border: 1px solid gray;
+    }
+
+    .input {
+        width: 95%;
+        margin: 10px;
+        background: transparent;
+        :global {
+            .portal-antd-input {
+                background: transparent;
+                color: #fff;
+            }
+        }
+    }
+
+    .searchIcon {
+        color: #006576;
+    }
+}

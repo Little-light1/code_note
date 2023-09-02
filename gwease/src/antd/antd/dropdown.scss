@@ -1,0 +1,49 @@
+/*
+ * @Author: sds 
+ * @Date: 2022-02-23 17:26:51 
+ * @Last Modified by: sun.t
+ * @Last Modified time: 2022-04-12 15:02:58
+ */
+@import '../colors.scss';
+
+.ease-app {
+  .portal-antd-dropdown {
+    background: $dropdown-background;
+    border: 1px solid $dropdown-border;
+    box-shadow: 0px 0px 8px 0px $dropdown-box-shadow;
+    padding: 0;
+
+    .portal-antd-dropdown-menu {
+      background: transparent;
+    }
+
+    .portal-antd-dropdown-menu-item,
+    .portal-antd-dropdown-menu-submenu-title {
+      color: $font;
+    }
+
+    .portal-antd-dropdown-menu-item-disabled,
+    .portal-antd-dropdown-menu-submenu-title-disabled {
+      color: $dropdown-disabled;
+    }
+
+    .portal-antd-dropdown-menu-item-disabled:hover,
+    .portal-antd-dropdown-menu-submenu-title-disabled:hover {
+      color: $dropdown-disabled;
+    }
+
+    .portal-antd-dropdown-menu-item:hover,
+    .portal-antd-dropdown-menu-submenu-title:hover {
+      background-color: $dropdown-select-background;
+      color: $dropdown-select;
+    }
+
+    // 选中背景色
+    .portal-antd-dropdown-menu-item-selected,
+    .portal-antd-dropdown-menu-submenu-title-selected,
+    .portal-antd-dropdown-menu-item-selected>a,
+    .portal-antd-dropdown-menu-submenu-title-selected>a {
+      background-color: #245e66;
+    }
+  }
+}

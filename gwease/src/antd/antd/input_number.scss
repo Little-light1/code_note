@@ -1,0 +1,43 @@
+/*
+ * @Author: sds 
+ * @Date: 2022-02-23 17:07:06 
+ * @Last Modified by: sun.t
+ * @Last Modified time: 2022-04-12 15:02:43
+ */
+@import '../colors.scss';
+
+.ease-app {
+    .portal-antd-input-number {
+        background-color: transparent;
+        border: 1px solid #00e4ff;
+        color: #ffffff;
+
+        .portal-antd-input-number-handler-wrap {
+            background: none;
+        }
+
+        .portal-antd-input-number-handler {
+            border-color: rgba(0, 228, 255, 0.6);
+            color: rgba(0, 228, 255, 1);
+        }
+
+        .portal-antd-input-number-handler-down {
+            border-color: 1px solid #d9d9d9;
+            color: rgba(0, 228, 255, 1);
+        }
+
+        .portal-antd-input-number-handler-up-inner,
+        .portal-antd-input-number-handler-down-inner {
+            color: rgba(0, 228, 255, 1);
+        }
+
+        .portal-antd-form-item-has-error .portal-antd-input-number,
+        .portal-antd-form-item-has-error .portal-antd-picker {
+            background: transparent;
+        }
+
+        .portal-antd-form-item-has-error .portal-antd-input-number:not([disabled]):hover {
+            background: transparent;
+        }
+    }
+}

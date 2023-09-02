@@ -1,0 +1,8 @@
+.alarmBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .saveBox {
+        margin-bottom: 20px;
+    }
+}

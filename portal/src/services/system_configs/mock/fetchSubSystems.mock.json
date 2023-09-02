@@ -1,0 +1,95 @@
+{
+  "code": "200",
+  "msg": "",
+  "data": {
+    "pageNum": 1,
+    "pageSize": 2147483647,
+    "total": 7,
+    "list": [
+      {
+        "id": "1405343748040138753",
+        "code": "wm_scada",
+        "secret": "aTSi0LnTqTDfdWIvLL1qpw==",
+        "name": "wm_scada名称",
+        "version": "V1",
+        "state": {
+          "value": 0,
+          "enum": "ENABLE",
+          "desc": "激活"
+        },
+        "deleted": 0,
+        "createBy": "1",
+        "createTime": "2021-06-17T09:57:14",
+        "remark": "wm测试专用"
+      },
+      {
+        "id": "1403221614576676866",
+        "code": "scada",
+        "secret": "2ZMo7zC3x9qzuCVFbeNQOA==",
+        "name": "scada",
+        "version": "v1",
+        "state": {
+          "value": 0,
+          "enum": "ENABLE",
+          "desc": "激活"
+        },
+        "deleted": 0,
+        "createBy": "1",
+        "createTime": "2021-06-11T13:24:38",
+        "remark": "测试用"
+      },
+      {
+        "id": "1374523982048567297",
+        "code": "things",
+        "secret": "EjvtfalhCSqUKRZqBZcB/Q==",
+        "name": "物管理",
+        "version": "v1.0.200.0",
+        "state": {
+          "value": 0,
+          "enum": "ENABLE",
+          "desc": "激活"
+        },
+        "deleted": 0,
+        "createBy": "1",
+        "createTime": "2021-03-24T08:50:29",
+        "updateBy": "1",
+        "updateTime": "2021-03-24T08:52:23",
+        "remark": "物管理组件"
+      },
+      {
+        "id": "2",
+        "code": "public",
+        "secret": "6kM0gfBfOyKYfM+iyxA5+g==",
+        "name": "公共组件",
+        "version": "6.0.200.0",
+        "company": "金风慧能",
+        "state": {
+          "value": 0,
+          "enum": "ENABLE",
+          "desc": "激活"
+        },
+        "deleted": 0,
+        "createBy": "1",
+        "createTime": "2020-05-12T15:20:55",
+        "remark": "公共组件  不可以删除"
+      },
+      {
+        "id": "3",
+        "code": "dataplat",
+        "secret": "6kM0gfBfOyKYfM+iyxA5+g==",
+        "name": "数据平台",
+        "version": "6.0.200.0",
+        "company": "金风慧能",
+        "state": {
+          "value": 0,
+          "enum": "ENABLE",
+          "desc": "激活"
+        },
+        "deleted": 0,
+        "createBy": "1",
+        "createTime": "2020-05-12T15:20:55",
+        "remark": "金风新能源大数据平台"
+      }
+    ]
+  }
+}

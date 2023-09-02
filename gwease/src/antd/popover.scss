@@ -1,0 +1,18 @@
+@import "./colors.scss";
+
+.ease-app {
+
+  .portal-antd-popover-arrow-content,
+  .portal-antd-popover-inner {
+    background-color: $popover-background !important;
+    color: $font;
+
+    .portal-antd-popover-inner-content {
+      color: $font;
+    }
+  }
+
+  .portal-antd-popover-message-title {
+    color: #ffffff;
+  }
+}

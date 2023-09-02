@@ -1,0 +1,56 @@
+.layoutContent {
+    // padding: 0 24px 24px;
+    background: none;
+    // z-index: 1;
+
+    .microContent {
+        margin: 0;
+        min-height: 280px;
+        overflow: auto;
+
+        .pageContainer {
+            height: 100%;
+            width: 100%;
+            padding: 15px;
+
+            & > div {
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .microContainer:not(:empty) {
+            height: 100%;
+            width: 100%;
+
+            & > div {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.systemLoading {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layout {
+    background: none !important;
+    background-color: none !important;
+}
+
+.layoutBackground {
+    position: relative;
+}
+
+.layoutBackgroundImage {
+    position: absolute;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}

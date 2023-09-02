@@ -1,0 +1,27 @@
+{
+    "Table": {
+        "index": "序号",
+        "originalData": "原始数据",
+        "quitEdit": "点击Esc退出表格编辑状态",
+        "hide": "隐藏",
+        "setDisplayCols": "设置显示列",
+        "total": "共{total}条"
+    },
+    "GlobalMask": {
+        "loading": "加载中..."
+    },
+    "Modal": {
+        "ok": "确定",
+        "cancel": "取消"
+    },
+    "SearchTreeSelect": {
+        "placeholder": "请选择",
+        "searchPlaceholder": "请输入查询条件"
+    },
+    "Page": {
+        "renderError": "页面渲染出错",
+        "retry": "重试",
+        "refresh": "刷新",
+        "message": "错误信息"
+    }
+}

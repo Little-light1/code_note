@@ -1,0 +1,48 @@
+$blockHeight: 100%;
+$blockWidth: 100%;
+
+.view {
+    height: $blockHeight;
+    width: $blockWidth;
+    color: #ffffff;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    transition-duration: 0.25s;
+    background: rgba(6, 27, 41, 0.8);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+
+    .bgImg {
+        width: $blockWidth;
+        height: $blockHeight;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .bottomTag {
+        height: 15%;
+        width: $blockWidth;
+        background-color: rgb(17, 45, 66, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        .systemName {
+            text-align: center;
+        }
+    }
+}
+
+.view:hover {
+    border: 3px solid;
+    border-image: linear-gradient(145deg, #0febff, #7efc04) 1;
+    transform: scale(110%);
+    cursor: pointer;
+
+    .bottomTag {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}

@@ -1,0 +1,195 @@
+/*
+ * @Author: sds 
+ * @Date: 2022-02-23 17:26:51 
+ * @Last Modified by: sun.t
+ * @Last Modified time: 2022-04-12 11:25:15
+ */
+@import "./colors.scss";
+
+.ease-app {
+  .portal-antd-select {
+    width: 100%;
+  }
+
+  // ×背景色
+  .portal-antd-select-clear {
+    background: transparent;
+
+    .anticon-close-circle {
+      svg {
+        color: $font;
+      }
+    }
+  }
+
+  .portal-antd-select-item {
+    color: $font;
+  }
+
+  .portal-antd-select-arrow {
+    color: $font;
+  }
+
+  .portal-antd-select-item-option-selected:not(.portal-antd-select-item-option-disabled) {
+    background-color: $dropdown-select-background;
+    color: $dropdown-select;
+  }
+
+  .portal-antd-select-item-option-active:not(.portal-antd-select-item-option-disabled) {
+    background-color: $dropdown-select-background;
+  }
+
+  .portal-antd-select-disabled.portal-antd-select:not(.portal-antd-select-customize-input) .portal-antd-select-selector {
+    color: #ffffff;
+    // background-color: $dropdown-disabled-background;
+    background: rgba(255, 255, 255, 0.3);
+    border-color: #ffffff;
+    opacity: 0.4;
+  }
+
+  .portal-antd-select:not(.portal-antd-select-customize-input) .portal-antd-select-selector {
+    background-color: $treeSelect-selection-overflow-background;
+    border: 1px solid #00b6ce;
+  }
+
+  .portal-antd-select-disabled .portal-antd-select-arrow {
+    color: #ffffff;
+    opacity: 0.4;
+  }
+
+  //  tag 样式
+  .portal-antd-select-selection-item {
+    border-radius: 4px;
+    border: none;
+    padding: 0 9px 0 16px;
+  }
+
+  // tag 移除图标
+  .portal-antd-select-selection-item-remove {
+    color: $font;
+
+    :hover {
+      color: $font;
+    }
+
+    >.portal-antdicon {
+      border: 1px solid $font;
+      border-radius: 50%;
+    }
+  }
+
+  .portal-antd-select-multiple .portal-antd-select-selection-item-remove {
+    color: $font;
+  }
+
+  .portal-antd-select-selection-item-content {
+    margin: auto;
+    line-height: 24px;
+    margin-right: 6px;
+  }
+
+  .portal-antd-select-selection-overflow {
+    background: $treeSelect-selection-overflow-background;
+  }
+
+  .portal-antd-select-arrow {
+    color: $font;
+  }
+
+  .portal-antd-select-selector {
+    background: $select-background;
+    border: none;
+    color: $font;
+  }
+
+  .portal-antd-select-status-error.portal-antd-select:not(.portal-antd-select-disabled):not(.portal-antd-select-customize-input) .portal-antd-select-selector {
+    color: $font;
+    background-color: transparent;
+    border-radius: 4px;
+    background: $rangePicker-picker-background !important;
+    // border: 1px solid $rangePicker-picker-border !important;
+  }
+
+  .portal-antd-select-dropdown {
+    background: $dropdown-background;
+    border: 1px solid var(--dropdown-border, #2e3c44);
+    box-shadow: 0px 0px 8px 0px var(--dropdown-box-shadow, #0d2035);
+    padding: 0;
+  }
+
+  .portal-antd-select-multiple .portal-antd-select-selection-item {
+    background: transparent;
+    border: none;
+  }
+
+  .portal-antd-select-tree-show-line .portal-antd-select-tree-indent-unit::before {
+    border-right: 1px dashed $tree-switcher-leaf-line;
+  }
+
+  // portal-antd-select-tree-checkbox-inner
+  .portal-antd-select-tree-checkbox {
+
+    // 复选框
+    .portal-antd-select-tree-checkbox-inner {
+      background-color: transparent;
+      border: 1px solid #00e4ff;
+    }
+
+    .portal-antd-select-tree-checkbox-inner::after {
+      border-color: #00e4ff;
+    }
+
+    .portal-antd-select-tree-checkbox-checked .portal-antd-select-tree-checkbox-inner::after {
+      border-color: #00e4ff;
+    }
+
+    .portal-antd-select-tree-checkbox-wrapper:hover .portal-antd-select-tree-checkbox-inner,
+    .portal-antd-select-tree-checkbox:hover .portal-antd-select-tree-checkbox-inner,
+    .portal-antd-select-tree-checkbox-input:focus+.portal-antd-select-tree-checkbox-inner {
+      border-color: #00e4ff;
+    }
+  }
+
+  .portal-antd-select-tree-checkbox-checked::after {
+    border-color: #00e4ff;
+  }
+
+  .portal-antd-select-tree-checkbox-indeterminate {
+    .portal-antd-select-tree-checkbox-inner::after {
+      background-color: #00e4ff;
+    }
+  }
+
+  .portal-antd-select-tree-checkbox-wrapper:hover .portal-antd-select-tree-checkbox-inner,
+  .portal-antd-select-tree-checkbox:hover .portal-antd-select-tree-checkbox-inner,
+  .portal-antd-select-tree-checkbox-input:focus+.portal-antd-select-tree-checkbox-inner {
+    border-color: #00e4ff;
+  }
+
+  .portal-antd-select-tree-node-content-wrapper {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .portal-antd-select-tree-node-content-wrapper:hover {
+    background-color: $tree-node-selected-background;
+  }
+
+  .portal-antd-select-tree-node-content-wrapper.portal-antd-select-tree-node-selected {
+    background-color: $tree-node-selected-background;
+    color: $tree-node-selected;
+  }
+
+  .portal-antd-select-status-error.portal-antd-select:not(.portal-antd-select-disabled):not(.portal-antd-select-customize-input) .portal-antd-select-selector {
+    background: transparent;
+  }
+
+  .portal-antd-select-multiple .portal-antd-select-selector {
+    padding: 0;
+  }
+
+  .portal-antd-select-disabled.portal-antd-select-multiple .portal-antd-select-selection-item {
+    background: transparent;
+  }
+}

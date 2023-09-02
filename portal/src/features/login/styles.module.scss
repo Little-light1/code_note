@@ -1,0 +1,189 @@
+@import '~@style/variable/component.scss';
+
+.selLan {
+    * {
+        color: #00a1b3;
+    }
+
+    :global {
+        span.portal-antd-select-selection-item {
+            color: #00a1b3 !important;
+        }
+    }
+}
+
+.view {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 30px;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+
+        .systemName {
+            margin-left: 30px;
+            height: 48px;
+            line-height: 48px;
+            font-size: 30px;
+            text-align: center;
+            font-weight: bold;
+            font-family: '微软雅黑';
+        }
+    }
+
+    .formBg {
+        right: 5%;
+        position: absolute;
+        width: 440px;
+        height: 622px;
+        background-color: #00000040;
+
+        .form {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: 20px;
+            padding: 10px 40px 20px 20px;
+            height: 100%;
+            width: 100%;
+            // background-color: #ff000060;
+
+            .loginText {
+                font-size: 26px;
+                margin-bottom: 20px;
+            }
+            .selectLan {
+                display: inline-block;
+                position: absolute;
+                top: 10px;
+                text-align: right;
+                margin-right: 20px;
+            }
+
+            .verificationCode {
+                width: 90px;
+            }
+
+            & > div {
+                width: 100%;
+            }
+
+            .formItem {
+                height: 44px;
+                margin: 0 0 30px 0;
+                width: 360px;
+            }
+
+            .checkItem {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .forgetPassword {
+                color: #00a1b3;
+                text-decoration: underline;
+                margin-bottom: 30px;
+                cursor: pointer;
+            }
+
+            .loginBtn {
+                background-color: $button-login;
+                color: $font;
+                border: none;
+                width: 360px;
+                height: 48px;
+            }
+
+            :global {
+                .portal-antd-input-group-addon {
+                    padding-right: 12px;
+                    background: none;
+                    border: none;
+                    background-color: rgba(0, 0, 0, 0.4);
+                }
+
+                .portal-antd-input {
+                    border: none;
+                }
+
+                // .portal-antd-input{
+                //   height: 32px;
+                // }
+                // .portal-antd-input-focused {
+                //   border-color: transparent;
+                //   box-shadow: 0 0 0px 1000px rgb(0 0 0 / 70%) inset !important;
+                // }
+            }
+
+            .downloadBtnWrapper {
+                position: absolute;
+                width: 370px;
+                bottom: 10px;
+
+                .downloadBtn {
+                    color: #00a1b3;
+                    font-size: 15px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .qrCode {
+        display: flex;
+        justify-content: space-between;
+
+        div {
+            width: 180px;
+            background-color: rgb(10, 40, 52, 0.5);
+            height: 210px;
+            padding: 15px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+
+            img {
+                width: 150px;
+                height: 150px;
+            }
+
+            div {
+                width: 150px;
+                height: 150px;
+                background-color: #fff;
+            }
+
+            span {
+                color: white;
+                margin-top: 15px;
+                text-align: center;
+            }
+        }
+    }
+
+    .loginForm {
+        width: 100%;
+
+        :global {
+            .portal-antd-input-affix-wrapper {
+                border: none;
+                background: rgba(0, 0, 0, 0.4) !important;
+            }
+
+            .portal-antd-input {
+                background: none;
+            }
+        }
+    }
+}

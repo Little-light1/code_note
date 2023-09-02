@@ -1,0 +1,103 @@
+@import '~@style/variable/component.scss';
+
+.searchView {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .content {
+        display: flex;
+        // padding-top: 10px;
+        // padding-bottom: 5px;
+        height: 100%;
+
+        .collapse {
+            // height: calc(100%);
+            display: flex;
+            flex-direction: column;
+            .colSon {
+                flex: 1;
+            }
+        }
+    }
+    .tabs {
+        // width: 215px; // 175
+        width: 13%;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        > div {
+            margin-bottom: 10px;
+        }
+
+        // 组织展示样式
+        .tabScrollPanel {
+            flex: 1;
+            overflow: hidden;
+            overflow-y: scroll;
+            .tabItem {
+                margin-bottom: 10px;
+                position: relative;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                > button {
+                    width: 197px; // 163
+                    text-align: left;
+                    padding: 0 20px;
+                    background: transparent;
+                    color: #ffff;
+                    border-radius: 4px;
+                    border: 1px solid #03e6f5;
+                    > span:nth-child(2) {
+                        overflow: hidden;
+                        width: 143px; // 95
+                        text-overflow: ellipsis;
+                        margin-top: 4px;
+                    }
+                    .holeIcon {
+                        display: none;
+                    }
+                    &:hover {
+                        .holeIcon {
+                            display: block;
+                            position: absolute;
+                            margin-left: -16px;
+                            margin-top: 8px;
+                        }
+                        .holeIcon > svg > path {
+                            color: #00e4ff;
+                        }
+                    }
+                    .close {
+                        display: none;
+                    }
+                    &:hover {
+                        .close {
+                            display: block;
+                            position: absolute;
+                            // margin: -22px 0 0 105px;
+                            margin: -22px 0 0 153px;
+                        }
+                        .close > svg > path {
+                            color: #ff5555;
+                        }
+                    }
+                    .tail {
+                        display: block;
+                        position: absolute;
+                        width: 4px;
+                        border-radius: 4px;
+                        height: 4px;
+                        background: red;
+                        margin: -25px 0 0 -11px;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+    }
+
+    .detail{
+        width: 87%;
+    }
+}

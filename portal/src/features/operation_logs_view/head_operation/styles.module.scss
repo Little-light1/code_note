@@ -1,0 +1,26 @@
+/*
+ * @Author: Tomato.Bei 
+ * @Date: 2022-08-05 15:32:25 
+ * @Last Modified by:   Tomato.Bei 
+ * @Last Modified time: 2022-08-05 15:32:25 
+ */
+.view {
+    width: 100%;
+    padding: 10px 10px 0 10px;
+    .btn {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        // .button {
+        //     margin-right: 20px;
+        // }
+    }
+    :global {
+        .portal-antd-form-item {
+            margin-bottom: 10px;
+        }
+    }
+}

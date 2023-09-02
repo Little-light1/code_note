@@ -1,0 +1,68 @@
+// ----全局字体颜色----
+$font: var(--font, #ffffff);
+$font-layout-toggle: var(--font-layout-toggle, #00f3ff);
+$font-shadow-layout-toggle: var(--font-shadow-layout-toggle, #00a2ff);
+
+// ----滚动条----
+$scrollbar-background: var(--scrollbarBg, rgb(11, 29, 49));
+
+// ----气泡弹窗----
+$popover-background: var(--popoverBg, rgb(11, 29, 49));
+
+// ----按钮----
+$button-primary: var(--button-primary, #0090a3);
+$button-danger: var(--button-danger, #f94c4c);
+$button-danger-hover: var(--button-danger, #f94c4c);
+$button-primary-hover: var(--button-primary-hover, #00bad1);
+$button-login: var(--button-login, rgba(0, 243, 255, 0.5));
+
+// ----输入框----
+$input-background: var(--input-background, rgba(0, 0, 0, 0.4));
+$input-prefix-icon: var(--input-prefix-icon, #00f3ff);
+
+// ----单选框----
+$select-background: var(--select-background, rgba(0, 0, 0, 0.4));
+
+// ----下拉框----
+$dropdown-background: var(--dropdown-background, rgba(1, 9, 13, 0.9));
+$dropdown-select-background: var(--dropdown-select-background, rgba(143, 212, 255, 0.1));
+$dropdown-select: var(--dropdown-select, #00f3ff);
+$dropdown-border: var(--dropdown-border, #2e3c44);
+$dropdown-box-shadow: var(--dropdown-box-shadow, #0d2035);
+$dropdown-disabled-background: var(--dropdown-disabled-background, rgba(255, 255, 255, 0.4));
+$dropdown-disabled: var(--dropdown-disabled, rgba(255, 255, 255, 0.7));
+
+// ----Layout----
+$sider-background: var(--sider-background, rgba(7, 28, 42, 0.9));
+$sider-box-shadow: var(--sider-box-shadow, rgba(0, 0, 0, 50%));
+
+// ----Tree----
+$tree-expand-icon: var(--tree-expand-icon, #00e4ff);
+$tree-switcher-leaf-line: var(--tree-switcher-leaf-line, #00e4ff);
+$tree-node-selected: var(--tree-node-selected, #00e4ff);
+$tree-node-selected-background: var(--tree-node-selected-background, #356078);
+
+// ----Table----
+$table-expand-icon: var(--table-expand-icon, #00e4ff);
+$table-pagination-dropdown: var(--dropdown-background, rgba(1, 9, 13, 0.9));
+$table-pagination-dropdown-selected-background: var(--table-pagination-dropdown-selected-background, rgba(194, 194, 194, 0.5));
+$table-header-background: var(--table-header-background, rgba(0, 228, 255, 0.4));
+
+// ----TreeSelect ----
+$treeSelect-selection-tag-background: var(--treeSelect-selection-tag-background, #1a9fb3);
+$treeSelect-selection-overflow-background: var(--treeSelect-selection-overflow-background, rgba(4, 17, 40, 0.5));
+
+// ----Search----
+$search-input-border: var(--seaech-input-border, #19abb3);
+$search-input-background: var(--search-input-background, rgba(0, 0, 0, 0));
+
+// ----RangePicker----
+$rangePicker-picker-background: var(--rangePicker-picker-background, #041f34);
+$rangePicker-picker-border: var(--rangePicker-picker-border, #19abb3);
+
+// ----Radio----
+$radio-border-checked: var(--radio-border-checked, rgba(0, 102, 148, 0.6));
+$radio-border: var(--radio-border, rgba(0, 102, 148, 0.3));
+
+// ----Other-----
+$note-card-background: var(--table-header-background, rgba(0, 228, 255, 0.4));

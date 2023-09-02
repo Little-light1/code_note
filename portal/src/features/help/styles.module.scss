@@ -1,0 +1,328 @@
+// @import "~@style/other.scss";
+// @import url(./other/other.scss);
+@import './other/other.scss';
+@import '../../common/style/variable/color.scss';
+.helpView {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    // padding: 0 10px 10px 10px;
+    background: $sider-background;
+    color: $font;
+    :global {
+        .ant-anchor-link {
+            position: relative;
+        }
+        .ant-anchor-link-active:before {
+            position: absolute;
+            left: -2px;
+            top: 0;
+            bottom: 0;
+            content: ' ';
+            display: block;
+            width: 2px;
+            background: $homeBasicColor;
+        }
+    }
+}
+.panel {
+    display: flex;
+    flex: 1;
+    height: 0;
+}
+.slideMenu {
+    width: 270px;
+    height: calc(100vh - 175px);
+    margin-right: 5px;
+    padding-right: 5px;
+    position: relative;
+    :global {
+        .portal-antd-dropdown-trigger {
+            opacity: 0;
+            z-index: -1;
+            position: absolute;
+            left: 0;
+            top: 10px;
+        }
+        .ant-menu-inline,
+        .ant-menu-vertical {
+            border-right: none;
+        }
+        .ant-menu-submenu-selected {
+            color: inherit;
+        }
+        .ant-menu-submenu.ant-menu-submenu-inline .ant-menu-submenu-title {
+            font-weight: bold;
+        }
+        .ant-menu,
+        .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected,
+        .ant-menu-item:active,
+        .ant-menu-submenu-title:active {
+            background: transparent;
+        }
+        .ant-menu-inline .ant-menu-item.ant-menu-item-selected {
+            &::after {
+                display: none;
+            }
+            &::before {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                border-right: 3px solid #0cb7d5;
+                content: '';
+            }
+        }
+        .ant-menu-sub.ant-menu-inline > .ant-menu-item,
+        .ant-menu-sub.ant-menu-inline
+            > .ant-menu-submenu
+            > .ant-menu-submenu-title {
+            height: 30px;
+            line-height: 30px;
+        }
+        .ant-menu-item-selected {
+            color: $homeBasicColor;
+            font-weight: bold;
+        }
+    }
+}
+.slideMenuToolbar {
+    display: flex;
+    :global {
+        .ant-input-search-icon {
+            color: #ccc;
+        }
+        .ant-btn.ant-btn-icon-only {
+            flex-shrink: 0;
+            color: #ccc;
+            border-color: #ccc;
+        }
+    }
+}
+.addDoc {
+    background-color: $button-primary;
+}
+.slideMenuContent {
+    height: calc(100vh - 160px);
+    overflow: auto;
+}
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: $sider-background;
+    box-shadow: $homePageShadow;
+    border: $homePageBorder;
+    border-radius: $homePageBorderRadius;
+    padding: 20px;
+}
+.header {
+    text-align: right;
+}
+.toolbar {
+    display: flex;
+    margin: 20px 0 0 0;
+    padding: 20px 0;
+    border-top: 1px solid $homeBorderColor;
+    .toolbarLeft {
+        flex: 1;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        > button {
+            margin-right: 10px;
+        }
+    }
+    .toolbarRight {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+.docContent {
+    height: calc(100vh - 185px);
+    display: flex;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid $homeBorderColor;
+}
+.docPanel {
+    overflow: auto;
+    flex: 1;
+    margin-right: 10px;
+    word-break: break-all;
+}
+.attachmentModal {
+    :global {
+        .ant-modal-body {
+            padding-bottom: 20px !important;
+            border-radius: 0 0 4px 4px;
+        }
+    }
+}
+.docAttachments {
+    border-top: 1px solid $homeBorderColor;
+    padding-top: 10px;
+    > div {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+.docAttachmentItem {
+    color: $font;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    :global {
+        .anticon {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+    }
+}
+.docAnchor {
+    width: 190px;
+    max-height: 100%;
+    overflow: auto;
+    :global {
+        .ant-anchor-wrapper {
+            max-height: none !important;
+            overflow: visible;
+        }
+    }
+}
+
+.docTitle {
+    color: $font;
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.editTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 50px;
+    > span {
+        width: 50px;
+    }
+    > input {
+        width: 400px;
+    }
+}
+.docTip {
+    color: $font;
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    :global(.anticon) {
+        font-size: 18px;
+        margin-right: 10px;
+        vertical-align: bottom;
+    }
+    span {
+        margin-right: 10px;
+        b {
+            font-weight: normal;
+            color: #666;
+            margin-left: 3px;
+        }
+    }
+}
+.doc {
+    white-space: pre-wrap;
+    word-break: break-all;
+    padding-right: 10px;
+
+    img,
+    audio,
+    video {
+        max-width: 100%;
+        height: auto;
+    }
+    p {
+        white-space: pre-wrap;
+        min-height: 1em;
+    }
+    pre {
+        padding: 15px;
+        background-color: #f1f1f1;
+        border-radius: 5px;
+    }
+    blockquote {
+        margin: 0;
+        padding: 15px;
+        background-color: #f1f1f1;
+        border-left: 3px solid #d1d1d1;
+    }
+}
+.docEditor {
+    border: 1px solid $splitColor;
+    height: calc(100vh - 270px);
+    overflow: hidden;
+    :global {
+        .bf-container {
+            //height: calc(100% - 30px);
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+.titleInput {
+    padding: 20px;
+    border-bottom: 1px solid $homeBorderColor;
+    input {
+        border: none;
+        box-shadow: none;
+        font-size: 30px;
+        &:hover {
+            border: none;
+            box-shadow: none;
+        }
+        &:focus {
+            border: none;
+            box-shadow: none;
+        }
+    }
+}
+:global(.helpSearchDropdown) :global(.ant-dropdown-menu) {
+    max-height: 30vh;
+    max-width: 400px;
+    min-width: 300px;
+    overflow-y: auto;
+}
+.docSearchItem {
+    > h3,
+    > div {
+        margin: 0;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        color: $font;
+    }
+}
+.treeNode {
+    position: relative;
+    padding-left: 15px;
+    &:before {
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        content: '';
+        width: 6px;
+        height: 6px;
+        border-radius: 6px;
+        background-color: $homeColor;
+    }
+}
+:global(.ant-tree-node-selected) {
+    .treeNode:before {
+        background-color: $homeBasicColor;
+    }
+}

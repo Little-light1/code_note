@@ -1,0 +1,105 @@
+/*
+ * @Author: sds 
+ * @Date: 2022-02-23 17:26:51 
+ * @Last Modified by: sun.t
+ * @Last Modified time: 2022-04-12 11:30:20
+ */
+@import '~@style/variable/color.scss';
+
+
+.portal-app {
+  .portal-antd-tree {
+    color: $font;
+    background-color: transparent;
+
+    .portal-antdicon {
+      color: $tree-expand-icon;
+    }
+
+    // 会影响其他设备树
+    // .portal-antd-tree-treenode {
+    //   width: -webkit-fill-available;
+    // }
+
+    .portal-antd-tree-switcher {
+      background: none;
+    }
+
+    .portal-antd-tree-switcher-leaf-line::before {
+      border-right: 1px dashed $tree-switcher-leaf-line;
+      border-left: none;
+    }
+
+    .portal-antd-tree-switcher-leaf-line::after {
+      border-bottom: 1px dashed $tree-switcher-leaf-line;
+    }
+
+    .portal-antd-tree-indent-unit::before {
+      border-right: 1px dashed $tree-switcher-leaf-line;
+    }
+
+    // 复选框
+    .portal-antd-tree-checkbox-inner {
+      background-color: transparent;
+      border: 1px solid #00e4ff;
+    }
+
+    .portal-antd-tree-checkbox-indeterminate .portal-antd-tree-checkbox-inner::after {
+      background-color: #00e4ff;
+    }
+
+    .portal-antd-tree-checkbox-checked .portal-antd-tree-checkbox-inner::after {
+      border-color: #00e4ff;
+    }
+
+    .portal-antd-tree-checkbox-wrapper:hover .portal-antd-tree-checkbox-inner,
+    .portal-antd-tree-checkbox:hover .portal-antd-tree-checkbox-inner,
+    .portal-antd-tree-checkbox-input:focus+.portal-antd-tree-checkbox-inner {
+      border-color: #00e4ff;
+    }
+
+    .portal-antd-tree-node-content-wrapper {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: #ffffff;
+      display: inline-block;
+      max-width: 800px;
+    }
+
+    .portal-antd-tree-node-content-wrapper:hover {
+      background-color: $tree-node-selected-background;
+    }
+
+    .portal-antd-tree-node-content-wrapper.portal-antd-tree-node-selected {
+      background-color: $tree-node-selected-background;
+      color: $tree-node-selected;
+    }
+
+    .portal-antd-tree-treenode-disabled .portal-antd-tree-node-content-wrapper {
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    .portal-antd-tree-checkbox-disabled .portal-antd-tree-checkbox-inner {
+      border-color: rgba(255, 255, 255, 0.4) !important;
+    }
+
+    .portal-antd-tree-treenode[aria-selected='false'] {
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    .portal-antd-tree-treenode[aria-selected='false'] .portal-antd-tree-node-content-wrapper {
+      cursor: unset;
+    }
+  }
+}
+
+.portal-antd-select-tree-list-holder-inner {
+  .portal-antd-select-tree-switcher {
+    .anticon {
+      svg {
+        color: $tree-node-selected !important;
+      }
+    }
+  }
+}

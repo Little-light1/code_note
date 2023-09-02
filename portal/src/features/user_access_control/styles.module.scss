@@ -1,0 +1,112 @@
+@import '~@style/variable/component.scss';
+
+.searchView {
+    width: 100%;
+    height: 100%;
+
+    :global {
+        .portal-antd-tabs-tab {
+            width: auto !important;
+        }
+    }
+
+    .newButton {
+        width: 80px;
+        height: 32px;
+    }
+
+    .userName {
+        padding: 2px 10px;
+        border-radius: 4px;
+        background-color: #2a526f;
+    }
+}
+
+.form {
+    width: 100%;
+
+    :global {
+        .portal-antd-row {
+            flex-flow: row;
+        }
+    }
+}
+
+.userSelected {
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .left {
+        height: 450px;
+        width: 48%;
+        border-radius: 5px;
+        overflow-y: auto;
+        margin-right: 20px;
+
+        .selected {
+            height: 25px;
+            width: 250px;
+            font-size: 14px;
+            font-family: Microsoft YaHei;
+            font-weight: 400;
+        }
+
+        .table {
+            height: calc(100% - 25px);
+        }
+    }
+
+    .space {
+        flex: auto;
+        text-align: center;
+
+        .buttonStyle {
+            border: none;
+            border-radius: 2px;
+            margin-bottom: 10px;
+            width: 24px;
+            opacity: 1;
+            background-color: $button-primary;
+        }
+
+        .disabledBtn {
+            cursor: not-allowed;
+            border: none;
+            border-radius: 2px;
+            margin-bottom: 10px;
+            width: 24px;
+            opacity: 0.7;
+            background-color: #1d5158;
+        }
+
+        .spaceLine {
+            width: 1px;
+            height: 190px;
+            background: #ffffff;
+            opacity: 0.2;
+            margin-left: 10px;
+        }
+    }
+
+    .right {
+        height: 450px;
+        width: 48%;
+        border-radius: 5px;
+        overflow-y: auto;
+        margin-left: 20px;
+
+        .selected {
+            height: 25px;
+            width: 200px;
+            font-size: 14px;
+            font-family: Microsoft YaHei;
+            font-weight: 400;
+        }
+
+        .table {
+            height: calc(100% - 25px);
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.storybook
+.vscode
+node_modules
+src
+.gitignore
+.npmignore
+index.html
+tsconfig.json
+tsconfig.node.json
+vite.config.js
+trash

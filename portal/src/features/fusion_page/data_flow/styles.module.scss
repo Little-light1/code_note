@@ -1,0 +1,154 @@
+// 两票统计
+.dataFlow {
+    display: flex;
+    flex-direction: column;
+    height: 510px;
+
+    // 头部
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 20px;
+        background-color: rgba(28, 104, 134, 0.3);
+        height: 42px;
+
+        // 标题
+        .title {
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+
+            .titleIcon {
+                width: 4px;
+                height: 16px;
+                margin-right: 10px;
+                background-color: #03E6F5;
+                border-radius: 2px;
+            }
+        }
+    }
+
+    .content {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+
+        .echarts {
+            flex: 1;
+            height: 100% !important;
+        }
+
+        .rightInfo {
+            margin-top: 24px;
+            margin-right: 24px;
+            width: 110px;
+
+            .legendBox {
+                display: flex;
+                flex-direction: column;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                border-radius: 4px;
+                width: 100%;
+
+                .legendButton {
+                    text-align: center;
+                    width: 100%;
+                    height: 25px;
+                    background-color: rgba(162, 186, 224, 0.0800);
+                    cursor: pointer;
+                }
+
+                .legendList {
+                    height: 180px;
+                    overflow-y: hidden;
+
+                    .legendItem {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        padding: 0 10px;
+                        height: 30px;
+
+                        .legendIcon {
+                            width: 12px;
+                            height: 12px;
+                        }
+
+                        .legendTitle {
+                            flex: 1;
+                            margin-left: 8px;
+                            font-size: 12px;
+                            color: #FFFFFF;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            cursor: pointer;
+                        }
+
+                        .legendIconHidden {
+                            background-color: rgba(255, 255, 255, 0.4000);
+                        }
+
+                        .legendTitleHidden {
+                            color: rgba(255, 255, 255, 0.4000);
+                        }
+                    }
+                }
+            }
+
+            .dataBox {
+                padding: 5px;
+                margin-top: 65px;
+                width: 100%;
+                min-height: 80px;
+                background-color: rgba(162, 186, 224, 0.08);
+                font-size: 24px;
+                color: #00E4FF;
+
+                .dataTitle {
+                    font-size: 14px;
+                    color: #FFFFFF;
+                }
+
+                .dataUnit {
+                    font-size: 12px;
+                    color: rgba(255, 255, 255, 0.6);
+                }
+            }
+        }
+    }
+
+    .tabs {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 160px;
+        height: 80px;
+
+        .tabItem {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 120px;
+            height: 32px;
+            font-size: 16px;
+            color: #FFFFFF;
+            text-align: center;
+
+            .tabIcon {
+                width: 16px;
+                height: 16px;
+                margin-right: 8px;
+            }
+        }
+
+        .tabItemSelected {
+            border: 1px solid #00E4FF;
+            border-radius: 16px;
+            background-color: rgba(0, 157, 179, 0.6);
+        }
+    }
+}

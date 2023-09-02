@@ -1,0 +1,223 @@
+[
+    {
+        "dependence": [],
+        "dataIndex": "index",
+        "editRule": null,
+        "ellipsis": true,
+        "visible": false,
+        "editable": false,
+        "visiableSetting": false,
+        "type": "index",
+        "width": 50
+    },
+    {
+        "dependence": [],
+        "dataIndex": "branch_office_name",
+        "editRule": null,
+        "ellipsis": true,
+        "visible": true,
+        "editable": false,
+        "visiableSetting": false,
+        "type": "text",
+        "width": 180
+    },
+    {
+        "dependence": [],
+        "dataIndex": "area_name",
+        "editRule": null,
+        "ellipsis": true,
+        "visible": true,
+        "editable": false,
+        "visiableSetting": false,
+        "type": "text",
+        "width": 180
+    },
+    {
+        "dependence": [],
+        "dataIndex": "farm_name",
+        "editRule": null,
+        "ellipsis": true,
+        "visible": true,
+        "editable": false,
+        "visiableSetting": false,
+        "type": "text",
+        "width": 180
+    },
+    {
+        "dependence": [],
+        "dataIndex": "line_name",
+        "editRule": null,
+        "ellipsis": true,
+        "visible": true,
+        "editable": false,
+        "visiableSetting": false,
+        "type": "text",
+        "width": 180
+    },
+    {
+        "dependence": [],
+        "dataIndex": "device_name",
+        "editRule": null,
+        "ellipsis": true,
+        "visible": true,
+        "editable": false,
+        "visiableSetting": false,
+        "type": "text",
+        "width": 180
+    },
+    {
+        "dependence": [],
+        "dataIndex": "model_name",
+        "editRule": null,
+        "ellipsis": true,
+        "visible": true,
+        "editable": false,
+        "visiableSetting": false,
+        "type": "text",
+        "width": 180
+    },
+    {
+        "dependence": [],
+        "dataIndex": "rectime",
+        "editRule": {
+            "type": "time"
+        },
+        "ellipsis": true,
+        "visible": true,
+        "editable": true,
+        "visiableSetting": false,
+        "type": "time",
+        "width": 180
+    },
+    {
+        "dependence": [],
+        "dataIndex": "endtime",
+        "editRule": {
+            "type": "time"
+        },
+        "ellipsis": true,
+        "visible": true,
+        "editable": true,
+        "visiableSetting": false,
+        "type": "time",
+        "width": 180
+    },
+    {
+        "dependence": [],
+        "dataIndex": "stdStateCode",
+        "editRule": {
+            "type": "select",
+            "options": [
+                {
+                    "label": "通讯中断",
+                    "value": 1
+                },
+                {
+                    "label": "电网限功率运行",
+                    "value": 2
+                },
+                {
+                    "label": "主控限功率运行",
+                    "value": 3
+                },
+                {
+                    "label": "警告",
+                    "value": 4
+                },
+                {
+                    "label": "待机",
+                    "value": 5
+                },
+                {
+                    "label": "并网",
+                    "value": 6
+                },
+                {
+                    "label": "定期维护",
+                    "value": 7
+                },
+                {
+                    "label": "计划外维护",
+                    "value": 8
+                },
+                {
+                    "label": "保护停机",
+                    "value": 9
+                },
+                {
+                    "label": "电网限功率停机",
+                    "value": 10
+                },
+                {
+                    "label": "就地停机",
+                    "value": 11
+                },
+                {
+                    "label": "远程停机",
+                    "value": 12
+                },
+                {
+                    "label": "电网故障",
+                    "value": 13
+                },
+                {
+                    "label": "故障停机",
+                    "value": 14
+                },
+                {
+                    "label": "技术待命",
+                    "value": 15
+                },
+                {
+                    "label": "天气停机",
+                    "value": 16
+                },
+                {
+                    "label": "其他事件",
+                    "value": 17
+                }
+            ]
+        },
+        "ellipsis": true,
+        "visible": true,
+        "editable": true,
+        "visiableSetting": false,
+        "type": "select",
+        "width": 180
+    },
+    {
+        "dependence": [
+            "stdStateCode"
+        ],
+        "dataIndex": "stopReasonCode",
+        "editRule": {
+            "type": "select",
+            "options": [],
+            "optionType": "dynamic",
+            "optionKey": "stopReasonList",
+            "optionRelationKey": "stdStateCode"
+        },
+        "ellipsis": true,
+        "visible": true,
+        "editable": true,
+        "visiableSetting": false,
+        "type": "select",
+        "width": 180
+    },
+    {
+        "dependence": [],
+        "dataIndex": "remark",
+        "editRule": {
+            "min": "0",
+            "max": "50",
+            "type": "text",
+            "maxLength": "50"
+        },
+        "ellipsis": true,
+        "visible": true,
+        "editable": true,
+        "visiableSetting": false,
+        "type": "text",
+        "width": 180
+    }
+]

@@ -1,0 +1,60 @@
+.ease-xlsx-input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    outline: none;
+    opacity: 0;
+    background-color: transparent;
+}
+
+
+.ease-xlsx-footer {
+    display: flex;
+    justify-content: space-between;
+
+    .ease-xlsx-choose {
+
+        display: flex;
+        flex: 1;
+
+        .ease-xlsx-choose-item {
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+
+            .ease-xlsx-footer-choose-input {
+                width: 150px;
+                margin-left: 10px;
+            }
+
+            .ant-form-item {
+                margin-bottom: 0;
+                ;
+            }
+        }
+    }
+}
+
+.ease-xlsx-tabs {
+    padding: 0;
+
+    .ant-tabs-tab {
+        padding: 0;
+
+        .ease-xlsx-tab {
+            padding: 5px 10px;
+            background: rgb(53, 53, 53);
+            color: #ffffff;
+        }
+    }
+
+    .ant-tabs-tab-active {
+        .ease-xlsx-tab {
+            background: rgb(233, 233, 233);
+            color: green;
+        }
+
+    }
+}

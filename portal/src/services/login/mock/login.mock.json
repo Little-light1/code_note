@@ -1,0 +1,8 @@
+{
+  "data": {
+    "needChangePassword": false,
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiZW50ZXJwcmlzZUlkIjoiMTAwMCIsInB3ZCI6IkZPN0FYVEZpME1pbkV6YWNPSFU2cFE9PSIsInV1aWQiOiIxNjM3ODIxNDQ3ODE4In0.l46VaLFAsK-zuLj_2fndDySrYo-uQ9mPW0k6cjX7G-U"
+  },
+  "msg": "",
+  "code": "200"
+}

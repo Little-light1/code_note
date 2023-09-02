@@ -1,0 +1,60 @@
+.ease-app {
+    .portal-antd-message-notice-content {
+        background: none;
+        box-shadow: none;
+    }
+
+    .portal-antd-message-custom-content {
+        box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%), 0 9px 28px 8px rgb(0 0 0 / 5%);
+        padding: 10px;
+        color: white;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    // .portal-antd-message-info {
+    //   background: rgba(0, 228, 255, 0.8);
+    //   border: 1px solid #0a465d;
+    //   color: #0a465d;
+    // }
+
+    .portal-antd-message-error {
+        background: rgba(249, 76, 76, 0.8);
+        border: 1px solid #F94C4C;
+        // color: #F94C4C;
+
+        .anticon {
+            color: white;
+        }
+    }
+
+    .portal-antd-message-success {
+        background: rgba(149, 201, 77, 0.8);
+        border: 1px solid #95c94d;
+
+        // color: #95c94d;
+        .anticon {
+            color: white;
+        }
+    }
+
+    .portal-antd-message-info {
+        background: rgba(24, 144, 255, 0.8);
+        border: 1px solid #1890ff;
+
+        // color: #1890ff;
+        .anticon {
+            color: white;
+        }
+    }
+
+    .portal-antd-message-warning {
+        background: rgba(250, 173, 20, 0.8);
+        border: 1px solid #faad14;
+
+        // color: #faad14;
+        .anticon {
+            color: white;
+        }
+    }
+}

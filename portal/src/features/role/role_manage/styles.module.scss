@@ -1,0 +1,24 @@
+/*
+ * @Author: sds 
+ * @Date: 2022-01-04 10:02:04 
+ * @Last Modified by:   sds 
+ * @Last Modified time: 2022-01-04 10:02:04 
+ */
+
+@import '~@style/variable/component.scss';
+
+.userManage {
+  :global {
+    .portal-antd-select-multiple .portal-antd-select-selection-item {
+      background: transparent;
+    }
+
+    .portal-antd-select-multiple .portal-antd-select-selection-item-remove {
+      color: #ffffff;
+    }
+
+    .portal-antd-select-multiple .portal-antd-select-selection-item-remove:hover {
+      color: #ffffff;
+    }
+  }
+}

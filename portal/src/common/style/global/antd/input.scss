@@ -1,0 +1,150 @@
+/*
+ * @Author: sds 
+ * @Date: 2022-02-23 17:20:01 
+ * @Last Modified by: sun.t
+ * @Last Modified time: 2022-11-13 23:04:03
+ */
+@import '~@style/variable/color.scss';
+
+.portal-app {
+    .portal-antd-form-item-control-input-content {
+        .portal-antd-input {
+            border: 1px solid $search-input-border; // 登录界面输入框样式异常
+        }
+    }
+
+    .portal-antd-input {
+        border: 1px solid $search-input-border; // 登录界面输入框样式异常
+    }
+
+    .portal-antd-input {
+        background-color: $input-background;
+        border-radius: 4px;
+        color: $font;
+    }
+    // antd Input配置borderd=false去除边框
+    .portal-antd-input-borderless {
+        border: none;
+    }
+
+    .portal-antd-input[disabled] {
+        background-color: rgba(255, 255, 255, 0.3) !important;
+        opacity: 0.4;
+    }
+
+    .portal-antd-input-prefix {
+        color: $input-prefix-icon;
+        margin-right: 10px;
+    }
+
+    .portal-antd-input-affix-wrapper:focus,
+    .portal-antd-input-affix-wrapper-focused {
+        box-shadow: none !important;
+        border-right-width: 0px;
+    }
+
+    .portal-antd-input-affix-wrapper:hover {
+        border-color: $search-input-border !important;
+    }
+
+    .portal-antd-input-affix-wrapper {
+        color: $font;
+        background-color: $search-input-background !important;
+        border: 1px solid $search-input-border;
+        // border-right: none;
+        border-top-left-radius: 4px !important;
+        border-bottom-left-radius: 4px !important;
+
+        .portal-antd-input {
+            color: $font !important;
+            background: $search-input-background;
+            border: none !important;
+        }
+    }
+
+    .portal-antd-input-suffix {
+        .portal-antd-input-clear-icon {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .portal-antd-input-clear-icon:hover {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .portal-antd-input-password-icon.anticon {
+            color: #00e4ff;
+        }
+    }
+
+    .portal-antd-input-group-addon {
+        background: none;
+
+        .portal-antd-input-search-button {
+            background: none;
+            border: 1px solid $search-input-border;
+            border-left: none;
+            color: #ffffff;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+        }
+    }
+
+    .portal-antd-input-search .portal-antd-input:hover,
+    .portal-antd-input-search .portal-antd-input:focus {
+        border-color: $search-input-border;
+    }
+
+    // 弹窗关闭图标
+    .portal-antdicon.portal-antd-input-clear-icon {
+        color: $font;
+    }
+
+    .portal-antd-input:focus,
+    .portal-antd-input-focused {
+        box-shadow: 0 0 0px 1000px
+            var(--input-autofill-background, rgba(0, 0, 0, 0.7)) inset !important;
+    }
+
+    .portal-antd-input {
+        background: none !important;
+        color: $font !important;
+    }
+
+    .portal-antd-input-search
+        > .portal-antd-input-group
+        > .portal-antd-input-group-addon:last-child
+        .portal-antd-input-search-button:not(.portal-antd-btn-primary) {
+        color: $font !important;
+    }
+
+    .has-error .portal-antd-input:not([disabled]):hover {
+        border-color: #ff4d4f;
+    }
+
+    .has-error .portal-antd-input,
+    .has-error .portal-antd-input:hover {
+        background-color: #fff;
+        border-color: #ff4d4f;
+    }
+
+    //搜索框禁用样式
+    .portal-antd-input-affix-wrapper-disabled {
+        background-color: rgba(255, 255, 255, 0.3) !important;
+        border-color: #ffffff;
+        opacity: 0.4;
+
+        .portal-antd-input-disabled {
+            background-color: transparent !important;
+            opacity: 1;
+        }
+    }
+
+    .portal-antd-input-group-addon {
+        color: $font;
+        background-color: $search-input-background !important;
+        border: 1px solid $search-input-border;
+        // border-right: none;
+        border-top-left-radius: 4px !important;
+        border-bottom-left-radius: 4px !important;
+    }
+}

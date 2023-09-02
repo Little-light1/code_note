@@ -1,0 +1,1064 @@
+{
+    "code": "200",
+    "msg": "",
+    "data": [
+        {
+            "key": "1",
+            "title": "金风",
+            "children": [
+                {
+                    "key": "1471491854470057986",
+                    "title": "SPHM区域A",
+                    "children": [],
+                    "type": 130
+                }
+            ],
+            "type": 0,
+            "userList": [
+                {
+                    "id": "1",
+                    "enterpriseID": "1000",
+                    "loginName": "BDMSAdmin",
+                    "userName": "运维管理员",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 0,
+                        "enum": "ADMINISTRATOR",
+                        "desc": "管理员"
+                    },
+                    "oa": "1",
+                    "phoneNumber": "",
+                    "email": "admin@goldwind.com.cn",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 0,
+                        "enum": "YES",
+                        "desc": "是"
+                    },
+                    "forceModifyPasswordTime": "2020-06-13T14:27:55",
+                    "passwordSendType": {
+                        "value": 0,
+                        "enum": "NO",
+                        "desc": "无"
+                    },
+                    "deleted": 0,
+                    "logo": "string",
+                    "createBy": "1",
+                    "createTime": "2020-06-13T10:53:17",
+                    "updateBy": "1",
+                    "updateTime": "2021-06-29T16:19:06",
+                    "loginTime": "2021-12-18T17:42:39",
+                    "remark": "运维企业管理员",
+                    "isLock": {
+                        "value": 0,
+                        "enum": "YES",
+                        "desc": "是"
+                    },
+                    "createUserLoginName": "BDMSAdmin",
+                    "updateUserLoginName": "BDMSAdmin"
+                },
+                {
+                    "id": "1290626425391296514",
+                    "enterpriseID": "1000",
+                    "loginName": "SPHMUser",
+                    "userName": "SPHM数据用户",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 1,
+                        "enum": "ORDINARY_USER",
+                        "desc": "用户"
+                    },
+                    "phoneNumber": "",
+                    "email": "2474296512@qq.com",
+                    "postion": "",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "passwordSendType": {
+                        "value": 0,
+                        "enum": "NO",
+                        "desc": "无"
+                    },
+                    "deleted": 0,
+                    "createBy": "1",
+                    "createTime": "2021-12-17T20:31:33",
+                    "updateBy": "1",
+                    "updateTime": "2021-12-17T22:18:47",
+                    "loginTime": "2021-12-17T22:19:06",
+                    "remark": "用于SPHM获取数据",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "createUserLoginName": "BDMSAdmin",
+                    "updateUserLoginName": "BDMSAdmin"
+                },
+                {
+                    "id": "1397746185220911106",
+                    "enterpriseID": "1000",
+                    "loginName": "sesuser",
+                    "userName": "scada测试用户",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 2,
+                        "enum": "APP_USER",
+                        "desc": "应用用户"
+                    },
+                    "phoneNumber": "",
+                    "email": "zhangyunchao@goldwind.com.cn",
+                    "postion": "",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 0,
+                        "enum": "YES",
+                        "desc": "是"
+                    },
+                    "passwordSendType": {
+                        "value": 2,
+                        "enum": "EMAIL",
+                        "desc": "邮箱发送"
+                    },
+                    "deleted": 0,
+                    "createBy": "1",
+                    "createTime": "2021-05-27T10:47:14",
+                    "loginTime": "2021-06-28T09:36:03",
+                    "remark": "",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "createUserLoginName": "BDMSAdmin"
+                },
+                {
+                    "id": "1398148532791144449",
+                    "enterpriseID": "1000",
+                    "loginName": "TMCAdmin",
+                    "userName": "zhx",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 1,
+                        "enum": "ORDINARY_USER",
+                        "desc": "用户"
+                    },
+                    "phoneNumber": "",
+                    "email": "zhanghengxuan@goldwind.com.cn",
+                    "postion": "",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "passwordSendType": {
+                        "value": 2,
+                        "enum": "EMAIL",
+                        "desc": "邮箱发送"
+                    },
+                    "deleted": 0,
+                    "createBy": "1",
+                    "createTime": "2021-05-28T13:26:01",
+                    "loginTime": "2021-05-29T12:21:33",
+                    "remark": "",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "createUserLoginName": "BDMSAdmin"
+                },
+                {
+                    "id": "1405357251979354114",
+                    "enterpriseID": "1000",
+                    "loginName": "wm",
+                    "userName": "wm_物",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 1,
+                        "enum": "ORDINARY_USER",
+                        "desc": "用户"
+                    },
+                    "phoneNumber": "18899999998",
+                    "email": "1234@qq.com",
+                    "postion": "",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 0,
+                        "enum": "YES",
+                        "desc": "是"
+                    },
+                    "forceModifyPasswordTime": "2021-08-19T08:51:30",
+                    "passwordSendType": {
+                        "value": 2,
+                        "enum": "EMAIL",
+                        "desc": "邮箱发送"
+                    },
+                    "deleted": 0,
+                    "createBy": "1",
+                    "createTime": "2021-06-17T10:50:54",
+                    "updateBy": "1405357251979354114",
+                    "updateTime": "2021-08-19T08:46:14",
+                    "loginTime": "2021-11-09T09:11:50",
+                    "remark": "备注信息",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "wechat": "wechat account",
+                    "createUserLoginName": "BDMSAdmin",
+                    "updateUserLoginName": "wm"
+                },
+                {
+                    "id": "1405421418413268994",
+                    "enterpriseID": "1000",
+                    "loginName": "myc",
+                    "userName": "穆雨晨",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 1,
+                        "enum": "ORDINARY_USER",
+                        "desc": "用户"
+                    },
+                    "phoneNumber": "18899999999",
+                    "email": "123@qq.com",
+                    "postion": "",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 0,
+                        "enum": "YES",
+                        "desc": "是"
+                    },
+                    "forceModifyPasswordTime": "2021-09-26T16:48:59",
+                    "passwordSendType": {
+                        "value": 0,
+                        "enum": "NO",
+                        "desc": "无"
+                    },
+                    "deleted": 0,
+                    "createBy": "1",
+                    "createTime": "2021-06-17T15:05:52",
+                    "updateBy": "1405421418413268994",
+                    "updateTime": "2021-09-29T11:13:25",
+                    "loginTime": "2021-11-09T09:55:56",
+                    "remark": "",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "createUserLoginName": "BDMSAdmin",
+                    "updateUserLoginName": "myc"
+                },
+                {
+                    "id": "1406876357517942785",
+                    "enterpriseID": "1000",
+                    "loginName": "tes111111t",
+                    "userName": "zy",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "startDate": "2021-06-21",
+                    "endDate": "2021-06-21",
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 1,
+                        "enum": "ORDINARY_USER",
+                        "desc": "用户"
+                    },
+                    "email": "18151521911@163.com",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "passwordSendType": {
+                        "value": 2,
+                        "enum": "EMAIL",
+                        "desc": "邮箱发送"
+                    },
+                    "deleted": 0,
+                    "createBy": "1",
+                    "createTime": "2021-06-21T15:27:17",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "createUserLoginName": "BDMSAdmin"
+                },
+                {
+                    "id": "1409808572933517313",
+                    "enterpriseID": "1000",
+                    "loginName": "wm_huchi",
+                    "userName": "王民互斥",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 1,
+                        "enum": "ORDINARY_USER",
+                        "desc": "用户"
+                    },
+                    "phoneNumber": "",
+                    "email": "514419625@qq.com",
+                    "postion": "",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 0,
+                        "enum": "YES",
+                        "desc": "是"
+                    },
+                    "forceModifyPasswordTime": "2021-06-29T19:19:24",
+                    "passwordSendType": {
+                        "value": 2,
+                        "enum": "EMAIL",
+                        "desc": "邮箱发送"
+                    },
+                    "deleted": 0,
+                    "createBy": "1",
+                    "createTime": "2021-06-29T17:38:51",
+                    "loginTime": "2021-06-29T19:18:03",
+                    "remark": "",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "createUserLoginName": "BDMSAdmin"
+                },
+                {
+                    "id": "1411933136689946626",
+                    "enterpriseID": "1000",
+                    "loginName": "myc1",
+                    "userName": "穆雨晨",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 1,
+                        "enum": "ORDINARY_USER",
+                        "desc": "用户"
+                    },
+                    "phoneNumber": "",
+                    "email": "muyuchen@goldwind.com.cn",
+                    "postion": "",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "passwordSendType": {
+                        "value": 0,
+                        "enum": "NO",
+                        "desc": "无"
+                    },
+                    "deleted": 0,
+                    "createBy": "1",
+                    "createTime": "2021-07-05T14:21:07",
+                    "remark": "",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "createUserLoginName": "BDMSAdmin"
+                },
+                {
+                    "id": "1413014869938130945",
+                    "enterpriseID": "1000",
+                    "loginName": "NoticaAdmin",
+                    "userName": "夏昊",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 2,
+                        "enum": "APP_USER",
+                        "desc": "应用用户"
+                    },
+                    "phoneNumber": "",
+                    "email": "xiahao@goldwind.com.cn",
+                    "postion": "",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 0,
+                        "enum": "YES",
+                        "desc": "是"
+                    },
+                    "passwordSendType": {
+                        "value": 2,
+                        "enum": "EMAIL",
+                        "desc": "邮箱发送"
+                    },
+                    "deleted": 0,
+                    "createBy": "1",
+                    "createTime": "2021-07-08T13:59:32",
+                    "loginTime": "2021-07-08T15:15:10",
+                    "remark": "",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "createUserLoginName": "BDMSAdmin"
+                },
+                {
+                    "id": "1418471693925023746",
+                    "enterpriseID": "1000",
+                    "loginName": "example",
+                    "userName": "zy",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 1,
+                        "enum": "ORDINARY_USER",
+                        "desc": "用户"
+                    },
+                    "email": "18151521911@163.com",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "passwordSendType": {
+                        "value": 2,
+                        "enum": "EMAIL",
+                        "desc": "邮箱发送"
+                    },
+                    "deleted": 0,
+                    "createBy": "1",
+                    "createTime": "2021-07-23T15:23:00",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "createUserLoginName": "BDMSAdmin"
+                },
+                {
+                    "id": "1430088331975786498",
+                    "enterpriseID": "1000",
+                    "loginName": "wm2",
+                    "userName": "XX用户",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "endDate": "2022-01-01",
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 1,
+                        "enum": "ORDINARY_USER",
+                        "desc": "用户"
+                    },
+                    "phoneNumber": "18899999999",
+                    "email": "123@qq.com",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 0,
+                        "enum": "YES",
+                        "desc": "是"
+                    },
+                    "passwordSendType": {
+                        "value": 2,
+                        "enum": "EMAIL",
+                        "desc": "邮箱发送"
+                    },
+                    "deleted": 0,
+                    "createBy": "1405357251979354114",
+                    "createTime": "2021-08-24T16:43:23",
+                    "remark": "备注信息",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "wechat": "wechat account",
+                    "createUserLoginName": "wm"
+                },
+                {
+                    "id": "1430414730137763841",
+                    "enterpriseID": "1000",
+                    "loginName": "wm100",
+                    "userName": "100用户",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "endDate": "2022-01-01",
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 1,
+                        "enum": "ORDINARY_USER",
+                        "desc": "用户"
+                    },
+                    "phoneNumber": "18899999999",
+                    "email": "123@qq.com",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 0,
+                        "enum": "YES",
+                        "desc": "是"
+                    },
+                    "passwordSendType": {
+                        "value": 2,
+                        "enum": "EMAIL",
+                        "desc": "邮箱发送"
+                    },
+                    "deleted": 0,
+                    "createBy": "1405357251979354114",
+                    "createTime": "2021-08-25T14:20:22",
+                    "loginTime": "2021-08-25T15:09:34",
+                    "remark": "备注信息",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "wechat": "wechat account",
+                    "createUserLoginName": "wm"
+                },
+                {
+                    "id": "1441241015223140353",
+                    "enterpriseID": "1000",
+                    "loginName": "myc2",
+                    "userName": "穆雨晨",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 1,
+                        "enum": "ORDINARY_USER",
+                        "desc": "用户"
+                    },
+                    "phoneNumber": "",
+                    "email": "muyuchen@goldwind.com.cn",
+                    "postion": "",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 0,
+                        "enum": "YES",
+                        "desc": "是"
+                    },
+                    "forceModifyPasswordTime": "2021-09-24T11:22:10",
+                    "passwordSendType": {
+                        "value": 2,
+                        "enum": "EMAIL",
+                        "desc": "邮箱发送"
+                    },
+                    "deleted": 0,
+                    "createBy": "1",
+                    "createTime": "2021-09-24T11:20:10",
+                    "updateBy": "1",
+                    "updateTime": "2021-09-24T11:21:28",
+                    "loginTime": "2021-09-27T15:26:07",
+                    "remark": "",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "createUserLoginName": "BDMSAdmin",
+                    "updateUserLoginName": "BDMSAdmin"
+                },
+                {
+                    "id": "1443036816656121858",
+                    "enterpriseID": "1000",
+                    "loginName": "myc3",
+                    "userName": "myc",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "endDate": "2022-01-01",
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 1,
+                        "enum": "ORDINARY_USER",
+                        "desc": "用户"
+                    },
+                    "phoneNumber": "18899999999",
+                    "email": "123@qq.com",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 0,
+                        "enum": "YES",
+                        "desc": "是"
+                    },
+                    "passwordSendType": {
+                        "value": 2,
+                        "enum": "EMAIL",
+                        "desc": "邮箱发送"
+                    },
+                    "deleted": 0,
+                    "createBy": "1405421418413268994",
+                    "createTime": "2021-09-29T10:16:02",
+                    "remark": "备注信息",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "wechat": "wechat account",
+                    "createUserLoginName": "myc"
+                },
+                {
+                    "id": "1458635190657150977",
+                    "enterpriseID": "1000",
+                    "loginName": "test_aapp",
+                    "userName": "jt",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 1,
+                        "enum": "ORDINARY_USER",
+                        "desc": "用户"
+                    },
+                    "phoneNumber": "",
+                    "email": "11111@goldwind.com",
+                    "postion": "",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "passwordSendType": {
+                        "value": 0,
+                        "enum": "NO",
+                        "desc": "无"
+                    },
+                    "deleted": 0,
+                    "createBy": "1",
+                    "createTime": "2021-11-11T11:18:24",
+                    "updateBy": "1",
+                    "updateTime": "2021-11-11T17:12:22",
+                    "loginTime": "2021-12-02T16:53:50",
+                    "remark": "",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "createUserLoginName": "BDMSAdmin",
+                    "updateUserLoginName": "BDMSAdmin"
+                },
+                {
+                    "id": "1471097850402279425",
+                    "enterpriseID": "1000",
+                    "loginName": "AMadmin",
+                    "userName": "AMadmin",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 2,
+                        "enum": "APP_USER",
+                        "desc": "应用用户"
+                    },
+                    "phoneNumber": "",
+                    "email": "11@qq.com",
+                    "postion": "",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "passwordSendType": {
+                        "value": 0,
+                        "enum": "NO",
+                        "desc": "无"
+                    },
+                    "deleted": 0,
+                    "createBy": "1",
+                    "createTime": "2021-12-15T20:40:34",
+                    "loginTime": "2021-12-17T15:44:16",
+                    "remark": "",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "createUserLoginName": "BDMSAdmin"
+                },
+                {
+                    "id": "1471098008502374402",
+                    "enterpriseID": "1000",
+                    "loginName": "AMuser",
+                    "userName": "AMuser",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 1,
+                        "enum": "ORDINARY_USER",
+                        "desc": "用户"
+                    },
+                    "phoneNumber": "",
+                    "email": "11@qq.com",
+                    "postion": "",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "passwordSendType": {
+                        "value": 0,
+                        "enum": "NO",
+                        "desc": "无"
+                    },
+                    "deleted": 0,
+                    "createBy": "1",
+                    "createTime": "2021-12-15T20:41:12",
+                    "loginTime": "2021-12-17T15:50:29",
+                    "remark": "",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "createUserLoginName": "BDMSAdmin"
+                },
+                {
+                    "id": "1471488180670795778",
+                    "enterpriseID": "1000",
+                    "loginName": "SPHMAdmin",
+                    "userName": "SPHMAdmin",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 1,
+                        "enum": "ORDINARY_USER",
+                        "desc": "用户"
+                    },
+                    "phoneNumber": "",
+                    "email": "11@qq.com",
+                    "postion": "",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "passwordSendType": {
+                        "value": 0,
+                        "enum": "NO",
+                        "desc": "无"
+                    },
+                    "deleted": 0,
+                    "createBy": "1",
+                    "createTime": "2021-12-16T22:31:36",
+                    "remark": "",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "createUserLoginName": "BDMSAdmin"
+                },
+                {
+                    "id": "2",
+                    "enterpriseID": "1000",
+                    "loginName": "AppUser",
+                    "userName": "应用用户",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 2,
+                        "enum": "APP_USER",
+                        "desc": "应用用户"
+                    },
+                    "oa": "1",
+                    "phoneNumber": "",
+                    "email": "appuser@goldwind.com.cn",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 0,
+                        "enum": "YES",
+                        "desc": "是"
+                    },
+                    "forceModifyPasswordTime": "2020-06-13T14:27:55",
+                    "passwordSendType": {
+                        "value": 0,
+                        "enum": "NO",
+                        "desc": "无"
+                    },
+                    "deleted": 0,
+                    "logo": "string",
+                    "createBy": "1",
+                    "createTime": "2020-06-13T10:53:17",
+                    "updateBy": "1",
+                    "updateTime": "2020-10-30T14:49:02",
+                    "loginTime": "2021-12-02T15:29:27",
+                    "remark": "应用用户",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "createUserLoginName": "BDMSAdmin",
+                    "updateUserLoginName": "BDMSAdmin"
+                },
+                {
+                    "id": "325",
+                    "enterpriseID": "1000",
+                    "loginName": "admin",
+                    "userName": "超级管理员",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 1,
+                        "enum": "ORDINARY_USER",
+                        "desc": "用户"
+                    },
+                    "phoneNumber": "",
+                    "email": "2474296512@qq.com",
+                    "postion": "",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "passwordSendType": {
+                        "value": 0,
+                        "enum": "NO",
+                        "desc": "无"
+                    },
+                    "deleted": 0,
+                    "createBy": "1",
+                    "createTime": "2020-07-17T14:18:29",
+                    "updateBy": "1",
+                    "updateTime": "2020-07-17T14:21:44",
+                    "loginTime": "2021-11-10T14:32:28",
+                    "remark": "",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "createUserLoginName": "BDMSAdmin",
+                    "updateUserLoginName": "BDMSAdmin"
+                },
+                {
+                    "id": "9999",
+                    "enterpriseID": "1000",
+                    "loginName": "zcx",
+                    "userName": "权限调试用户",
+                    "timeLimit": {
+                        "value": 0,
+                        "enum": "FOREVER",
+                        "desc": "永久"
+                    },
+                    "state": {
+                        "value": 0,
+                        "enum": "ENABLE",
+                        "desc": "激活"
+                    },
+                    "type": {
+                        "value": 1,
+                        "enum": "ORDINARY_USER",
+                        "desc": "用户"
+                    },
+                    "oa": "1",
+                    "phoneNumber": "",
+                    "email": "admin@goldwind.com.cn",
+                    "organizationID": "1",
+                    "forceModifyPassword": {
+                        "value": 0,
+                        "enum": "YES",
+                        "desc": "是"
+                    },
+                    "forceModifyPasswordTime": "2020-06-13T14:27:55",
+                    "passwordSendType": {
+                        "value": 0,
+                        "enum": "NO",
+                        "desc": "无"
+                    },
+                    "deleted": 0,
+                    "logo": "string",
+                    "createBy": "1",
+                    "createTime": "2020-06-13T10:53:17",
+                    "updateBy": "1",
+                    "updateTime": "2021-06-29T16:19:06",
+                    "loginTime": "2021-11-27T19:13:35",
+                    "remark": "运维企业管理员",
+                    "isLock": {
+                        "value": 1,
+                        "enum": "NO",
+                        "desc": "否"
+                    },
+                    "createUserLoginName": "BDMSAdmin",
+                    "updateUserLoginName": "BDMSAdmin"
+                }
+            ]
+        }
+    ]
+}
